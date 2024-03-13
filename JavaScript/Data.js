@@ -163,19 +163,25 @@ const NinthClass = {
   ],
 }
 
-let ninthDiv = document.querySelector(".chMainDev");
 
-NinthClass.English.forEach(chapterDetails =>{
-  let ul = document.createElement("ul");
-  
-  ul.textContent = chapterDetails.ChapterName;
-  ninthDiv.appendChild(ul);
-  let urlDet = chapterDetails.urls;
-  urlDet.forEach(url =>{
-    let li = document.createElement("li");
-    li.innerHTML = `
-    <a href="${url.url}" target="_blank">${url.urlName} </a>
-    `
-    ul.appendChild(li);
+
+function uploadData(objectKey, targetPageDiv) {
+  objectKey.forEach(chapterDetails =>{
+    let ul = document.createElement("ul");
+    ul.textContent = chapterDetails.ChapterName;
+    targetPageDiv.appendChild(ul);
+
+    let urlDet = chapterDetails.urls;
+    urlDet.forEach(url =>{
+      let li = document.createElement("li");
+      li.innerHTML = `
+      <a href="${url.url}" target="_blank">${url.urlName} </a>
+      `
+      ul.appendChild(li);
+    })
   })
-})
+}
+let ninthEng = document.getElementById("ninth-eng")
+let ninthUrdu = document.querySelector("#ninth-urdu");
+uploadData(NinthClass.English, ninthEng);
+uploadData(NinthClass.English, ninthUrdu);
