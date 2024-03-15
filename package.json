@@ -1,0 +1,11 @@
+{
+  "name": "mashalweb",
+  "version": "1.0.0",
+  "description": "a website to download chapter wise notes, past year paper and infrom your self from latest news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

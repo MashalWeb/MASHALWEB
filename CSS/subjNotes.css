@@ -39,21 +39,32 @@
     flex-direction: column;
     padding: 0 8px;
 }
-.SelectChapter .chMainDev ul {
-    list-style: none;
+.SelectChapter .chMainDev .chapter-box {
     width: 100%;
     position: relative;
-    padding: 10px 20px;
-    font-weight: 600;
-    font-size: 18px;
+    padding: 16px 20px;
     margin: 6px 0;
     background: #fff;
     cursor: pointer;
     box-shadow: 0 2px 2px 2px rgba(0, 204, 255, 0.089);
     line-height: 20px;
     border-radius: 10px;
+    cursor: pointer;   
+    transition: 0.3s ease;
+    overflow: hidden;
+    /* height: fit-content; */
 }
+.SelectChapter .chMainDev .chapter-box
+.SelectChapter .chMainDev .chapter-box h3{
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+.SelectChapter .chMainDev .chapter-box h3:hover{
+    color: #0098c7;
+}
+
 .SelectChapter .chMainDev ul li{
+    list-style: none;
     margin-top: 6px;
     padding: 10px 3px;
     cursor: pointer;
