@@ -553,7 +553,101 @@ const NinthClass = {
         },
       ],
     },
-  ]
+  ],
+  ComputerScience: [
+    {
+      ChapterName: "Chapter 1 → Fundamentals of Computer ",
+      urls: [
+        {
+          urlName: "Solved Questions &amp; Answers",
+          url: "https://drive.google.com/file/d/1pmvC96dMpXfDRo6I_AjkwwbMpYS351Pj/view",
+        },
+        {
+          urlName: "Full Exercise Solved",
+          url: "https://drive.google.com/file/d/18WCbjyyugN_EcYMrU2mUouTLygEekWR3/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Fundamentals of Operating System ",
+      urls: [
+        {
+          urlName: "Solved Questions &amp; Answers",
+          url: "https://drive.google.com/file/d/1hIPWnX1Nh3n0CCsFhd1e3Zt9TEJrOt5i/view",
+        },
+        {
+          urlName: "Full Exercise Solved",
+          url: "https://drive.google.com/file/d/1qTttwMZ3tvtlapBLpGDEFXZnLV_FDEK9/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Office Automation ",
+      urls: [
+        {
+          urlName: "Full Exercise Solved",
+          url: "https://drive.google.com/file/d/1seR8kPu7decpVILisXpgEXhKaVpJadiK/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Data Communication ",
+      urls: [
+        {
+          urlName: "Solved Questions &amp; Answers",
+          url: "https://drive.google.com/file/d/10CXKFV9kSymDV5_Uix-tcO3zUuNABSkp/view",
+        },
+        {
+          urlName: "Full Exercise Solved",
+          url: "https://drive.google.com/file/d/1Qjq2QSu0DCu5NpFpKqsL0PeJClAWCQdh/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Computer Networks ",
+      urls: [
+        {
+          urlName: "Solved Questions &amp; Answers",
+          url: "https://drive.google.com/file/d/1aGML_DcxFQvbbC1e6L8UIdTFogdJ1bSv/view",
+        },
+        {
+          urlName: "Full Exercise Solved",
+          url: "https://drive.google.com/file/d/1_KxG7Fng7FXlhJyYDUXdLxQv3WMg98Eb/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Computer Security and Ethics ",
+      urls: [
+        {
+          urlName: "Solved Questions &amp; Answers",
+          url: "https://drive.google.com/file/d/19BTEWuinYIUyhy01xRtCwELCP3GqeSPK/view",
+        },
+        {
+          urlName: "Full Exercise Solved",
+          url: "https://drive.google.com/file/d/18WvtDTK_ssJVQdC6Mt54VRDill_PlX2T/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Full Book Important Abbreviations Notes ",
+      urls: [
+        {
+          urlName: "full Book Exercise Notes",
+          url: "https://drive.google.com/file/d/1txHcHXP09KWBWpyqmC9i-w_lrSwryriL/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Full Book Glossary Definitions Notes ",
+      urls: [
+        {
+          urlName: "all Exercises Glossary Notes",
+          url: "https://drive.google.com/file/d/1JiyVBaag5PguWtMFJPx7DCYbM1wPkM_E/view",
+        },
+      ],
+    },
+  ],
 }
 
 function renderData(dataKey, targetElement) {
@@ -591,3 +685,4 @@ function renderData(dataKey, targetElement) {
 }
 renderData('English', 'ninth-eng');
 renderData('Urdu', 'ninth-urd');
+renderData('ComputerScience', 'Ninth-comp');

@@ -1,3 +1,18 @@
+let icons = document.getElementById("icons");
+let fl = 1;
+icons.addEventListener('click', ()=>{
+    if(fl===1){
+    icons.style.background = '#0081a8';
+    icons.children[0].classList.replace('ri-cloud-fill','ri-cloud-off-fill');
+    fl=0;
+    }
+    else if(fl===0){
+    icons.style.background = '#ffffff04';
+    icons.children[0].classList.replace('ri-cloud-off-fill','ri-cloud-fill');
+    fl=1;
+    }
+    
+})
 let errorMessage = document.querySelector("#err");
 window.addEventListener("load", ()=>{
     document.querySelector("#js-preloader").classList.add('loaded')
@@ -223,5 +238,3 @@ function sendComment() {
             console.log("🛑Error in sending your message!! ", err);
         });
 }
-
-document.querySelector("html").lang = "urd"

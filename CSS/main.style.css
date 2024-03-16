@@ -241,16 +241,32 @@ nav{
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
 }
 .icons{
-    margin-right: 10px;
-}
-.icons img{ 
-    width: 35px;
+    margin-right: 12px;
+    width: 120px;
+    height: 40px;
+    background: #ffffff34;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    gap: 0 6px;
+    box-shadow: 0 3px 5px 4px rgba(0, 0, 0, 0.082);
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
-.icons img:hover{
-    transform: scale(1.15);
+.icons:hover{
+    background: rgba(249, 102, 94, 0.788)
 }
+.icons i{
+    font-size: 20px;
+}
+.icoActive{
+    background: #0081a8;
+}
+
+
 .respNavImg{
     width: 70px;
     display: none;
@@ -433,6 +449,9 @@ nav{
 }
 
 @media only screen and (max-width: 570px){
+    .icons{
+        margin: 0;
+    }
     .welcText .txt h1{
         font-size: 58px;
         margin-top: -15px;
@@ -459,16 +478,13 @@ nav{
     .logo img{
         width: 140px;
     }
-    .icons img{
-        width: 30px;
-    }
     .respNavImg{
         width: 60px;
     }
     .center .box{
-        width: 132px;
+        width: 142px;
         height: 100px;
-        margin: 0 10px;
+        margin: 10px 10px;
     }
     .welcText .txt p{
         font-size:17px;
@@ -515,6 +531,9 @@ nav{
     .center .box{
         width: 120px;
         height: 86px;    
+    }
+    .center .box img{
+        width: 50px;
     }
 }
 
@@ -690,7 +709,7 @@ nav{
     height: 100%;
     position: relative;
     padding: 0 15px;
-    background: #f5f5f5;
+    background: #fafafaf7;
 }
 
 .three .main-dev{
@@ -719,6 +738,7 @@ nav{
     flex-basis: 28%;
     padding-bottom: 17px;
     border-radius: 6px;
+    background: #fff;
 }
 
 .cenDev .item-1 h2{
@@ -786,7 +806,7 @@ nav{
     }
     .cenDev .item-1 p{
         font-size: 15px;
-        margin-top: 15.3px;
+        margin-top: 10.3px;
     }
 
 
@@ -1091,7 +1111,7 @@ form{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(48, 48, 48, 0.212);
+    background-color: rgba(48, 48, 48, 0.267);
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -1103,7 +1123,7 @@ form{
     z-index: 9999;
     -webkit-transition: opacity 0.25s ease;
     transition: opacity 0.25s ease;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(35px);
     flex-direction: column;
   }
   .js-preloader p{
@@ -1161,7 +1181,7 @@ form{
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #7453fc;
+    background: rgb(249, 102, 94);
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);

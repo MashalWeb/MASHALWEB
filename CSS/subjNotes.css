@@ -108,6 +108,7 @@
         margin-top: 100px;
         /* font-size: 27px; */
         font-weight: 800;
+        
     }
     .noteTextArea{
         padding: 0 10px;
@@ -115,5 +116,11 @@
     .SelectChapter .chMainDev ul{
         font-size: 16.6px;
     }
-
+    
+}
+@media only screen and (max-width: 413px)
+{
+    .noteTextArea .chapterName {
+        font-size: 27px;
+    }
 }
