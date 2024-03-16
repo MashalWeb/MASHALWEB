@@ -557,7 +557,7 @@ const NinthClass = {
 }
 
 function renderData(dataKey, targetElement) {
-  const data = NinthClass[dataKey];
+  const data = NinthClass[dataKey]; // e.g NinthClass.Englisg or NinthClass[English]
   const targetDiv = document.getElementById(targetElement);
 
   if (!data || !targetDiv) {
