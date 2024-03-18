@@ -4,11 +4,13 @@ icons.addEventListener('click', ()=>{
     if(fl===1){
     icons.style.background = '#0081a8';
     icons.children[0].classList.replace('ri-cloud-fill','ri-cloud-off-fill');
+    document.querySelector("#weather").style.display = "flex";
     fl=0;
     }
     else if(fl===0){
     icons.style.background = '#ffffff04';
     icons.children[0].classList.replace('ri-cloud-off-fill','ri-cloud-fill');
+    document.querySelector("#weather").style.display = "none";
     fl=1;
     }
     

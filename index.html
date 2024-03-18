@@ -26,6 +26,45 @@
   </head>
 
   <body>
+    <div id="weather">
+      <div class="search-box">
+        <h3>Search City Weather</h3>
+        <div class="ser">
+          <input type="search" name="search" id="searchInput" placeholder="type city name..">
+        <button id="weatherSearch"><i class="ri-search-line"></i></button>
+        </div>
+      </div>
+      <div class="currentWeather">
+          <div class="dateInfo">
+            <small></small>
+          </div>
+          <div class="weather-city">
+            <h3>lodding<h3>
+            <p>loding..</p>
+          </div>
+          <div class="weather-icon">
+            <h2>loding<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
+            <i class="ri-cloud-fill"></i>
+          </div>
+          <div class="moreDeitals">
+            <small>Wind Speed: <span id="windSpeed">loding</span></small>
+            <small>Humidity: <span id="humidity">loding</span></small>
+            <small>Fells Like: <span id="feels_like">loding</span></small>
+          </div>
+      </div>
+      <div class="currentWeatherDetails">
+        <div class="minimumTemp">
+          <h4>Minimum Temperature</h4>
+          <h2>23<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
+          <img src="./images/low Temp.svg" alt="">
+        </div>
+        <div class="maximumTemp">
+          <h4>Maximum Temperature</h4>
+          <h2>23<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
+          <img src="./images/high Temp.svg" alt="">
+        </div>
+      </div>
+    </div>
     <div id="js-preloader" class="js-preloader" >
       <div class="preloader-inner">
         <span class="dot"></span>
@@ -543,8 +582,7 @@
       form.addEventListener("submit", (e) => {
         e.preventDefault();
       });
-      
-      document.querySelector("#submitBtn").addEventListener("click", (e) => {
+        document.querySelector("#submitBtn").addEventListener("click", (e) => {
         sendMessage();
       });
       
@@ -586,6 +624,50 @@
             console.log("🛑Error in sending your message!! ", err);
           });
       }
+        let city = "";
+        let cityName = document.querySelector(".weather-city h3");
+        let descip = document.querySelector(".weather-city p");
+        let date = new Date();
+    
+        let comdate = date.toDateString();
+        let DateShow = document.querySelector(".dateInfo small");
+        let temperature = document.querySelector('.weather-icon h2');
+        let windSpeed = document.getElementById("windSpeed");
+        let humidity = document.getElementById("humidity");
+        let feels_like = document.getElementById("feels_like");
+        DateShow.textContent = comdate;
+        let searchBtn = document.getElementById("weatherSearch");
+        let searchInput = document.getElementById("searchInput");
+        searchBtn.addEventListener("click", ()=>{
+          if(searchInput.value == ""){
+            alert("Please Enter City Name");
+          }
+          else{
+           city = searchInput.value;
+            console.log(city);
+            getWeatherData(city);
+          }
+        })
+        function getWeatherData(city){
+          let API_KEY = 'd35dd618f6b115bff158d1b8bcd6a330';
+        let API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+          fetch(API_URL)
+          .then(res => res.json())
+          .then((data )=> {
+      
+            console.log(data);
+            cityName.textContent = data.name;
+            descip.textContent = data.weather[0].main + ', ' + data.weather[0].description;
+            temperature.innerHTML = Math.round(data.main.temp) + `<span style="color: rgb(255, 98, 41);">&#8451;</span>`;
+            windSpeed.textContent = data.wind.speed + ' Km/h';
+            humidity.textContent = data.main.humidity + '%';
+            feels_like.innerHTML = data.main.feels_like + ' <span style="color: rgb(255, 98, 41);">&#8451;</span>';
+            city = "";
+          })
+          .catch((err)=>{
+          console.log("Data Loding ERROR", err); 
+          })
+        }
     </script>
   </body>
 </html>

@@ -648,6 +648,198 @@ const NinthClass = {
       ],
     },
   ],
+  Islamyat: [
+    {
+      ChapterName: "Quran Majeed Portion ",
+      urls: [
+        {
+          urlName: "Surah Al Anfaal Ayaat 1-10 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1Wwvc3Dsi4_5KXcKrnbY7Vzw4wMk0_I9Y/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 11-19 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1IzD3gcMuyDxk5HrSc1WEZN_wE4g7Rskx/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 29-37 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1IRpb58DJ2EUpcsxYj2tErJU4Lc7ribib/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 38-44 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/16WNR7n-c4cPN9wDmhSZ-7flXhi86NNo0/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 45-48 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1aDLjZFo_6u46XD3t_rBQ-EsS_dhw5Y6V/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 49-58 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1Q4kjzVz_wk8AQqzL9JbP_xlMepFIX62h/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 59-64 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1v-H41A4yqZRLCFblVEYfMXnEQLcrRUm0/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 65-69 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1S5yRwb3LkY3n-JMdaDxmXgA4EFzIFBxI/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Ayaat 70-75 URDU Medium Notes",
+          url: "https://drive.google.com/file/d/1LlGTdjTqOPW9tvvsxMy8nOHxdA-AyinO/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Solved MCQs With Answers",
+          url: "https://drive.google.com/file/d/1KBlRMClH0_OutHe_WSS3G6UJ-nTgYGpJ/view",
+        },
+        {
+          urlName: "Surah Al Anfaal Solved Chapter Notes",
+          url: "https://drive.google.com/file/d/1gsw42vYr494Vs0bJnO2UxnsHSAfI-cKe/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Ahadees Portion ",
+      urls: [
+        {
+          urlName: "Ahdeeth MCQs Solved Notes",
+          url: "https://drive.google.com/file/d/1tqHFYMaXdrNhQp68ol03FSYDWokx0YUl/view",
+        },
+        {
+          urlName: "Ahdeeth Solved Question Answers",
+          url: "https://drive.google.com/file/d/1IbRPmg6D10UfQoXKp5znW-eIXxKr2EqN/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 1 ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1dfKb2W-BxAbrD6R605ppNSNC7ttukGTy/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1goqcd3kwSoz6BPhedo2jXKvFIU81egeI/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1295rLXqo0JhJx54zNnO7Sf6l5UaIIbh3/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1eCV7M-FH-Sz1gfjYk0QIYfrfUwYMoDBv/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Important Questions & Answers ",
+      urls: [
+        {
+          urlName: "Islamiyat Past Papers Question Answers Test 1",
+          url: "https://drive.google.com/file/d/1GAI3BFHeA5kIjPzU6nbdLJKGNifswUja/view",
+        },
+        {
+          urlName: "Islamiyat Past Papers Question Answers Test 2",
+          url: "https://drive.google.com/file/d/1D17vhzrwVcWfxrjNmyYhKVY-B2saTNlV/view",
+        },
+      ],
+    },
+  ],
+  PakStudy: [
+    {
+      ChapterName: "Chapter 1 → Ideological Basis of Pakistan Notes ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1Wz7uyrs13G2Ye9SfbegIEhWEp3lNHsCc/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1jqfFAllnbPnLGVhRAHAQ_5AUPnJQhoa8/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1A2O4oZSmbPYA6QXk0HnM5Bdiuk6qqVHg/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Making of Pakistan Notes ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1RUzSg5aL1dmKw2wQc2cVDE68FmXAQlCb/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1_MAZQiY83LH3QwzSvU-JaE1_2u-EKuIS/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/15EsPOHCVo7PXLapJNe2eIiUUdS-gFDPi/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Land and Environment Notes ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1YhgbjNj12Osv30ho_N9wP_dJdVt52J6p/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1XghZfw3cX0AAFaRojflGHedfHJvNtJfT/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1uSJy0b1umLxGIZY_o42dHXx1dSw2T_Cq/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → History of Pakistan (Part-1) Notes ",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1dyEsXOtVaOR5TKcr0jznpnw4QipBN5Fd/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1IEtvRH1ThN-z7MdQIS1QQIXqVJuYtLiX/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1NQSbGUlZTABnm75EP8KDRv_SCqueT7D6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Full Book Important Maps for Exams Papers Notes ",
+      urls: [
+        {
+          urlName: "Pakistan Maps Important Notes",
+          url: "https://drive.google.com/file/d/1TZ5E32marhQV5JJnn_v3TzHGgknb5dzn/view",
+        },
+      ],
+    },
+  ]
 }
 
 function renderData(dataKey, targetElement) {
@@ -686,3 +878,5 @@ function renderData(dataKey, targetElement) {
 renderData('English', 'ninth-eng');
 renderData('Urdu', 'ninth-urd');
 renderData('ComputerScience', 'Ninth-comp');
+renderData('Islamyat', 'Ninth-isl');
+renderData('PakStudy', 'Ninth-pak');
