@@ -257,7 +257,7 @@ nav{
     transition: all 0.3s ease;
 }
 .icons:hover{
-    background: rgba(249, 102, 94, 0.788)
+    background: rgba(0, 0, 0, 0.082)
 }
 .icons i{
     font-size: 20px;
@@ -1290,13 +1290,30 @@ form{
     z-index: 44;
     padding: 20px;
     display: flex;
-    align-items:center;
+    align-items:baseline;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    backdrop-filter: blur(29px);
+    justify-content: center;
+    backdrop-filter: blur(20px);
     overflow-y:auto;
+    gap: 0 30px;
     display: none;
+    animation: we-up 0.6s linear 0s 1 ;
+    height: 30%;
+    box-shadow: 0 7px 12px 4px rgba(0, 0, 0, 0.323);
     
+}
+@keyframes we-up {
+    0%{
+        transform: translateY(-100%);
+        filter: blur(20px);
+    }
+    50%{
+        filter: blur(10px);
+    }
+    100%{
+        transform: translateY(0px);
+        filter: blur(0);
+    }
 }
 .search-box{
     position: absolute;
@@ -1305,6 +1322,7 @@ form{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 }
 .search-box h3{
     color: #fff;
@@ -1349,6 +1367,7 @@ form{
 .search-box input:focus{
     box-shadow: 0 3px 7px 4px rgba(0, 0, 0, 0.363);
 }
+
 .currentWeather{
     background: linear-gradient(#030020ab,#0000000c),url('../images/weather-bg.png');
     background-size: cover;
@@ -1358,6 +1377,8 @@ form{
     border-radius: 25px;
     position: relative;
     margin-top: 120px;
+    box-shadow: 0 5px 10px 4px rgba(3, 3, 3, 0.171);
+    display: none;
 }
 .currentWeather .dateInfo{
     font-weight: 300;
@@ -1399,6 +1420,8 @@ form{
 }
 .moreDeitals{
     margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .moreDeitals small
 {
@@ -1408,16 +1431,23 @@ form{
     color: rgb(255, 108, 54);
 }
 .currentWeatherDetails{
-    display: flex;
-    margin-top: 32px;
-    gap:0 20px;
-    align-items: center;
-    justify-content: center;
-}
-.currentWeatherDetails .minimumTemp{
+    box-shadow: 0 5px 10px 4px rgba(3, 3, 3, 0.082);
+    border-radius: 25px;
     background: url('../images/weatherBoxImg.jpg');
     background-size: cover;
-    padding: 20px;
+    background-position: center;
+    display: flex;
+    gap:0 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    padding-top: 14px;
+    padding-bottom: 33px;
+    display: none;
+}
+.currentWeatherDetails .minimumTemp{
+   
+    
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -1439,9 +1469,7 @@ form{
     filter: drop-shadow(0 3px 7px #009688);    
 }
 .currentWeatherDetails .maximumTemp{
-    background: url('../images/weatherBoxImg.jpg');
-    background-size: cover;
-    padding: 20px;
+    
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -1462,4 +1490,54 @@ form{
     width: 70px;
     filter: drop-shadow(0 3px 7px #009688);    
     
+}
+@media (max-width: 969px){
+    #weather{
+        gap: 20px 0;
+    }
+    .currentWeather{
+        flex-basis: 80%;
+    }
+    .currentWeatherDetails{
+        flex-basis: 80%;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 603px){
+    .currentWeather{
+        flex-basis: 95%;
+    }
+    .currentWeatherDetails{
+        flex-basis: 95%;
+        text-align: center;
+        line-height: 20px;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .maximumTemp h4{
+        padding-bottom: 15px;
+    }
+    .minimumTemp h4{
+        padding-bottom: 15px;
+    }
+    .maximumTemp img{
+        margin-top: 10px;
+    }
+    .minimumTemp img{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 514px){
+    .currentWeather{flex-basis: 98%;}
+    .currentWeatherDetails{flex-basis: 98%;}
+}
+@media (max-width: 400px){
+    #weather{
+        padding: 20px 10px;
+    }
+}
+@media (max-width: 370px){
+    .search-box input{
+        width: 270px;
+    }
 }

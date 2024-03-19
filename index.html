@@ -52,15 +52,15 @@
             <small>Fells Like: <span id="feels_like">loding</span></small>
           </div>
       </div>
-      <div class="currentWeatherDetails">
+      <div class="currentWeatherDetails"> 
         <div class="minimumTemp">
           <h4>Minimum Temperature</h4>
-          <h2>23<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
+          <h2>loding<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
           <img src="./images/low Temp.svg" alt="">
         </div>
         <div class="maximumTemp">
           <h4>Maximum Temperature</h4>
-          <h2>23<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
+          <h2>loding<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
           <img src="./images/high Temp.svg" alt="">
         </div>
       </div>
@@ -641,8 +641,14 @@
         searchBtn.addEventListener("click", ()=>{
           if(searchInput.value == ""){
             alert("Please Enter City Name");
+            document.querySelector("#weather").style.height = '30%';
+            document.querySelector(".currentWeather").style.display = "none";
+            document.querySelector(".currentWeatherDetails").style.display = "none";
           }
           else{
+            document.querySelector("#weather").style.height = '100%';
+            document.querySelector(".currentWeather").style.display = "block";
+            document.querySelector(".currentWeatherDetails").style.display = "flex";
            city = searchInput.value;
             console.log(city);
             getWeatherData(city);
