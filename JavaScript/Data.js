@@ -1347,7 +1347,7 @@ const NinthClass = {
       ],
     },
   ],
-  Maths:[
+  Maths: [
     {
       ChapterName: "Chapter 1 → Matrices & Determinants ",
       urls: [
@@ -1504,7 +1504,7 @@ const NinthClass = {
           urlName: "Exercise 6.3 Notes",
           url: "https://drive.google.com/file/d/13TVZhdLwZDzeOSQHbMZXtOyILIgMztle/view",
         },
-        
+
         {
           urlName: "Review Exercise Solved MCQs",
           url: "https://drive.google.com/file/d/1YgDMuBB93VC-oZdF2nevnJHrcg2NVf3T/view",
@@ -1526,7 +1526,7 @@ const NinthClass = {
           urlName: "Exercise 7.3 Notes",
           url: "https://drive.google.com/file/d/1tOHfCGLWVm05Ux7NuUGQD9qAugqBSoxM/view",
         },
-        
+
         {
           urlName: "Review Exercise Solved MCQs",
           url: "https://drive.google.com/file/d/1wzPeUwjO9yS-LE3ZkSQWns0Xm7OhfDpu/view",
@@ -1548,7 +1548,7 @@ const NinthClass = {
           urlName: "Exercise 8.3 Notes",
           url: "https://drive.google.com/file/d/1OVe01sk-cnAOwrd_SMZtwjFT8XQ2xwvg/view",
         },
-        
+
         {
           urlName: "Review Exercise Solved MCQs",
           url: "https://drive.google.com/file/d/1sjw7Sqz0DMqnbMfdrOF51jup6WGyKzyp/view",
@@ -1570,7 +1570,7 @@ const NinthClass = {
           urlName: "Exercise 9.3 Notes",
           url: "https://drive.google.com/file/d/1JRQtkziKDzlfgvo9jaDGpYnYLVq5hYhh/view",
         },
-        
+
         {
           urlName: "Review Exercise Solved MCQs",
           url: "https://drive.google.com/file/d/1u5BQAQSxG_RGwlGhkdL3E2auARFZcnOp/view",
@@ -1612,7 +1612,7 @@ const NinthClass = {
           urlName: "Exercise 10.4 Notes",
           url: "https://drive.google.com/file/d/1ayt4Shgc6skGlxhkAzGqPlru8q3p06F-/view",
         },
-        
+
         {
           urlName: "Review Exercise Solved MCQs",
           url: "https://drive.google.com/file/d/13LEnGotAa_JpWYTkaCwpgUEDlwMWyrAI/view",
@@ -1658,7 +1658,7 @@ const NinthClass = {
           urlName: "Exercise 11.4 Notes",
           url: "https://drive.google.com/file/d/1aWh6dYBEi7o_B-s9vZ6pmUG5qRStD93i/view",
         },
-        
+
         {
           urlName: "Review Exercise Solved MCQs",
           url: "https://drive.google.com/file/d/1jLAuVvOC86iAQKfyMlYkpdhegYZty1zq/view",
@@ -1704,7 +1704,7 @@ const NinthClass = {
           urlName: "Exercise 12.3 Notes",
           url: "https://drive.google.com/file/d/1bJGERnjkinYwBPCxkKzAYU3r4HO4F4uS/view",
         },
-        
+
         {
           urlName: "Review Exercise Solved MCQs",
           url: "https://drive.google.com/file/d/1JBNHpZ7Q2r6W4HBvfbve4aTejPccfRKM/view",
@@ -1863,35 +1863,284 @@ const NinthClass = {
           urlName: "Full Book Glossary Notes",
           url: "https://drive.google.com/file/d/1rem_Z0CS2YNrCFKQ0a3bEVt54yWvDgpV/view",
         },
-      ]
-    }
-  ]
-}
- 
+      ],
+    },
+  ],
+};
+
+const TenthClass = {
+  English: [
+    {
+      ChapterName: "Chapter 1 → Hazrat Muhammad An Embodiment of Justice",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1S2BCpkDgIfoX4ZMLTlWgmjFCop8rnNmp/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1-zWzj0Pdo3bjY_OnYo49PDFNC6QaT6ER/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Chinese New Year",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1OTRydeOXtkHnJSU8YvPeS7d53CoVAqZI/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1lcEa_gAUdQmByfSpF27DS_7YjkMKTcGF/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Try Again",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1OOJ4JaQdTnDVj4j5C-BtfrQktr7W3IYL/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1MLqEbaWY3yA40ogkH7rJqHKsTb5Ffh61/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → First Aid",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1t6q3BkCWHkrDGlqba92vePEOCewAkz9f/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1WNilwGRPCrXn7Y2fa6UtWbR8OrBdID2T/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → The Rain",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1_FtgkMiQfQwqJ3ot7EBgyZYyi7WaC4TF/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1HJiO5CCbXk-jIxe-j_Ju99yWrJjC4bi4/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Television VS Newspapers",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1CjfMjuSFZ7jCMBClvdyn4H9UYPoTMxCi/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1buT-42VAbbHeMPzzTrf1LtaFq95d-AK_/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Little by Little One Walks Far",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1j9NtuZnvWOaI5QV6YDQpeYerzvmKF_9b/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1U1yyYSGT5e0S8kkVAGyhQ5MBaG0sXs_p/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Peace",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1bzRhWZFb76DmXImmq4L2_0fSFau-NibH/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1q1pcGfg7pAj0FuM74fwBlHXb7wUH-5vJ/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Selecting the Right Career",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1cKdGvaXvhfFM-NQmyAuBZ8xEA__DVA54/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1TSnsLe-KGlLJzMK2tU0qj-SnARjhyIHh/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 10 → A World Washout Books",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1Gat17FdS5n4KD3Qy_eFzmDa5zGNhz-Kb/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/15LhyckjxAqnuRHXJ7ca0ht6H9WjiVnGF/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 11 → Great Expectations",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1GO4r7ITXPMkUJHA5vVdBUHzEMZFIxZP7/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1CwdGYBryTFW4zt76LvaxT4FGDWZvn6D3/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 12 → Population Growth and World Food Supplies",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/1_2YhtBfSvVNv4QJ5pNPCVJhiAbNzeenN/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1iD_zabBTWiN8QY9I9eqpSgYhjWzSZiU7/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 13 → Faithfulness",
+      urls: [
+        {
+          urlName: "Full Chapter Short Question Answers",
+          url: "https://drive.google.com/file/d/18OpsI80wnA9LcY771w7DVl2mJSyfoz39/view",
+        },
+        {
+          urlName: "Full Chapter Word Meanings | Translation",
+          url: "https://drive.google.com/file/d/1bAcCbLggoiKOmQ2XLAGf6FvUm9Mq86K5/view",
+        },
+      ],
+    },
+  ],
+};
+
 function renderData(dataKey, targetElement) {
   const data = NinthClass[dataKey]; // e.g NinthClass.Englisg or NinthClass[English]
   const targetDiv = document.getElementById(targetElement);
 
   if (!data || !targetDiv) {
-    console.error('Invalid data key or target element.');
+    console.error("Invalid data key or target element.");
     return;
   }
 
   data.forEach((chapter) => {
-    const chapterDiv = document.createElement('div');
-    chapterDiv.classList.add('chapter-box');
+    const chapterDiv = document.createElement("div");
+    chapterDiv.classList.add("chapter-box");
 
-    const chapterTitle = document.createElement('h3');
+    const chapterTitle = document.createElement("h3");
     chapterTitle.textContent = chapter.ChapterName;
 
-    const urlsList = document.createElement('ul');
+    const urlsList = document.createElement("ul");
     urlsList.classList.add("no-active");
     chapter.urls.forEach((url) => {
-      const listItem = document.createElement('li');
-      const link = document.createElement('a');
+      const listItem = document.createElement("li");
+      const link = document.createElement("a");
       link.innerHTML = url.urlName;
       link.href = url.url;
-      link.target = '_blank'; // Open link in a new tab
+      link.target = "_blank"; // Open link in a new tab
+      listItem.appendChild(link);
+      urlsList.appendChild(listItem);
+    });
+
+    chapterDiv.appendChild(chapterTitle);
+    chapterDiv.appendChild(urlsList);
+    targetDiv.appendChild(chapterDiv);
+  });
+  let cls = "9th";
+  let sub = dataKey;
+  let text = document.createElement("p");
+  text.innerHTML = `
+  <p>
+  Many of the students prepare notes for their exams better preparation for scoring higher marks in all subjects. So, you need to learn and prepare these ${cls} Class ${sub} notes chapter wise. All ${cls} Class chapters wise MCQS, Short and Long Question Answers are available in PDF and online MCQs quiz Tests. You are here on right place for better preparation of ${cls} class KPK Boards in PDF. 
+  </p>
+
+<p>
+All of ${cls} Class ${sub} Notes in PDF we have uploaded on our website, MASHALWEB, All of study notes chapter wise are available here on our website according to your Provinces Boards. All learning materials ${sub} Chapter Wise Notes are freely available here in PDF format.
+</p>
+
+<p>
+You can easily Learn and Download ${sub} ${cls} Class PDF Chapter Wise Notes without any cost. There is no any cost to pay for downloading these ${sub} Notes of ${cls} Class. ${cls} Class Science and Arts notes are available here with ${sub} and ${sub} Medium according to your syllabus are available here.
+</p>
+
+<p>
+Many of students feel difficult to learning ${sub} subject because some subjects are challenging for students. These notes are helpful for you for learning and preparing. All ${cls} Class ${sub} Chapter wise solved exercise are available here. You can also easily prepare ${cls} Class Chapter Wise Past Papers MCQs Quizzes. All Solved MCQs Chapter Wise Quiz tests are available here of KPK Board ${sub} Subject.
+</p>
+
+<p>
+All of these ${sub} ${cls} Class Notes are made by the higher qualified and experienced Teachers. All ${sub} Chapters definitions, MCQS, Short Questions, Long Questions are available in PDF form for students.
+
+The easy and best way for learning these notes are to design all of ${sub} notes according to your requirement. These ${sub} notes are high quality in PDF that makes easily for Printout in hardcopy for better reading.
+
+</p>
+<p>
+On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class all subjects notes are also available here with all Pakistan Boards in PDF. All of ${sub} Notes are made by experienced and great teachers of Govt and Private Colleges and Schools.
+</p>
+  `;
+
+  document.querySelector(".engCont").appendChild(text);
+}
+renderData("English", "ninth-eng");
+renderData("Urdu", "ninth-urd");
+renderData("ComputerScience", "Ninth-comp");
+renderData("Islamyat", "Ninth-isl");
+renderData("PakStudy", "Ninth-pak");
+renderData("Biology", "Ninth-bio");
+renderData("Chemistry", "Ninth-chem");
+renderData("Physics", "Ninth-phy");
+renderData("Maths", "Ninth-maths");
+
+function renderDataTenth(dataKey, targetElement) {
+  const data = TenthClass[dataKey]; // e.g TenthClass.Englisg or TenthClass[English]
+  const targetDiv = document.getElementById(targetElement);
+
+  if (!data || !targetDiv) {
+    console.error("Invalid data key or target element.");
+    return;
+  }
+
+  data.forEach((chapter) => {
+    const chapterDiv = document.createElement("div");
+    chapterDiv.classList.add("chapter-box");
+
+    const chapterTitle = document.createElement("h3");
+    chapterTitle.textContent = chapter.ChapterName;
+
+    const urlsList = document.createElement("ul");
+    urlsList.classList.add("no-active");
+    chapter.urls.forEach((url) => {
+      const listItem = document.createElement("li");
+      const link = document.createElement("a");
+      link.innerHTML = url.urlName;
+      link.href = url.url;
+      link.target = "_blank"; // Open link in a new tab
       listItem.appendChild(link);
       urlsList.appendChild(listItem);
     });
@@ -1901,12 +2150,4 @@ function renderData(dataKey, targetElement) {
     targetDiv.appendChild(chapterDiv);
   });
 }
-renderData('English', 'ninth-eng');
-renderData('Urdu', 'ninth-urd');
-renderData('ComputerScience', 'Ninth-comp');
-renderData('Islamyat', 'Ninth-isl');
-renderData('PakStudy', 'Ninth-pak');
-renderData('Biology', 'Ninth-bio');
-renderData('Chemistry', 'Ninth-chem');
-renderData('Physics', 'Ninth-phy');
-renderData('Maths', 'Ninth-maths');
+renderDataTenth("English", "Tenth-eng");
