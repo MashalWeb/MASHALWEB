@@ -14,7 +14,10 @@ body{
     height: 100%;
     position: relative;
 }
-
+::selection{
+    background: #141414;
+    color: #fff;
+}
 .pop{
     position: fixed;
     width: 100%;
@@ -181,13 +184,14 @@ nav{
     top: 0;
     overflow-y: auto;
     left: 0;
-    z-index: 23;
+    z-index: 28;
     display: none;
-    background: linear-gradient(rgba(167, 0, 201, 0.678),#00c3ffa6);
-    backdrop-filter: blur(10px);
+    background: linear-gradient(rgba(167, 0, 201, 0.404),#00c3ff5d);
+    backdrop-filter: blur(20px);
     box-shadow: 0 5px 4px 0 rgba(0,0,0,0.5);
 }
 .secNav ul{
+    margin-top: 33px;
     padding: 20px 10px;
 }
 .secNav ul li{
@@ -377,6 +381,15 @@ nav{
     transition: 0.3s ease;
     cursor: pointer;
     /* flex-wrap: wrap; */
+}
+.box:nth-child(2){
+    transition-delay: 100ms;
+}
+.box:nth-child(3){
+    transition-delay: 200ms;
+}
+.box:nth-child(4){
+    transition-delay: 300ms;
 }
 .center .box img{
     width: 65px;
@@ -1013,6 +1026,15 @@ form{
         width: 100%;
     }
 }
+.item-1:nth-child(1){
+    transition-delay: 200ms;
+}
+.item-1:nth-child(2){
+    transition-delay: 400ms;
+}
+.item-1:nth-child(3){
+    transition-delay: 600ms;
+}
 @media only screen and (max-width: 430px){
     .contact{
         width: 97%;
@@ -1539,5 +1561,21 @@ form{
 @media (max-width: 370px){
     .search-box input{
         width: 270px;
+    }
+}
+.hidden{
+    opacity: 0;
+    filter: blur(4px);
+    transition: all 1.3s ease;
+    transform: translateY(-60%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+@media(prefers-reduced-motion){
+    .hidden {
+        transition: none;
     }
 }

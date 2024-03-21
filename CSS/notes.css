@@ -234,18 +234,22 @@ header{
 }
 .ymal .notesBoxs{
     display: flex;
-    align-items: s;
+    align-items: center;
     justify-content: start;
-    gap: 0 15px;
+    gap: 0 20px;
     flex-wrap: wrap;
 }
 .ymal .notesBoxs .noteSinBox{
     margin-top: 10px;
     flex-basis: 30%;
     padding: 20px;
-    box-shadow: 0 4px 10px 4px rgba(1, 183, 255, 0.158);
+    box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.11);
     border-radius: 5px;
     text-align: center;
+    background: #00ace00c;
+}
+.ymal .notesBoxs .noteSinBox:hover{
+    background: #fff;
 }
 .noteSinBox a{
     text-decoration: none;
@@ -264,4 +268,19 @@ header{
 }
 .noteSinBox i:hover{
     background: linear-gradient(#000e36, #00ace0);
+}
+@media  (max-width: 820px) {
+    .ymal .notesBoxs{
+        justify-content: center;
+    }
+    .ymal .notesBoxs .noteSinBox{
+        flex-basis: 80%;
+        margin-top: 20px;
+    }
+}
+@media  (max-width: 440px) {
+    .ymal .notesBoxs .noteSinBox{
+        flex-basis: 99%;
+        margin-top: 20px;
+    }
 }

@@ -2107,6 +2107,7 @@ On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class a
 
   document.querySelector(".engCont").appendChild(text);
 }
+
 renderData("English", "ninth-eng");
 renderData("Urdu", "ninth-urd");
 renderData("ComputerScience", "Ninth-comp");
@@ -2149,5 +2150,38 @@ function renderDataTenth(dataKey, targetElement) {
     chapterDiv.appendChild(urlsList);
     targetDiv.appendChild(chapterDiv);
   });
+  let cls = "10th";
+  let sub = dataKey;
+  let text = document.createElement("p");
+  text.innerHTML = `
+  <p>
+  Many of the students prepare notes for their exams better preparation for scoring higher marks in all subjects. So, you need to learn and prepare these ${cls} Class ${sub} notes chapter wise. All ${cls} Class chapters wise MCQS, Short and Long Question Answers are available in PDF and online MCQs quiz Tests. You are here on right place for better preparation of ${cls} class KPK Boards in PDF. 
+  </p>
+
+<p>
+All of ${cls} Class ${sub} Notes in PDF we have uploaded on our website, MASHALWEB, All of study notes chapter wise are available here on our website according to your Provinces Boards. All learning materials ${sub} Chapter Wise Notes are freely available here in PDF format.
+</p>
+
+<p>
+You can easily Learn and Download ${sub} ${cls} Class PDF Chapter Wise Notes without any cost. There is no any cost to pay for downloading these ${sub} Notes of ${cls} Class. ${cls} Class Science and Arts notes are available here with ${sub} and ${sub} Medium according to your syllabus are available here.
+</p>
+
+<p>
+Many of students feel difficult to learning ${sub} subject because some subjects are challenging for students. These notes are helpful for you for learning and preparing. All ${cls} Class ${sub} Chapter wise solved exercise are available here. You can also easily prepare ${cls} Class Chapter Wise Past Papers MCQs Quizzes. All Solved MCQs Chapter Wise Quiz tests are available here of KPK Board ${sub} Subject.
+</p>
+
+<p>
+All of these ${sub} ${cls} Class Notes are made by the higher qualified and experienced Teachers. All ${sub} Chapters definitions, MCQS, Short Questions, Long Questions are available in PDF form for students.
+
+The easy and best way for learning these notes are to design all of ${sub} notes according to your requirement. These ${sub} notes are high quality in PDF that makes easily for Printout in hardcopy for better reading.
+
+</p>
+<p>
+On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class all subjects notes are also available here with all Pakistan Boards in PDF. All of ${sub} Notes are made by experienced and great teachers of Govt and Private Colleges and Schools.
+</p>
+  `;
+
+  document.querySelector(".engCont").appendChild(text);
 }
+
 renderDataTenth("English", "Tenth-eng");
