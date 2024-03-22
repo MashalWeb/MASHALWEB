@@ -2040,6 +2040,824 @@ const TenthClass = {
       ],
     },
   ],
+  Urdu: [
+    {
+      ChapterName: "Chapter 1 → Haamd",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1Iw_ElmrdabxWG8iv7451gE1NHO_9BTA6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Naat",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1ZfkWg7BnbDVJbZs5qzsw7gblZtQMVLBx/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Professor Mirza Mohammad Saeed",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1pPCyBJJvpKqJ5uUH5McQS0e6Aj7ix-vs/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Nazria Pakistan",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1BRqBgsHj24c7BkuLVUs5UqsYOxHaw3c3/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Paristan ki Shahzadi",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1lpxqbB8BEqLAb4_6D4jqKZkxCUcINKHP/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Urdu Adab may Eid ul Fitr",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1Xu3niGYeTJ0Ak0kbsxmDPgoz3V9MUO47/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Mujy Meray Doston sy Bachao",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1uUcWFYfMtW9WTxD-9vdpfm9q59XmW7O6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Mulamma",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1_aIrQ59rFj3KEZDBPQ3ZYrqU0VBYeSiJ/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Chugal Khor",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/17n823bwU4DKwrirdrpLRO4ManA2Mm3dX/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 10 → Naam Dew Mali",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/19t9d4BE5X-pixRP1fiKinhLmVFpBjn2L/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 11 → Ali Baksh",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1q9ucELmwtTBOb_AN-9hclmQgrtLhYgGf/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 12 → Istanbul",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1ma8gJRd59e2mG8fCGyitzz9I0bZxAvG3/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 13 → Khotoot e Ghalib",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1w-MzcAt5vkvh9YrtorUwFluLWcIZSZh9/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 14 → Khotoot Rasheed Ahmed Siddiqui",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1nx6n1wutO4EPOcu1pM4JPrzqTz_QocMS/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 15 → Medaan Karbala May Gharmi ki Shiddat",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1JJx-H3soe2_9CU4yVme9OoWVrt_HyV3p/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 16 → Fatima Bint Abdullah",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1tB5QjB_bvlXgMLd_tNM6WxGZEC91WsXi/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 17 → Kisan",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1fsEtMcdXH-5rFd_8bTsmf_BlrjU61KG6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 18 → Jivay Jivay Pakistan",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1_7mlgyKNpYu4tg57zaQpi8oEbJY_KjGD/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 19 → Ont Ki Shadi",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/1Sa7GRLL27rIoczx4G798iLZQQhx2kf7j/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 20 → Maal Ghodam Road",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/1wjNjaiqZplOGgoh2liSxQcIJu0kT0eow/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 21 → Musibat Bhe Rahat Fiza Ho Gai Hai",
+      urls: [
+        {
+          urlName: "Full Chapter | Notes | MCQs | Question Answers",
+          url: "https://drive.google.com/file/d/1bUlXryjuJtZYa_z_ZZWWtZwmTWMrJJe2/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 22 → Admi Admi Sy Milta Hai",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/12QMUo3RD_4ceDA91Pcx0h6Sr9MamDL-c/view",
+        },
+      ],
+    },
+    {
+      ChapterName:
+        "Chapter 23 → Sar Mein Soda Bhe Nhi, Dil Mein Tamana Bhe Nhi",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/1MjTcboihscHYGwmBOA2c8yXRQiQfjZ17/view",
+        },
+      ],
+    },
+    {
+      ChapterName:
+        "Chapter 24 → Ye Fakhar To Hasil Hai, Bury Hain K Bhale Hain",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/1eCylgbUhLryE6V5SizSNAWp8fWj_9zCG/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 25 → Ada Jafri",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/1mhY_5k-iTwJKt1ulhMzMfaRPKG7AgCwG/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 26 → Uth Band Kamar Keu Darta Hai",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/1OG3Qn_6ywkxEmEFliOX1ctIYtA6KQjza/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 27 → Bahadur Bachye",
+      urls: [
+        {
+          urlName: "Full Chapter Mafhoom | Tashreeh | Notes",
+          url: "https://drive.google.com/file/d/1L1BXXMsr9TnKqNKBcwKjozGV9280P3wo/view",
+        },
+      ],
+    },
+  ],
+  ComputerScience: [
+    {
+      ChapterName: "Chapter 1 → Introduction to programming",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1VgtfJS6F3AlJ6nrmCBWu-kMYIL424mSx/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1W1GNLNPKIVPTyEcF17e4PkMwImbOIY0v/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1GvuJgqXPIviGRvdrfSsvsd-7lOOZLvXD/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → User Interaction",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1xjTJIGhGZq7cHTRfGyULmxCBJQBYuQ-W/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1kDrtY8QTK2UM-J1m5GyTiAZjb644hZ4m/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1MZcijMcYeiiW3sRsMTrbsF_XUiW0F6ch/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Conditional Logic",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/19gVYb5503h03ovJTyVHYuGHxXu8hslnG/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1nhXbz9DYLSAc2qAavnnMfcLE98sO4CmX/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/12hGKPgzsqKm5MmePCkqVyJ0S85PF6G1o/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Data and Repetition",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1yhl9_GHcJBJ323z12px2IpFE8dmHepKk/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1Yma6bMYdKv79QsYTnDZfg4bq7aCyIwR0/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1s5LTev6FY2PTcw5x46kOAE8afIppsd4t/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Functions",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1-t7IcA8rGOlcj2gQ2YgDsY4eD21SAGHa/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1BDLEfekCGlgs9mzx9XOupJKbAid0FeIJ/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1V3E3TIxd_SPNV2qt6Wuj8mnLS0PsfzKP/view",
+        },
+      ],
+    },
+  ],
+  Islamyat: [
+    {
+      ChapterName: "Chapter 1 → Bodily Purification",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1F4Gdbtdb_SYCGqa7L2VyzMeaEAmks9Hg/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1uPDJjlLNoW57goFtwhyhwpr4_REuyhKr/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1NzGd3f9MG70DXj4Q6RGNanOOcFVZOikv/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Forbearance and Gratitude",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1MEt-TTXH2NcZjKgaSTrQJI6PKgewp_9T/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1jGDgjMODHdsd2HYaPmUU57Ty4bThgwt8/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1Td-RMbS_C2TiKR_EXzbJ_UE2XdIf6BZu/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → The Importance of Family Life",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1hYcSeo7P8CsadS2HcsDnj5C5NYdwchQJ/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1hWcLWzKSpNjbBCXxXUoAPIDJ0Yp5Qwtx/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1wOYh8depYQ7chkBT4ugWbAf0WiGTO8xm/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Hijrat and Jihad",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1dmYK56MJPyh4l5zAIiPT5BKZPkGrW1kl/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Rights of People",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1745PRRg7ZrLkCw-Iw2IFjDuq5T6nLKtA/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/183drqMEsLWKMNR2eXYbygDMcr1sq4NDh/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1xyEVqY8a_tdxyoDqodtHynR6g7kPNPWq/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Surah Al Ahzaab Ayat With URDU Translation",
+      urls: [
+        {
+          urlName: "URDU Translation Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1TZNN2CnbPxfTX_wBZwgFckEXo35UTEkP/view",
+        },
+        {
+          urlName: "MCQs Short Question Answers Notes",
+          url: "https://drive.google.com/file/d/1XAeQTvQfBB7Jqg4K8_zHAXOmV6Dd9S55/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Surah Al Mumtahina With URDU Translation",
+      urls: [
+        {
+          urlName: "Notes | MCQs | Long & Short Question Answers",
+          url: "https://drive.google.com/file/d/1MPLpWlAXRvYEoa_30KFUbwHTxaPQExP6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Hadees With URDU Translation Notes",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1sPL87b7kbaQSeb3Mj27bZ-FsMBOQoOmY/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1vXrojOvmjrpwn0OUgMy9Phrj6a391n8t/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1dpjwyjFCtCOzji92DUJ88MQ41-ysDOEd/view",
+        },
+      ],
+    },
+  ],
+  PakStudy: [
+    {
+      ChapterName: "Chapter 5 → History of Pakistan II Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1sIBGFlBXX6W58mFtI14-CE78Fwn9qJb8/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1rORMqA9ZoNSSFay2trG1h-oRMfd76DiS/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Pakistan in World Affairs Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1XfPOBcClplMg_4j6oSFxt0WllnSLLrrc/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1A5xUJULHIUn7g9JLBEYXUmraq6rPWnZ9/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Economic Development Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1D2PTzgE2d2WANKFUTS6WcWZSeA179o6O/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1LKZro5VStb_oOJiLv_RGWWxFKxugSa9x/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Society & Culture of Pakistan Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/17-iIzQADTmaNiDm0O4nUNWBbC4FMG6bf/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1SNqmPxzho1QA2PGX7lS2FuhPjgZoX-C7/view",
+        },
+      ],
+    },
+  ],
+  Biology: [
+    {
+      ChapterName: "Chapter 1 → Gaseous Exchange",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1Dyc0LTUeWWhpwVjD_GjGFHjcn412vCvD/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1EUf23s0Fcp06JVE6FlJ-upT93Kylk3UM/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1OLQpF7bIWbEvM_nbuN44tOXvNXzUcp6w/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Homeostasis",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1jDBZl1fvtnQHCZhDIfwvi7gCIHbQS5pS/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1X_WVpyKl9D85kKvysqO8mB4mMtmGH5gX/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1H28zs1Le39EzvcZr-p3DSGjYJNRVXUG1/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Coordination and control",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/15oLxnLf9YngEtLJgZ38_hB58ioEkvzCP/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1WQH0RWAxxNWoNSsjCB6GO3BeBCkLGeNX/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/13g2iqwjAfToWPyIqYV83T8S6kuNp3VAC/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Support and Movement",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1VqMC4g38EVCBN95MBQRPOZZdbb3c3S1u/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1BIL-0Rntsr2D5tj7X5OBvLLQz7VAUQRM/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1WUQHYaQoXGnO5f-8tIgZaju1PkCJxnUQ/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Reproduction",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1JaXYJdCh6uCXgqVBI1ZRdV0_poMPYmI4/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1biyWth3_DYRYGyK70uBtYYvTe6Mo6gEL/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1lVvDpWehb1TESbB8Hbo4pdGEjluuFqWk/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Inheritance",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/15SgvyyB6ysBOlyFOtWZhSUmcKBL6JK9U/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1qY38w16vAZUJC0-Evx6LgNN2PlbBaxr3/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1nsMXd4quTbpCYGTREyEZ0ysmFqAY_UVe/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Man and His Environment",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1Wj1iTNqX_J6p1O44IsRYj8ghq8J1UFN7/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1Vp4cPa9grX9PC4lNDBqLIIuVcANhIv60/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1mfGRWWoHAvSOdywmF9h6z7PJtJ0wxMtN/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Biotechnology",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1rFp5Od0jTvw-tNvLGkiQraPWIM46uYZO/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1_n-PU3sN40vZWl_dY4EQZWgfJ0r_8vio/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1S4wDPL52EwWjGLJZbLfYo-9aXmXh2jE4/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Pharmacology",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1bLkb4EC6nsc7iTd_r2_rBctsPFQtbfUh/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1dHynqq0SPWymOa943Ph7Rky9GXqHsbWL/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1Bty9sDy55PreYuWy_yo0Dz7yLwom1r41/view",
+        },
+      ],
+    },
+    {
+      ChapterName: " *** URDU MEDIUM ***",
+      urls: [],
+    },
+    {
+      ChapterName: "Chapter 1 → Gaseous Exchange",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1SgbDMmtxYLh8cZrJ29QPRZAvqgOOK7nl/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/18mmEz_u7zza4ChWjQ_l8FGbWDc9Kjg-y/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1aktBUmMG83OVFK0_iCdW8dmt_VwcZnQi/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Homeostasis",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/10tKsAUhhZJ8gdV8rp8TjdruA43E0z770/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1yRSMSJqGs1Fxlaz395Y5107UfbV30UuZ/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1BUVHwRIoO7g-fI8mPpUeWB2BCFk2rn5b/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Coordination and control",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1v6h9z95m06MglqCqpYF65U_LoSQte6hD/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1GeHRF3x8CaLIw6oZh-rCdIWDQUrNIx76/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1OSBXTYXZhYAq4cM5NSE0PlYpVQbVPvVe/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Support and Movement",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1DBOY3Qc2aYdAxqz7cpXzAW3OC8id1SF9/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1KxFvOFDwS6FUp2dbz3WmwYmzWmAEYtdH/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1tYs4V2FMK4ovB2l1hP33etu2FwM0gf-5/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Reproduction",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1x48eX_nkFVttf3aGtio7dYmZMcdUj2rA/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/13V5uIkxLjJ2FBjVn7G8BQShyT3ATk6Y7/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1sBUUvoQBKPr0wrrMTKhF-aSBA2NlweIa/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Inheritance",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1ODx-yMy_zqPWzOqdzynRSZoh8WwwxF6d/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1_3mDLRPFw3kRMxtRA2Y6N6eAWlraFM-l/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1FFn9TiCgseNCEP_qPQzeeuhpGkrtrDGd/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Man and His Environment",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1Oq6MtG8-NMs5JrNdM0-9ZIXbdAVok_QZ/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/12ow3OHh1Vw5T-MiBMWu3-Q2jotGIUbDD/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1guWO4fCMReF_oOuhVp4vFdkXOcaGJCFK/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Biotechnology",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1H8ZMLeK9AiFWVaeokKJA4IbaZSRnpFvw/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1UI7mnSEri8kgGSw52yk11FLD7wpm52qZ/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1yDldqndY1zcfQp-RDnAoyolltL7sLFDO/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Pharmacology",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1sgCJB5HumE4esF7kUMMXTS1-44paeCnj/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/148wfHdVo8V0yvSIfGcibpOWIlml-IMWs/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1JLZARgxiwmr_w5F3cz0OnzMMh_pKbIb7/view",
+        },
+      ],
+    },
+  ],
 };
 
 function renderData(dataKey, targetElement) {
@@ -2185,3 +3003,8 @@ On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class a
 }
 
 renderDataTenth("English", "Tenth-eng");
+renderDataTenth("Urdu", "tenth-urd");
+renderDataTenth("ComputerScience", "Tenth-comp");
+renderDataTenth("Islamyat", "tenth-isl");
+renderDataTenth("PakStudy", "tenth-pak");
+renderDataTenth("Biology", "Tenth-bio");
