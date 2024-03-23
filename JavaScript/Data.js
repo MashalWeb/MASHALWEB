@@ -2858,6 +2858,487 @@ const TenthClass = {
       ],
     },
   ],
+  Chemistry: [
+    {
+      ChapterName: "Chapter 1 → Chemical Equilibrium",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1kHQNzLo56lJdIntwmcSbxcveb3sIs9Cd/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1TLvRlNDk3DIFE57TUvY9UMW_UqNJXiBz/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1XLzdGGPICejUS9NsklAiR3URZdhAOHHg/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Acid bases and Salts",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1GZE-2ue1q3CXtzOSQlOtpWmFDe7oU6_w/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1RnUjJpVpdrjcXC0K46Kowoekd9_sRrSw/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1ue3SOQdKW3RKfv7ykW19lMiMM2mS8t-_/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Organic Chemistry",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1Iwmmd5QIC9ODZ-YMg1f_gcda9IQqahjQ/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1LtqKYUlAEq3NAH4b2z0RQv3aQEXAtjCj/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/17i8nv_gugbKS9qwZxfCCnevTVvwTSGI2/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Hydrocarbons",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1FhUi7tJOn2JPY038gDp7145qRKaZ0onP/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1GsekA_rxbxt0uAwnZOuS3nuLZfPZzSri/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1WeTrywVF5Z26t0A19zCRVqgpOR1b5Vfk/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Biochemistry",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1FhQysBIA4b1EGkJkseaNBrlpdmw6Wb1R/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1dSHWg3S4LU7ufEndbbK6fPKIwC8iDjG1/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/14DrdddZFVejb70iJ2dkSy-0kqoWBzGQL/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Environment Chemistry The Atmosphere",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1kVjYRCv04KXMhPUrDjMcd9yPmH8cmr0d/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1RAHShLAZ2IOpmDry45zZAK9z-4BezDW6/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1e8BKBb0n0MUYg8aJ4HLXCjS6LV8g4XZ8/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Water",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1uJZc5SaG0dtlSS_UT91HZAHb6DZKYdJ8/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1gyOOEQiW_zCkJY2P5A6WiJ-veWnqyh6k/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1WOG-kETlCz9sUw80y1HGd08-biG41hWg/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Chemical Industries",
+      urls: [
+        {
+          urlName: "Long Question Answers",
+          url: "https://drive.google.com/file/d/1pZCbK-TT_hd5d8KTXfbslM9HNPujXrDE/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1jfDpjVxoRjL-4axupI0eYFcoFX_0uheb/view",
+        },
+        {
+          urlName: "MCQs Notes Full Chapter",
+          url: "https://drive.google.com/file/d/1gR7lVa9x2gih677n-zZt-e7eSqax6qK6/view",
+        },
+      ],
+    },
+  ],
+  Physics: [
+    {
+      ChapterName: "Chapter 1 → Simple Harmonic Motion and Waves",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/135xQSQ21xOlqOqS4fJ-2SNRJFErtnxEf/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Sound",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/1-OgqEyULlKi1eGwgaG8_SHjX2w1AWsoa/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Information and Communication Technology",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/1V1JbkHlRRO2mmPwt6ilCunNnyWw_AuDw/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Geometric Optics",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/1R0aY4H4RtEOjFwYe00AizrBHe53o7nQ4/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Electrostatics",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/1Uw23vrFOHX4EIkHFMp86hdWQesCMmFib/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Current Electricity",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/16YfvEw7froKfYaol38u88yt7h-wNcIeO/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Electromagnetism",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/1cBVz6YP4lmu4xgfvDEw2zAPJvr22Wx-I/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Basic Electronics",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/1mnfZGisLPD5xzIsFKW7-PKwr5F6OKn4D/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Atomic and Nuclear Physics",
+      urls: [
+        {
+          urlName:
+            "Chapter MCQs Notes | Long & Short Questions | Numerical Problems",
+          url: "https://drive.google.com/file/d/1o9qLo6GwfTs1jIlATNw2qSe-84dsrHnR/view",
+        },
+      ],
+    },
+  ],
+  Maths: [
+    {
+      ChapterName: "Chapter 1 → Quadratic Equations",
+      urls: [
+        {
+          urlName: "Exercise 1.1 Notes",
+          url: "https://drive.google.com/file/d/1txIVyaEElEmuIo0JYpqhDfXjvLw8FPYt/view",
+        },
+        {
+          urlName: "Exercise 1.2 Notes",
+          url: "https://drive.google.com/file/d/1mZIP1seP2F3MSzbS8QzZrqHPLZ9zlfC2/view",
+        },
+        {
+          urlName: "Exercise 1.3 Notes",
+          url: "https://drive.google.com/file/d/1keQKu4n3XdOeRCCF2BBqRw0GkWJUb2_z/view",
+        },
+        {
+          urlName: "Exercise 1.4 Notes",
+          url: "https://drive.google.com/file/d/1IEG4xlF0K3fAuSAtXdbgyctnKAs5FPp6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Theory of Quadratic Equations",
+      urls: [
+        {
+          urlName: "Exercise 2.1 Notes",
+          url: "https://drive.google.com/file/d/1g6EfuFmSjbt2n-6iGFCZoNqz97mkcpkj/view",
+        },
+        {
+          urlName: "Exercise 2.2 Notes",
+          url: "https://drive.google.com/file/d/1g0DuR6Ul2bfPAGa0PjFo11wwo9iVoxCL/view",
+        },
+        {
+          urlName: "Exercise 2.3 Notes",
+          url: "https://drive.google.com/file/d/1dVLIeg4A9XAzvmHcmcZ8s3Xr3Vdfd-lr/view",
+        },
+        {
+          urlName: "Exercise 2.4 Notes",
+          url: "https://drive.google.com/file/d/1zWbSZcx3Y3X65_JuefyTfcTwXvazL8Rx/view",
+        },
+        {
+          urlName: "Exercise 2.5 Notes",
+          url: "https://drive.google.com/file/d/1t3hKg1wTZM9OoKAojjSd9jqB-MhZMh6V/view",
+        },
+        {
+          urlName: "Exercise 2.6 Notes",
+          url: "https://drive.google.com/file/d/1Mb90FsA3N6JjOswvh9kgsAui9ESqEPki/view",
+        },
+        {
+          urlName: "Exercise 2.7 Notes",
+          url: "https://drive.google.com/file/d/14PniMUi9KmF3Xx8vQHr5bTnVwhfAm2T7/view",
+        },
+        {
+          urlName: "Exercise 2.8 Notes",
+          url: "https://drive.google.com/file/d/1A1cw_LP40nvBGh6v4ObtpZR4zFAzGFKj/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Variations",
+      urls: [
+        {
+          urlName: "Exercise 3.1 Notes",
+          url: "https://drive.google.com/file/d/1oJbfc_UM4R9Ek91AGeIDOUAIZyWDwoXp/view",
+        },
+        {
+          urlName: "Exercise 3.2 Notes",
+          url: "https://drive.google.com/file/d/11ErAdJbIBHfEb_5HozJW6xh6cFZ_9i6v/view",
+        },
+        {
+          urlName: "Exercise 3.3 Notes",
+          url: "https://drive.google.com/file/d/1NCunOcZY8abkDLJeLyaSF0qIiOWzatvG/view",
+        },
+        {
+          urlName: "Exercise 3.4 Notes",
+          url: "https://drive.google.com/file/d/1ipEnDCgAq2B4TUP1bpLafz7NdWdZsIxI/view",
+        },
+        {
+          urlName: "Exercise 3.5 Notes",
+          url: "https://drive.google.com/file/d/1z3rR0JxSXOSv21Xge_06uhuLbBpd2PPC/view",
+        },
+        {
+          urlName: "Exercise 3.6 Notes",
+          url: "https://drive.google.com/file/d/1A7ZkWZ-Y2u38jNW9JeMrNwbTtUfq_SSC/view",
+        },
+        {
+          urlName: "Exercise 3.7 Notes",
+          url: "https://drive.google.com/file/d/1KNCFPI3UrzfKVxZ3DK4qaKXygehxMGnj/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Partial Fractions",
+      urls: [
+        {
+          urlName: "Exercise 4.1 Notes",
+          url: "https://drive.google.com/file/d/1tYspuI1UESiOgk1nZeq28cEwYOC8xyxG/view",
+        },
+        {
+          urlName: "Exercise 4.2 Notes",
+          url: "https://drive.google.com/file/d/1R5oVvA_JDPCtm3voSLP-C5udJlSyugwu/view",
+        },
+        {
+          urlName: "Exercise 4.3 Notes",
+          url: "https://drive.google.com/file/d/1fOU3rSgs1uYI7h7IbwQEF3VHKL9iMLxD/view",
+        },
+        {
+          urlName: "Exercise 4.4 Notes",
+          url: "https://drive.google.com/file/d/1V8gng_EY8_Qzj4e5Z4hEiZB1Hu8XA1n4/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Sets and Functions",
+      urls: [
+        {
+          urlName: "Exercise 5.1 Notes",
+          url: "https://drive.google.com/file/d/1tw6QYkQl0qNUE9IeQO7CqP06OZZ85Qk3/view",
+        },
+        {
+          urlName: "Exercise 5.2 Notes",
+          url: "https://drive.google.com/file/d/1eX3ckLkZAX0g9fxmqhGeLrXph1p17znx/view",
+        },
+        {
+          urlName: "Exercise 5.3 Notes",
+          url: "https://drive.google.com/file/d/1UIB_w1tse6NAqWq9_gI6i_EZP9HHWUw0/view",
+        },
+        {
+          urlName: "Exercise 5.4 Notes",
+          url: "https://drive.google.com/file/d/1Myk0Fk7cZYKjEzRlRUl51W9HlBxFrmE3/view",
+        },
+        {
+          urlName: "Exercise 5.5 Notes",
+          url: "https://drive.google.com/file/d/1mVt9-yE1g_kHbgxwSHH3ScXhQ8vn1WR1/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Basic Statistics",
+      urls: [
+        {
+          urlName: "Exercise 6.1 Notes",
+          url: "https://drive.google.com/file/d/13owe-3M5KhUXojyur8vJeb_SNkAcdjat/view",
+        },
+        {
+          urlName: "Exercise 6.2 Notes",
+          url: "https://drive.google.com/file/d/1BFA1qOJabprh4RpLbfER6ZN5DOalQkoq/view",
+        },
+        {
+          urlName: "Exercise 6.3 Notes",
+          url: "https://drive.google.com/file/d/1VOSe3pFdWBqOyNgbmhkzkVcD3HqcNxK-/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Introduction to Trigonometry",
+      urls: [
+        {
+          urlName: "Exercise 7.1 Notes",
+          url: "https://drive.google.com/file/d/1H0sBCEBjSwzkWQ90c3F1NgJz3Qqsk6Nq/view",
+        },
+        {
+          urlName: "Exercise 7.2 Notes",
+          url: "https://drive.google.com/file/d/1_vdF-XshPmrTHbbM7ZOOncE8P_xMvkog/view",
+        },
+        {
+          urlName: "Exercise 7.3 Notes",
+          url: "https://drive.google.com/file/d/1OtYIv3PwBp5naECoxrDhWSXBqym6slgj/view",
+        },
+        {
+          urlName: "Exercise 7.4 Notes",
+          url: "https://drive.google.com/file/d/1pCphz50p6AuhT7kDQovqWUN1lENFKOCs/view",
+        },
+        {
+          urlName: "Exercise 7.5 Notes",
+          url: "https://drive.google.com/file/d/16c3BGx1DmDOtHBtwBvU8Ycgfr4idARTs/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Projection of A Side of a Triangle",
+      urls: [
+        {
+          urlName: "Exercise 8.1 Notes",
+          url: "https://drive.google.com/file/d/1Tye-qGdVrW9HuaglXPR-LyzuTbvBN9EK/view",
+        },
+        {
+          urlName: "Exercise 8.2 Notes",
+          url: "https://drive.google.com/file/d/18Kyyvd-5bHYJvN-AYdg7o1oyGa3egCRK/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Chords of a Circle",
+      urls: [
+        {
+          urlName: "Exercise 9.1 Notes",
+          url: "https://drive.google.com/file/d/1ea2DOarLKHlu-dYDAOxEyyLkMGhl3bG0/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 10 → Tangent to a Circle",
+      urls: [
+        {
+          urlName: "Exercise 10.1 Notes",
+          url: "https://drive.google.com/file/d/1gbQ_rGyjNCzeNW-1xqx2K6fE4cwZbOHr/view",
+        },
+        {
+          urlName: "Exercise 10.2 Notes",
+          url: "https://drive.google.com/file/d/1CjlsYUOlDlEhoKZZPVs0A4ohu_cKltsS/view",
+        },
+        {
+          urlName: "Exercise 10.3 Notes",
+          url: "https://drive.google.com/file/d/1UYKObqFuMXQiHNAKqWjtweNFNiXfo-Pw/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 11 → Chords of a Circle",
+      urls: [
+        {
+          urlName: "Exercise 11.1 Notes",
+          url: "https://drive.google.com/file/d/14eh57D_bqtZPjLkejDgiAjl93SNQVsOx/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 12 → Angle in a Segment of a Circle",
+      urls: [
+        {
+          urlName: "Exercise 12.1 Notes",
+          url: "https://drive.google.com/file/d/15W2Ue7tQ8fS3t0IfTDV06sDkNWmRHtmW/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 13 → Practical Geometry Circles",
+      urls: [
+        {
+          urlName: "Exercise 13.1 Notes",
+          url: "https://drive.google.com/file/d/1ZoJlWeHiYnTdr2odWhxuhqCufVwQRoiA/view",
+        },
+        {
+          urlName: "Exercise 13.2 Notes",
+          url: "https://drive.google.com/file/d/1W9FIxfTuGKHLQpp2hsF1Ksbv6-PuhqAp/view",
+        },
+      ],
+    },
+  ],
 };
 
 function renderData(dataKey, targetElement) {
@@ -3008,3 +3489,6 @@ renderDataTenth("ComputerScience", "Tenth-comp");
 renderDataTenth("Islamyat", "tenth-isl");
 renderDataTenth("PakStudy", "tenth-pak");
 renderDataTenth("Biology", "Tenth-bio");
+renderDataTenth("Chemistry", "Tenth-chem");
+renderDataTenth("Physics", "tenth-phy");
+renderDataTenth("Maths", "tenth-math");
