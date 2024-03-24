@@ -3341,6 +3341,296 @@ const TenthClass = {
   ],
 };
 
+const EleventhClass = {
+  English: [
+    {
+      ChapterName: "Chapter 1 → His First Flight Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1n-UDCp_0EYcT4m5gnaC4uxF0lJM_55lg/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → First Year At Harrow Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1zLQPVO51di56h2fKmTmlLDzdnpyqkrOA/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → September, The First Day of School Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1ObgKl3ruovNtV-veQFh-yeS2twPlMt0E/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → It's Country For Me Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1VrrSvfqyQ5nP7XxnjyUaCjVVjaVjqEN2/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Our Environment Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1Dj2vdevj2h-q_9lzz8MLq2d80k35TBpn/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Tears of Nature Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1ETuPSDMudBuwqE1qyUHDngoVHAHz6XIB/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → The Blanket Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/18RCkYdW8MDYQ-2gyI6xVPF4VxcKiCaYt/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → The Way It Was and Is Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1Qh1bKDAHZsPXji4Wp4QSKvEPH-zIMEuH/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → The Most Beautiful Flower Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1tdxNS4H0cL4w2wV0UsDoubhS35PUz0br/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 10 → The Scholarship Jacket Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1VxCUNv9wVynBh43-YRJ2H7Y8lKNhg5LW/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 11 → A Long Walk Home Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1hjeZC7yYIIEQJXFqNqtcSgMMmM3XDRu8/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 12 → Be The Best of Whatever You Are Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/18ur82TCAhfii7ihVPFk0jm9b20db2QE0/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 13 → Fly Away Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1nPm8pE-yEJPw0TMWAw507kae1_sVCW9o/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 14 → The Man Who Was A Hospital Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/19JQXUcQZDv1NVtfbBrl9HJzb2mYq8mxf/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 15 → When I Am An Old Lady Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1whNbkJLiXWXxRthFutI4_cdAqVLODrYd/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 16 → Finding A Job Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1E7tEAasaJ5vv0WxGxrvY8T0Jux4aQbEI/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 17 → A Stressful Job Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1BvBZAdtj2DMi77RC9QT4qrKunf1FOnKh/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 18 → Writing Letters Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1bGows0_Q7ohy10RqzC1zZnIxlECG4o8M/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 19 → Making An Appointment Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/19F9YoNpMHUA6X2TzhBWGffHx5a8dTpL1/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 20 → At The Dental Reception Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1C0G4xDq5Xl1eIYE2vtuT31Hl9eE_DOHv/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 21 → Dental Checkup Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1peSdEoe83FdY7cg6jRSREjH-sw4XO7ff/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 22 → Dental Hygiene Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1LZTi2iHGK_qj0VJi--kygf2cEjczZMkm/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 23 → Damon and Pythias Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1gzlWgHlgRZYWZQpIeUYEL8TQRZQbqFF9/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Grammar Notes",
+      urls: [
+        {
+          urlName: "Phrasal Verbs Notes",
+          url: "https://drive.google.com/file/d/12YrhXcokTR9koAAaa-luBeuiWOQ2I-Xk/view",
+        },
+        {
+          urlName: "Punctuation Notes",
+          url: "https://drive.google.com/file/d/1_8vyobkZC7VHVo5zFyJRxjsalGT2bIeB/view",
+        },
+        {
+          urlName: "Passages Notes",
+          url: "https://drive.google.com/file/d/1gOKhvGrcEnOMamjNqv6rDgRFLF5NlA1Y/view",
+        },
+        {
+          urlName: "Paragraphs Notes",
+          url: "https://drive.google.com/file/d/1vkyRNyUlk7eBy8m8fRH2B4e-eIDloISB/view",
+        },
+        {
+          urlName: "Applied Grammar Notes",
+          url: "https://drive.google.com/file/d/12YrhXcokTR9koAAaa-luBeuiWOQ2I-Xk/view",
+        },
+        {
+          urlName: "Active and Passive Voice Notes",
+          url: "https://drive.google.com/file/d/19UTSvj16-SS3IiAhRSFNIAMJ-IhEsuiU/view",
+        },
+        {
+          urlName: "The Sentences Grammar Notes",
+          url: "https://drive.google.com/file/d/1Vk-cRiTHBPW7fzQ89Z-2xjVcedd4uIFa/view",
+        },
+        {
+          urlName: "Pair of Words Notes",
+          url: "https://drive.google.com/file/d/1H4KmAM5Ewk-K5XrQovcIEbK98KNAlnz4/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Important Questions from Past Papers",
+      urls: [
+        {
+          urlName: "Important Test 01",
+          url: "https://drive.google.com/file/d/1GZu3CbngYIVMcLsuCRCvLGgZABoGe2zT/view",
+        },
+        {
+          urlName: "Important Test 02",
+          url: "https://drive.google.com/file/d/1qBA0I1xey8e_c5LOGXgAYBTiQFMwSLNR/view",
+        },
+        {
+          urlName: "Important Test 03",
+          url: "https://drive.google.com/file/d/1lrROqjnH0t8Aox0dyhCHH9gotQptOJMH/view",
+        },
+        {
+          urlName: "Important Test 04",
+          url: "https://drive.google.com/file/d/1ikolNnh_u8lw0asX8oOumGsu9AY4MDFO/view",
+        },
+        {
+          urlName: "Important Test 05",
+          url: "https://drive.google.com/file/d/1tH4mGBzIPMdxje8yhscLGguNtNxWLxQL/view",
+        },
+        {
+          urlName: "Important Test 06",
+          url: "https://drive.google.com/file/d/1d1E1EJQ1VvTxPs7YBR4Lx3VgKQR9HBAy/view",
+        },
+        {
+          urlName: "Important Test 07",
+          url: "https://drive.google.com/file/d/1_IWylICGGnNP-3GyCVamVElxpx7py9Fq/view",
+        },
+        {
+          urlName: "Important Test 08",
+          url: "https://drive.google.com/file/d/1MDdq-4shW4Tb5ywuufgsQMwFZEmRfrw3/view",
+        },
+        {
+          urlName: "Important Test 09",
+          url: "https://drive.google.com/file/d/19gJS8mQdKdzKSlPUOiePvi1nIP_YSoba/view",
+        },
+      ],
+    },
+  ],
+};
+
 function renderData(dataKey, targetElement) {
   const data = NinthClass[dataKey]; // e.g NinthClass.Englisg or NinthClass[English]
   const targetDiv = document.getElementById(targetElement);
@@ -3492,3 +3782,71 @@ renderDataTenth("Biology", "Tenth-bio");
 renderDataTenth("Chemistry", "Tenth-chem");
 renderDataTenth("Physics", "tenth-phy");
 renderDataTenth("Maths", "tenth-math");
+
+function renderDataEleventh(dataKey, targetElement) {
+  const data = EleventhClass[dataKey]; // e.g Eleventh.English or TenthClass[English]
+  const targetDiv = document.getElementById(targetElement);
+
+  if (!data || !targetDiv) {
+    console.error("Invalid data key or target element.");
+    return;
+  }
+
+  data.forEach((chapter) => {
+    const chapterDiv = document.createElement("div");
+    chapterDiv.classList.add("chapter-box");
+
+    const chapterTitle = document.createElement("h3");
+    chapterTitle.textContent = chapter.ChapterName;
+
+    const urlsList = document.createElement("ul");
+    urlsList.classList.add("no-active");
+    chapter.urls.forEach((url) => {
+      const listItem = document.createElement("li");
+      const link = document.createElement("a");
+      link.innerHTML = url.urlName;
+      link.href = url.url;
+      link.target = "_blank"; // Open link in a new tab
+      listItem.appendChild(link);
+      urlsList.appendChild(listItem);
+    });
+
+    chapterDiv.appendChild(chapterTitle);
+    chapterDiv.appendChild(urlsList);
+    targetDiv.appendChild(chapterDiv);
+  });
+  let cls = "11th";
+  let sub = dataKey;
+  let text = document.createElement("p");
+  text.innerHTML = `
+  <p>
+  Many of the students prepare notes for their exams better preparation for scoring higher marks in all subjects. So, you need to learn and prepare these ${cls} Class ${sub} notes chapter wise. All ${cls} Class chapters wise MCQS, Short and Long Question Answers are available in PDF and online MCQs quiz Tests. You are here on right place for better preparation of ${cls} class KPK Boards in PDF. 
+  </p>
+
+<p>
+All of ${cls} Class ${sub} Notes in PDF we have uploaded on our website, MASHALWEB, All of study notes chapter wise are available here on our website according to your Provinces Boards. All learning materials ${sub} Chapter Wise Notes are freely available here in PDF format.
+</p>
+
+<p>
+You can easily Learn and Download ${sub} ${cls} Class PDF Chapter Wise Notes without any cost. There is no any cost to pay for downloading these ${sub} Notes of ${cls} Class. ${cls} Class Science and Arts notes are available here with ${sub} and ${sub} Medium according to your syllabus are available here.
+</p>
+
+<p>
+Many of students feel difficult to learning ${sub} subject because some subjects are challenging for students. These notes are helpful for you for learning and preparing. All ${cls} Class ${sub} Chapter wise solved exercise are available here. You can also easily prepare ${cls} Class Chapter Wise Past Papers MCQs Quizzes. All Solved MCQs Chapter Wise Quiz tests are available here of KPK Board ${sub} Subject.
+</p>
+
+<p>
+All of these ${sub} ${cls} Class Notes are made by the higher qualified and experienced Teachers. All ${sub} Chapters definitions, MCQS, Short Questions, Long Questions are available in PDF form for students.
+
+The easy and best way for learning these notes are to design all of ${sub} notes according to your requirement. These ${sub} notes are high quality in PDF that makes easily for Printout in hardcopy for better reading.
+
+</p>
+<p>
+On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class all subjects notes are also available here with all Pakistan Boards in PDF. All of ${sub} Notes are made by experienced and great teachers of Govt and Private Colleges and Schools.
+</p>
+  `;
+
+  document.querySelector(".engCont").appendChild(text);
+}
+
+renderDataEleventh("English", "eleventh-eng");

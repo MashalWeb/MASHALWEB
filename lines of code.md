@@ -11,6 +11,7 @@ Total Line = 12,733;
  CSS
 Total Line = 3,137;
 ```
+
 ## total lines of CSS code but nont completed
 
 ```java
@@ -18,166 +19,208 @@ Total Line = 3,137;
 Total Line = 883;
 ```
 
-## DATA OBJECT 
+## DATA OBJECT
 
 ```json
 {
-    "coord": {
-        "lon": 72.0315,
-        "lat": 34.6537
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 8.92,
-        "feels_like": 7.18,
-        "temp_min": 8.92,
-        "temp_max": 8.92,
-        "pressure": 1020,
-        "humidity": 52,
-        "sea_level": 1020,
-        "grnd_level": 908
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 3.06,
-        "deg": 15,
-        "gust": 2.54
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1710554749,
-    "sys": {
-        "country": "PK",
-        "sunrise": 1710552062,
-        "sunset": 1710595200
-    },
-    "timezone": 18000,
-    "id": 1183090,
-    "name": "Chakdara",
-    "cod": 200
+  "coord": {
+    "lon": 72.0315,
+    "lat": 34.6537
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 8.92,
+    "feels_like": 7.18,
+    "temp_min": 8.92,
+    "temp_max": 8.92,
+    "pressure": 1020,
+    "humidity": 52,
+    "sea_level": 1020,
+    "grnd_level": 908
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.06,
+    "deg": 15,
+    "gust": 2.54
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1710554749,
+  "sys": {
+    "country": "PK",
+    "sunrise": 1710552062,
+    "sunset": 1710595200
+  },
+  "timezone": 18000,
+  "id": 1183090,
+  "name": "Chakdara",
+  "cod": 200
 }
 ```
 
 ## 9th class computer science data
 
 ```javascript
-
 const chapterLinks = {
   "Chapter 1 → Fundamentals of Computer": {
-    shortQuestionsAnswers: "https://drive.google.com/file/d/1pmvC96dMpXfDRo6I_AjkwwbMpYS351Pj/view",
-    fullExerciseSolved: "https://drive.google.com/file/d/18WCbjyyugN_EcYMrU2mUouTLygEekWR3/view"
+    shortQuestionsAnswers:
+      "https://drive.google.com/file/d/1pmvC96dMpXfDRo6I_AjkwwbMpYS351Pj/view",
+    fullExerciseSolved:
+      "https://drive.google.com/file/d/18WCbjyyugN_EcYMrU2mUouTLygEekWR3/view",
   },
   "Chapter 2 → Fundamentals of Operating System": {
-    shortQuestionsAnswers: "https://drive.google.com/file/d/1hIPWnX1Nh3n0CCsFhd1e3Zt9TEJrOt5i/view",
-    fullExerciseSolved: "https://drive.google.com/file/d/1qTttwMZ3tvtlapBLpGDEFXZnLV_FDEK9/view"
+    shortQuestionsAnswers:
+      "https://drive.google.com/file/d/1hIPWnX1Nh3n0CCsFhd1e3Zt9TEJrOt5i/view",
+    fullExerciseSolved:
+      "https://drive.google.com/file/d/1qTttwMZ3tvtlapBLpGDEFXZnLV_FDEK9/view",
   },
   "Chapter 3 → Office Automation": {
-    fullExerciseSolved: "https://drive.google.com/file/d/1seR8kPu7decpVILisXpgEXhKaVpJadiK/view"
+    fullExerciseSolved:
+      "https://drive.google.com/file/d/1seR8kPu7decpVILisXpgEXhKaVpJadiK/view",
   },
   "Chapter 4 → Data Communication": {
-    shortQuestionsAnswers: "https://drive.google.com/file/d/10CXKFV9kSymDV5_Uix-tcO3zUuNABSkp/view",
-    fullExerciseSolved: "https://drive.google.com/file/d/1Qjq2QSu0DCu5NpFpKqsL0PeJClAWCQdh/view"
+    shortQuestionsAnswers:
+      "https://drive.google.com/file/d/10CXKFV9kSymDV5_Uix-tcO3zUuNABSkp/view",
+    fullExerciseSolved:
+      "https://drive.google.com/file/d/1Qjq2QSu0DCu5NpFpKqsL0PeJClAWCQdh/view",
   },
   "Chapter 5 → Computer Networks": {
-    shortQuestionsAnswers: "https://drive.google.com/file/d/1aGML_DcxFQvbbC1e6L8UIdTFogdJ1bSv/view",
-    fullExerciseSolved: "https://drive.google.com/file/d/1_KxG7Fng7FXlhJyYDUXdLxQv3WMg98Eb/view"
+    shortQuestionsAnswers:
+      "https://drive.google.com/file/d/1aGML_DcxFQvbbC1e6L8UIdTFogdJ1bSv/view",
+    fullExerciseSolved:
+      "https://drive.google.com/file/d/1_KxG7Fng7FXlhJyYDUXdLxQv3WMg98Eb/view",
   },
   "Chapter 6 → Computer Security and Ethics": {
-    shortQuestionsAnswers: "https://drive.google.com/file/d/19BTEWuinYIUyhy01xRtCwELCP3GqeSPK/view",
-    fullExerciseSolved: "https://drive.google.com/file/d/18WvtDTK_ssJVQdC6Mt54VRDill_PlX2T/view"
+    shortQuestionsAnswers:
+      "https://drive.google.com/file/d/19BTEWuinYIUyhy01xRtCwELCP3GqeSPK/view",
+    fullExerciseSolved:
+      "https://drive.google.com/file/d/18WvtDTK_ssJVQdC6Mt54VRDill_PlX2T/view",
   },
   "Full Book Important Abbreviations Notes": {
-    fullBookExerciseNotes: "https://drive.google.com/file/d/1txHcHXP09KWBWpyqmC9i-w_lrSwryriL/view"
+    fullBookExerciseNotes:
+      "https://drive.google.com/file/d/1txHcHXP09KWBWpyqmC9i-w_lrSwryriL/view",
   },
   "Full Book Glossary Definitions Notes": {
-    allExercisesGlossaryNotes: "https://drive.google.com/file/d/1JiyVBaag5PguWtMFJPx7DCYbM1wPkM_E/view"
-  }
+    allExercisesGlossaryNotes:
+      "https://drive.google.com/file/d/1JiyVBaag5PguWtMFJPx7DCYbM1wPkM_E/view",
+  },
 };
-
 ```
+
 ## ninth class islamyat data
+
 ```javascript
 const contentObject = {
   "Quran Majeed Portion": {
-    "Surah Al Anfaal Ayaat 1-10 URDU Medium Notes": "https://drive.google.com/file/d/1Wwvc3Dsi4_5KXcKrnbY7Vzw4wMk0_I9Y/view",
-    "Surah Al Anfaal Ayaat 11-19 URDU Medium Notes": "https://drive.google.com/file/d/1IzD3gcMuyDxk5HrSc1WEZN_wE4g7Rskx/view",
-    "Surah Al Anfaal Ayaat 29-37 URDU Medium Notes": "https://drive.google.com/file/d/1IRpb58DJ2EUpcsxYj2tErJU4Lc7ribib/view",
-    "Surah Al Anfaal Ayaat 38-44 URDU Medium Notes": "https://drive.google.com/file/d/16WNR7n-c4cPN9wDmhSZ-7flXhi86NNo0/view",
-    "Surah Al Anfaal Ayaat 45-48 URDU Medium Notes": "https://drive.google.com/file/d/1aDLjZFo_6u46XD3t_rBQ-EsS_dhw5Y6V/view",
-    "Surah Al Anfaal Ayaat 49-58 URDU Medium Notes": "https://drive.google.com/file/d/1Q4kjzVz_wk8AQqzL9JbP_xlMepFIX62h/view",
-    "Surah Al Anfaal Ayaat 59-64 URDU Medium Notes": "https://drive.google.com/file/d/1v-H41A4yqZRLCFblVEYfMXnEQLcrRUm0/view",
-    "Surah Al Anfaal Ayaat 65-69 URDU Medium Notes": "https://drive.google.com/file/d/1S5yRwb3LkY3n-JMdaDxmXgA4EFzIFBxI/view",
-    "Surah Al Anfaal Ayaat 70-75 URDU Medium Notes": "https://drive.google.com/file/d/1LlGTdjTqOPW9tvvsxMy8nOHxdA-AyinO/view",
-    "Surah Al Anfaal Solved MCQs With Answers": "https://drive.google.com/file/d/1KBlRMClH0_OutHe_WSS3G6UJ-nTgYGpJ/view",
-    "Surah Al Anfaal Solved Chapter Notes": "https://drive.google.com/file/d/1gsw42vYr494Vs0bJnO2UxnsHSAfI-cKe/view"
+    "Surah Al Anfaal Ayaat 1-10 URDU Medium Notes":
+      "https://drive.google.com/file/d/1Wwvc3Dsi4_5KXcKrnbY7Vzw4wMk0_I9Y/view",
+    "Surah Al Anfaal Ayaat 11-19 URDU Medium Notes":
+      "https://drive.google.com/file/d/1IzD3gcMuyDxk5HrSc1WEZN_wE4g7Rskx/view",
+    "Surah Al Anfaal Ayaat 29-37 URDU Medium Notes":
+      "https://drive.google.com/file/d/1IRpb58DJ2EUpcsxYj2tErJU4Lc7ribib/view",
+    "Surah Al Anfaal Ayaat 38-44 URDU Medium Notes":
+      "https://drive.google.com/file/d/16WNR7n-c4cPN9wDmhSZ-7flXhi86NNo0/view",
+    "Surah Al Anfaal Ayaat 45-48 URDU Medium Notes":
+      "https://drive.google.com/file/d/1aDLjZFo_6u46XD3t_rBQ-EsS_dhw5Y6V/view",
+    "Surah Al Anfaal Ayaat 49-58 URDU Medium Notes":
+      "https://drive.google.com/file/d/1Q4kjzVz_wk8AQqzL9JbP_xlMepFIX62h/view",
+    "Surah Al Anfaal Ayaat 59-64 URDU Medium Notes":
+      "https://drive.google.com/file/d/1v-H41A4yqZRLCFblVEYfMXnEQLcrRUm0/view",
+    "Surah Al Anfaal Ayaat 65-69 URDU Medium Notes":
+      "https://drive.google.com/file/d/1S5yRwb3LkY3n-JMdaDxmXgA4EFzIFBxI/view",
+    "Surah Al Anfaal Ayaat 70-75 URDU Medium Notes":
+      "https://drive.google.com/file/d/1LlGTdjTqOPW9tvvsxMy8nOHxdA-AyinO/view",
+    "Surah Al Anfaal Solved MCQs With Answers":
+      "https://drive.google.com/file/d/1KBlRMClH0_OutHe_WSS3G6UJ-nTgYGpJ/view",
+    "Surah Al Anfaal Solved Chapter Notes":
+      "https://drive.google.com/file/d/1gsw42vYr494Vs0bJnO2UxnsHSAfI-cKe/view",
   },
   "Ahadees Portion": {
-    "Ahdeeth MCQs Solved Notes": "https://drive.google.com/file/d/1tqHFYMaXdrNhQp68ol03FSYDWokx0YUl/view",
-    "Ahdeeth Solved Question Answers": "https://drive.google.com/file/d/1IbRPmg6D10UfQoXKp5znW-eIXxKr2EqN/view"
+    "Ahdeeth MCQs Solved Notes":
+      "https://drive.google.com/file/d/1tqHFYMaXdrNhQp68ol03FSYDWokx0YUl/view",
+    "Ahdeeth Solved Question Answers":
+      "https://drive.google.com/file/d/1IbRPmg6D10UfQoXKp5znW-eIXxKr2EqN/view",
   },
   "Chapter 1": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1dfKb2W-BxAbrD6R605ppNSNC7ttukGTy/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1dfKb2W-BxAbrD6R605ppNSNC7ttukGTy/view",
   },
   "Chapter 2": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1goqcd3kwSoz6BPhedo2jXKvFIU81egeI/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1goqcd3kwSoz6BPhedo2jXKvFIU81egeI/view",
   },
   "Chapter 3": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1295rLXqo0JhJx54zNnO7Sf6l5UaIIbh3/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1295rLXqo0JhJx54zNnO7Sf6l5UaIIbh3/view",
   },
   "Chapter 4": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1eCV7M-FH-Sz1gfjYk0QIYfrfUwYMoDBv/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1eCV7M-FH-Sz1gfjYk0QIYfrfUwYMoDBv/view",
   },
   "Important Questions & Answers": {
-    "Islamiyat Past Papers Question Answers Test 1": "https://drive.google.com/file/d/1GAI3BFHeA5kIjPzU6nbdLJKGNifswUja/view",
-    "Islamiyat Past Papers Question Answers Test 2": "https://drive.google.com/file/d/1D17vhzrwVcWfxrjNmyYhKVY-B2saTNlV/view"
-  }
+    "Islamiyat Past Papers Question Answers Test 1":
+      "https://drive.google.com/file/d/1GAI3BFHeA5kIjPzU6nbdLJKGNifswUja/view",
+    "Islamiyat Past Papers Question Answers Test 2":
+      "https://drive.google.com/file/d/1D17vhzrwVcWfxrjNmyYhKVY-B2saTNlV/view",
+  },
 };
 
 console.log(contentObject);
-
 ```
 
 ## ninth class pakstudy data
-```javascript 
 
+```javascript
 const contentObject = {
   "Chapter 1 → Ideological Basis of Pakistan Notes": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1Wz7uyrs13G2Ye9SfbegIEhWEp3lNHsCc/view",
-    "Objective Type MCQs With Answers": "https://drive.google.com/file/d/1jqfFAllnbPnLGVhRAHAQ_5AUPnJQhoa8/view",
-    "Short Questions & Answers": "https://drive.google.com/file/d/1A2O4oZSmbPYA6QXk0HnM5Bdiuk6qqVHg/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1Wz7uyrs13G2Ye9SfbegIEhWEp3lNHsCc/view",
+    "Objective Type MCQs With Answers":
+      "https://drive.google.com/file/d/1jqfFAllnbPnLGVhRAHAQ_5AUPnJQhoa8/view",
+    "Short Questions & Answers":
+      "https://drive.google.com/file/d/1A2O4oZSmbPYA6QXk0HnM5Bdiuk6qqVHg/view",
   },
   "Chapter 2 → Making of Pakistan Notes": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1RUzSg5aL1dmKw2wQc2cVDE68FmXAQlCb/view",
-    "Objective Type MCQs With Answers": "https://drive.google.com/file/d/1_MAZQiY83LH3QwzSvU-JaE1_2u-EKuIS/view",
-    "Short Questions & Answers": "https://drive.google.com/file/d/15EsPOHCVo7PXLapJNe2eIiUUdS-gFDPi/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1RUzSg5aL1dmKw2wQc2cVDE68FmXAQlCb/view",
+    "Objective Type MCQs With Answers":
+      "https://drive.google.com/file/d/1_MAZQiY83LH3QwzSvU-JaE1_2u-EKuIS/view",
+    "Short Questions & Answers":
+      "https://drive.google.com/file/d/15EsPOHCVo7PXLapJNe2eIiUUdS-gFDPi/view",
   },
   "Chapter 3 → Land and Environment Notes": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1YhgbjNj12Osv30ho_N9wP_dJdVt52J6p/view",
-    "Objective Type MCQs With Answers": "https://drive.google.com/file/d/1XghZfw3cX0AAFaRojflGHedfHJvNtJfT/view",
-    "Short Questions & Answers": "https://drive.google.com/file/d/1uSJy0b1umLxGIZY_o42dHXx1dSw2T_Cq/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1YhgbjNj12Osv30ho_N9wP_dJdVt52J6p/view",
+    "Objective Type MCQs With Answers":
+      "https://drive.google.com/file/d/1XghZfw3cX0AAFaRojflGHedfHJvNtJfT/view",
+    "Short Questions & Answers":
+      "https://drive.google.com/file/d/1uSJy0b1umLxGIZY_o42dHXx1dSw2T_Cq/view",
   },
   "Chapter 4 → History of Pakistan (Part-1) Notes": {
-    "Full Chapter Notes": "https://drive.google.com/file/d/1dyEsXOtVaOR5TKcr0jznpnw4QipBN5Fd/view",
-    "Objective Type MCQs With Answers": "https://drive.google.com/file/d/1IEtvRH1ThN-z7MdQIS1QQIXqVJuYtLiX/view",
-    "Short Questions & Answers": "https://drive.google.com/file/d/1NQSbGUlZTABnm75EP8KDRv_SCqueT7D6/view"
+    "Full Chapter Notes":
+      "https://drive.google.com/file/d/1dyEsXOtVaOR5TKcr0jznpnw4QipBN5Fd/view",
+    "Objective Type MCQs With Answers":
+      "https://drive.google.com/file/d/1IEtvRH1ThN-z7MdQIS1QQIXqVJuYtLiX/view",
+    "Short Questions & Answers":
+      "https://drive.google.com/file/d/1NQSbGUlZTABnm75EP8KDRv_SCqueT7D6/view",
   },
   "Full Book Important Maps for Exams Papers Notes": {
-    "Pakistan Maps Important Notes": "https://drive.google.com/file/d/1TZ5E32marhQV5JJnn_v3TzHGgknb5dzn/view"
-  }
+    "Pakistan Maps Important Notes":
+      "https://drive.google.com/file/d/1TZ5E32marhQV5JJnn_v3TzHGgknb5dzn/view",
+  },
 };
 
 console.log(contentObject);
-
-
 ```
 
 # Javascript Function to remove all ancor tages from html code
@@ -225,3 +268,21 @@ In this function:
 You can pass any HTML code to the `extractAnchorTags` function, and it will return an array of `href` values from the anchor tags present in the HTML code.
 
 ```
+
+### Content Genrated by AI
+
+We offer high-quality PDF notes for Khyber Pakhtunkhwa Board students from 9th to 12th grade in both English and Urdu medium. These notes are chapter-wise and designed according to the latest syllabus. You can easily download and print them out for your convenience. We cover all subjects, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan Studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. In addition to that, we also provide solved previous years' papers for 9th, 10th, 11th, and 12th classes.
+
+Our notes are concise and easy to understand with definitions and question-answer solutions. We also have MCQ quizzes for each chapter to help you practice and learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.
+
+To make the learning process easy, we have provided simple steps that you can follow to learn the question answers. You can also highlight the important points using different colors like red or green highlighters to easily remember difficult questions. We have different writers' notes available on our website, and you can take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, and short and long question answers.
+
+Our notes are freely available on MashalWeb, and you can study them to get more than 80% Marks in each subject. If you are a teacher, you can suggest these notes to your students, and if you are a student, you can share these notes with your classmates for better and excellent achievement in final year exams Papers.
+
+### single chapter content
+
+Students often prepare notes to do well in their exams and score high marks in all subjects. For better preparation of 9th Class English, you can learn and prepare chapter-wise notes. All the MCQs, short and long question answers for each chapter are available in PDF format, along with online MCQ quizzes. You can easily access these materials for free on our website, MASHALWEB, and download them in PDF format. We have uploaded all the 9th class English notes according to your provincial boards.
+
+We understand that some students find English challenging, and that's why we have made these notes to help you learn and prepare. All the chapter-wise solved exercises are available here, and you can also prepare for past papers and MCQ quizzes. We have made sure that all the notes are of high quality and designed according to your requirements, so you can easily print them out for better reading.
+
+All the English 9th class notes available on our website are made by highly qualified and experienced teachers from both government and private colleges and schools. We have also made available notes for all other subjects for all Pakistan Boards in PDF format.
