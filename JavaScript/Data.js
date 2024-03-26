@@ -3629,6 +3629,491 @@ const EleventhClass = {
       ],
     },
   ],
+  Urdu: [
+    {
+      ChapterName: "Chapter 1 → Apni Madad Aap Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1xizQASQoRC7e0jEwG-HYeotfNSO4W4o7/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Jhootay Aadmi Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/19aCRT95Qqn1ub59ySoa7m6PcIWHalmVn/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Nazria e Pakistan Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1BCsma69E7hEj05Pe0yIz-kYL8rK7cA7r/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Pakistani Qomiat Ka Masla Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1P0sgVh96CYewd1z1XCwZanA2KdCEedCP/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Kuch Adab K Baray Mein Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1xDeJpWq56-zDSDzzM-OwSSeDz-fcu1-l/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Lamha e Fikriya Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1S35OOnHfbmy76vLA112iTs3sJkVOfQMP/view",
+        },
+      ],
+    },
+    {
+      ChapterName:
+        "Chapter 7 →Daroga ji ki Pancho Aungliyan or Sar Karhai Mein Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1KzgABntQ2W_x5tbAq0JnhjjTY4Cgc9ew/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Aangan Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/157GFY6FXihXcfg2GiV56bQt8ut-Gk3ei/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Khoobsurat Bala Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1vDrzgGG34XsGiYdhq5kxqfEQER7GdOQc/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 10 → Taleem e Balighan Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1mq_x68Oj8JXJG7m-splOCt5N45FWPhob/view",
+        },
+      ],
+    },
+    {
+      ChapterName:
+        "Chapter 11 → Shairaz Aur Kanar Aab Rukna Badu Waghaira Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1_hhFu90XnOWuBqUkbIQPh8aKQa7zXzZk/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 12 → Rome → Zinda Shehar, Murda Shehar Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1pvv1eGd5jB72JRu-HTtN3p7yKSz5qeIK/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 13 → Lalchi Wazeer Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1yJN3YTp6JDA66qACLmUJreYmDzD78iKh/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 14 → Makateeb → Mirza Ghalib Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/1kDGzP4sSQEYDn8k6j1Ay3wsDSBawQzxZ/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 15 → Allama Iqbal Notes",
+      urls: [
+        {
+          urlName: "Complete Exercise Notes",
+          url: "https://drive.google.com/file/d/15mWUS38jrXe-38b2qbUF5oowQsMgErC6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 1 → Hamd Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1Svd-olUe-BBWAF8OHnbWUQyBKMJDCXlh/view",
+        },
+        {
+          urlName: "Nazam Tashreeh",
+          url: "https://drive.google.com/file/d/1CE-ZuXa7OHWaLCv2COvqyLNwAwP516cr/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 2 → Naat Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1kSpp2Gte8-bivRogE6kQ6FD-dxv1om_b/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1CIAGRPtvCgndxgYsG-Poxr97BeT4UW5q/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 3 → Shehar Ashob Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1wcCDGQA_k_2n9PITQ1z41rcO4nSVocrO/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1MGBmYZr63QYuou9UWr0ULKPOszLh2h9D/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 4 → Shehzaday Ka Chat Pr Sona Aur Pari K Hathoo Aghwa Hona Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1vLFlO0MjbBb6jaLwO-SZtxKHwmqgp4G1/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1dOmS2hrvlxhphWIa5OGdWty23nsbN9A2/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 5 → Dur e Murad Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/14Oe12L3YzaxgRdeNSL9_CCMgTPGbWKis/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/19lGBdP7WyXqs2UCBSR0TwcJHgxe3nTCX/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 6 → Takht e Faras Pe Ali Akbar Ka Khitaab Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1Tady033ydS94OdfsnIOy8lbWdmaJS-Bm/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1baJ9-38H-1mhYy_NZkWOn2heZXatq_MC/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 7 → Umeed Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/14o9OQ999EQqvanvlIxCA-wn6pRdSP6yI/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1YUPa1e0aegtmHvCaqNhDojQ-M4dNyLei/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 8 → Naseehat e Ikhlaaqi Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1hK_8DmcXBx-0QUgtOP1gnp35cqBNhuF_/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1g971K3UfdawbwilMb55xRAH9WH9SBnTl/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 9 → Jalwa Sehar Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1NP81CqHp3ZswCryQszovjQQG4tfKUycB/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/144tac-XVTGXfSbF4g8PpgvXd8tfp88l9/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 10 → Purana Coat Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1DsxvEK_YqSPLTadbLxpbA1Budkp4N6c7/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/14wxzAVBOUD1KnlMGEz-V2VcxrOoqtDc8/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 11 → Yeh Sarkain Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/19PMubuL9zxU3FwoLEfA04J6W07lDnqLE/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1aJZn8E5wSLXNZUiTE6q7l1T1Y5ISKQ2W/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 12 → Qitaat Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1o4OODJu9mDTKB3biQQmWDq9-fZBlXKY-/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1rGZ_iuAaDRGAj1qYFAdCfpvcjwHIMAja/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Nazm 13 → Ikhlaas Notes",
+      urls: [
+        {
+          urlName: "Complete Nazm Notes",
+          url: "https://drive.google.com/file/d/1SwVAAmQo00L0kl6otGdNYNw41xi_dMnx/view",
+        },
+        {
+          urlName: "Nazam Question Answer",
+          url: "https://drive.google.com/file/d/1jCQT50Pv4aAD6QdxOTNViK20SA20ef9e/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Ghazal 1 → Faqirana Aye Sada Kar Chalay Notes",
+      urls: [
+        {
+          urlName: "Complete Ghazal Notes",
+          url: "https://drive.google.com/file/d/1ROZgz4b4ogJaSlscMTFg-Enp7z1JtjsD/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Ghazal 1 → Peeri Mein Kia Jawani K Mausam Ko Royie Notes",
+      urls: [
+        {
+          urlName: "Complete Ghazal Notes",
+          url: "https://drive.google.com/file/d/1MXLWkkFnEiUT0Q6QzBq66YuGnDPtsY7r/view",
+        },
+        {
+          urlName: "Ghazal Question Answers",
+          url: "https://drive.google.com/file/d/1kdFF3paBRrC8GfIzY_oL77BPu718ecSV/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Ghazal 2 → Qatal Ashiq Kisi Mashooq Se Kuch Dard Na Tha Notes",
+      urls: [
+        {
+          urlName: "Complete Ghazal Notes",
+          url: "https://drive.google.com/file/d/13YTzU3wbEO3Hv-PpdNrY9qeRMVrmFVr7/view",
+        },
+        {
+          urlName: "Ghazal Question Answers",
+          url: "https://drive.google.com/file/d/1vzxaxG0pCcazb6UrQkdaWo4UZxWnlM5U/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Ghazal 3 → Naga Chaman Mein Jb Wo Gul Andaam Agya Notes",
+      urls: [
+        {
+          urlName: "Complete Ghazal Notes",
+          url: "https://drive.google.com/file/d/1wJR11TpYn8JBpyyALmzcNDQHl1xmiYC9/view",
+        },
+        {
+          urlName: "Ghazal Question Answers",
+          url: "https://drive.google.com/file/d/1mkeujKpgBBSmvwD0ugUhybZR8R8klkmG/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Ghazal 4 → Daim Para Hua Teray Dr Pr Nahin Hoon Mein Notes",
+      urls: [
+        {
+          urlName: "Complete Ghazal Notes",
+          url: "https://drive.google.com/file/d/1MkqTdsA1D1FBZrzypmEJrcudVT1mMrnN/view",
+        },
+        {
+          urlName: "Ghazal Question Answers Notes",
+          url: "https://drive.google.com/file/d/1aAXtl_5_7ZAZv_XIgm8MwIc9Kq6ep8ru/view",
+        },
+
+      ],
+    },
+    {
+      ChapterName: "Ghazal 5 → Ayena Apni Nazar Se Na Juda Honay Do Notes",
+      urls: [
+        {
+          urlName: "Complete Ghazal Notes",
+          url: "https://drive.google.com/file/d/1uuSc3ymu890gCAA2z4exunvMiWO2zb4a/view",
+        },
+        {
+          urlName: "Ghazal Question Answers",
+          url: "https://drive.google.com/file/d/1yx4EPnZaODsKofmunpRdXuSyLpI6K04f/view",
+        },
+
+      ],
+    },
+    {
+      ChapterName: "Important MCQs Notes",
+      urls: [
+        {
+          urlName: "Important MCQs Notes 1",
+          url: "https://drive.google.com/file/d/18M8d_888B9v34ppyopfW-tzlsa8UPUp_/view",
+        },
+        {
+          urlName: "Important MCQs Notes 2",
+          url: "https://drive.google.com/file/d/10hXKgpZxWsrh_lAxXtnMD3ERG7JAVFfI/view",
+        },
+        {
+          urlName: "Important MCQs Notes 3",
+          url: "https://drive.google.com/file/d/1-p3xXQ9YXU0X_Lf_SwSPtTNsLnJRfE74/view",
+        },
+        {
+          urlName: "Important MCQs Notes 4",
+          url: "https://drive.google.com/file/d/1jqsh2va0wwX0rgRpfDDVjde-5sK7llm3/view",
+        },
+        {
+          urlName: "Important MCQs Notes 5",
+          url: "https://drive.google.com/file/d/1aD68f2pwOwiMFdySxjnksDFHsSt4fs2m/view",
+        },
+        {
+          urlName: "Important MCQs Notes 6",
+          url: "https://drive.google.com/file/d/1glncaCZUGI2I2K2RmkQ9a4KD3QDWdZ3g/view",
+        },
+        {
+          urlName: "Important MCQs Notes 7",
+          url: "https://drive.google.com/file/d/1TbdWmHYqDNqccGEfdASblM00VaMsJZuX/view",
+        },
+        {
+          urlName: "Important MCQs Notes 8",
+          url: "https://drive.google.com/file/d/1c7lBNtd74dAFjCzedvXVjDCWKGysWbiB/view",
+        },
+        {
+          urlName: "Important MCQs Notes 9",
+          url: "https://drive.google.com/file/d/1qqHu772PDbV-Zy7Ow1wdyvAEhunwC_kb/view",
+        },
+        {
+          urlName: "Important MCQs Notes 10",
+          url: "https://drive.google.com/file/d/16K51NwOdv9rZOhr-c0NDhnHi4FQQeriJ/view",
+        },
+
+      ],
+    },
+    {
+      ChapterName: "Important Objective Questions Notes",
+      urls: [
+        {
+          urlName: "Grammar Short QA Part 1",
+          url: "https://drive.google.com/file/d/1IA_2ahFJKyuvnZs0JkrMXKueEJBWIp8g/view",
+        },
+        {
+          urlName: "Grammar Shrot QA Part 2",
+          url: "https://drive.google.com/file/d/1yx4EPnZaODsKofmunpRdXuSyLpI6K04f/view",
+        },
+        {
+          urlName: "Grammar Shrot QA Part 3",
+          url: "https://drive.google.com/file/d/11zbvKJZKjA5TWIM4FYP9_WbxIn2-572B/view",
+        },
+
+      ],
+    },
+    {
+      ChapterName: "Grammar Notes",
+      urls: [
+        {
+          urlName: "Applications",
+          url: "https://drive.google.com/file/d/1J-cte7nCg5DoL398UI4a4msPYyZvNRzP/view",
+        },
+        {
+          urlName: "Mukalmaa",
+          url: "https://drive.google.com/file/d/1pYQEJcFAnwzfMtbA168G_twj_OjkHBrG/view",
+        },
+        {
+          urlName: "Grammar Notes 2",
+          url: "https://drive.google.com/file/d/1hFXw7rGt4Yv77S9I66wTcoI6dUVLOmjf/view",
+        },
+        {
+          urlName: "Qawaid O Inshaa",
+          url: "https://drive.google.com/file/d/1w394DEcZLUdEgz2hnDlU4Wzfe2dUBNhe/view",
+        },
+        {
+          urlName: "Raseed",
+          url: "https://drive.google.com/file/d/1Eq8P1_5zCbwPdEq9EhCWne5Vlvq9YpXv/view",
+        },
+        {
+          urlName: "Rooh Daad",
+          url: "https://drive.google.com/file/d/1Q3jsoBUanVjs9wdaXhvr3KLaqlEPzmUN/view",
+        },
+        {
+          urlName: "Tankhees Nigaari",
+          url: "https://drive.google.com/file/d/1v70xOKw51PdDxk3mp8_4zEhm2D0SxwFw/view",
+        },
+        {
+          urlName: "Tazkeer O Tanees",
+          url: "https://drive.google.com/file/d/1v70xOKw51PdDxk3mp8_4zEhm2D0SxwFw/view",
+        },
+      ],
+    },
+  ],
 };
 
 function renderData(dataKey, targetElement) {
@@ -3850,3 +4335,4 @@ On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class a
 }
 
 renderDataEleventh("English", "eleventh-eng");
+renderDataEleventh("Urdu", "eleventh-urd");

@@ -1,94 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const glightbox = GLightbox({
-    selector: ".glightbox",
-  });
-
-  new PureCounter();
-
-  new Swiper(".clients-slider", {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
-    slidesPerView: "auto",
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 60,
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 80,
-      },
-      992: {
-        slidesPerView: 6,
-        spaceBetween: 120,
-      },
-    },
-  });
-
-  new Swiper(".slides-1", {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    slidesPerView: "auto",
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-
-  new Swiper(".slides-3", {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    slidesPerView: "auto",
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 40,
-      },
-
-      1200: {
-        slidesPerView: 3,
-      },
-    },
-  });
-});
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     }
@@ -96,11 +7,6 @@ const observer = new IntersectionObserver((entries) => {
 });
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
-let metaData = document.createElement("meta");
-metaData.setAttribute("property", "og:type");
-metaData.setAttribute("content", "article");
-console.log(metaData);
-document.querySelector("head").appendChild(metaData);
 let icons = document.getElementById("icons");
 let fl = 1;
 icons.addEventListener("click", () => {
