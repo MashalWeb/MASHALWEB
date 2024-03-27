@@ -4114,7 +4114,191 @@ const EleventhClass = {
       ],
     },
   ],
-};
+  ComputerScience: [
+    {
+      ChapterName: "Chapter 1 → Overview of Computer Systems Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1SQhFyy9KHbu1YqpZaMg9L2PIxj34l-UX/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1SPuigZHfk53cKeIsRKMogvXBs3sWmmbf/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/1vgnY_qPgZUDt-y5eOvKfXKS1Cp3liuBh/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1bTQ5mYW9pzOyoAUg-SulJyaf2gHGziqA/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Computer Memory Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1AVloa481LH7l6ALUVtJzwGBcgGeiMA2D/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1-m24s03l2E6TbLw9sXo21s3Mjfe0OiC5/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/1yhO0ST9yghKhBlKgTHOD2DTvlsYtzmcQ/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1WuiQJq6ZdTucBMc9WXA4sFFxYt2TVTYo/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Central Processing Unit Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1RW7WNQMeYhO3Nw8hFBXWoVCijvGG89Ri/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1XaXalza1STctuapLlvzPNxTzyvstqPB2/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/1E8KVn7i8c-ZLx2cpAG0aT7g1jB-l0mIA/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1d-5eCDdZeWexHewSWkjq0gBtjC_6s7Lm/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Inside System Unit Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1tr3brajfHbb_LBTcVqLzUWhQW_LKX2Dk/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1g7FaEW7t2w0mO0oTm8kt7vqAdpKG4kXb/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/1ejJS5BgNdYvH90QKRgkSUZekK4N4YCBT/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1Mvw1U8E11ppuTe7r2Gez93pAHnfrjqUD/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Network Communication and Protocols Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/17ZekdJmADdddztTwQFQToh_Ocip4gMKT/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1FmQ6cz3Oq1y9J7XTDJK9fvA4FmxLYLcf/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/1VD3In6-YO0TMnfZcHnWwWprRXdT-iEML/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1U45qCOVljqrcPpuW2rlgNegN01SFcJ-_/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Wireless Communications Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1qjzDHh2Nfukd28ynxKyesVNAv0XDBGhR/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1yJnpO1sN8z4l99yfWTXKqLyGjnc-yjHQ/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/1_k5U-WAKZfLqS4mna9cJPQ6FG9OBnMdB/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1GrLdTmvLBpGQSahdwz7uWagX8Ndin2pE/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Database Fundamentals Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1k4Fmttbl_EtH0cPnvcJp3gThXFoycNHH/view",
+        },
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1r0fR_BTIwzkDXfm_-eKjtPTY77UK40Nw/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/142KWnsOtXV99rL26pAslSKZ7FXeVlGKO/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1XqI2kJYptk206PjZ3me6KEoRkfNE9pfj/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Database Development Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/18GYt0B7Yuo356Pi6-Rr4HsyRncJxTnH-/view",
+        },
+        {
+          urlName: "Exercise Questions & Answers",
+          url: "https://drive.google.com/file/d/1C1Gs4y5LHYNiSQV7Xr4nVtJptwoLqtbg/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1Po8Wgt2bDxFOHlOBzY4iFoouVRbVGnZT/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Full Book Abbreviations Notes",
+      urls: [
+        {
+          urlName: "Complete Book Abbreviations Notes",
+          url: "https://drive.google.com/file/d/1qrdu2tqkMDNczWKFILI5V_b2jQCZR1ih/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Full Book Definitions Glossary Notes",
+      urls: [
+        {
+          urlName: "Full Book Glossary Notes",
+          url: "https://drive.google.com/file/d/1vlu2IsklJVSPV0CUKcY1P9XxOejHWbNW/view",
+        },
+      ],
+    },
+  ]
+}
 
 function renderData(dataKey, targetElement) {
   const data = NinthClass[dataKey]; // e.g NinthClass.Englisg or NinthClass[English]
@@ -4336,3 +4520,4 @@ On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class a
 
 renderDataEleventh("English", "eleventh-eng");
 renderDataEleventh("Urdu", "eleventh-urd");
+renderDataEleventh("ComputerScience", "eleventh-comp");
