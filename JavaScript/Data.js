@@ -4297,7 +4297,491 @@ const EleventhClass = {
         },
       ],
     },
-  ]
+  ],
+  Islamyat: [
+    {
+      ChapterName: "Chapter 1 → Bunyadi Aqaid Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1h2z-ndpZKvkTNlWdCFcbSWcn8OcawDIz/view",
+        },
+        {
+          urlName: "Important Definitions",
+          url: "https://drive.google.com/file/d/17f5AEEcrxGF1auzYywFsZL1n32XTZOxq/view",
+        },
+        {
+          urlName: "MCQs With Answers",
+          url: "https://drive.google.com/file/d/1B6FHmiAeoXt28MCaECriykWiFUwu5VWw/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1tHOOTJh6y3FczfwWvIOw8b0ISNmTgUUw/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Islami Tashakhus Arkaan e Islam Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1TOiZ9BAkSUx5nK9Ah_a1loQU8vrrbDKz/view",
+        },
+        {
+          urlName: "Important Definitions",
+          url: "https://drive.google.com/file/d/11L5Agfn72DzL1Fg0LODPOq1nmUJqQpPY/view",
+        },
+        {
+          urlName: "MCQs With Answers",
+          url: "https://drive.google.com/file/d/1IHa1Jgrs9YOstkeusfGVg4f_ezP1J3U1/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1UKdllEQXn04EagN13-cEbfs92nwdHROA/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Aswa Rasool e Akram صلى الله عليه وسلم Rehmat Alalimeen Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1rUvkqSbxFNScomAFC0LmU2am-OsX2pzG/view",
+        },
+        {
+          urlName: "Important Definitions",
+          url: "https://drive.google.com/file/d/1Pcp9uoNdQH9iAAHln9MJmaYkLfkQxOF7/view",
+        },
+        {
+          urlName: "MCQs With Answers",
+          url: "https://drive.google.com/file/d/1yBnrcYI-PgchC38qOJtLrEGMoz2i6_D0/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/1VPujM5qvT-394Fqfm11OTUEab60xkAuw/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Taruf Quran o Hadees Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/130u-DBZpzTcktTViuRwNrhM-M8yjguGV/view",
+        },
+        {
+          urlName: "Important Definitions",
+          url: "https://drive.google.com/file/d/1qj9a3PpaVla0e3-55yGjgb5BHtyfhxPU/view",
+        },
+        {
+          urlName: "MCQs With Answers",
+          url: "https://drive.google.com/file/d/15Dd9219KhAZIzHNKBEpoSncR5iwU8nKc/view",
+        },
+        {
+          urlName: "Short Question Answers",
+          url: "https://drive.google.com/file/d/13P3bDppYlJxiz8BWZRsI0WjM_NCfqpPN/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Islamiat Solved Past Papers Notes",
+      urls: [
+        {
+          urlName: "Islamiat 2010 Past Papers Notes",
+          url: "https://drive.google.com/file/d/1xjZX5Wt3M_0v6e-_8mZ8kda4e9Cq33LD/view",
+        },
+        {
+          urlName: "Islamiat 2011 Past papers Notes",
+          url: "https://drive.google.com/file/d/1n4HPk9o35kxZvrmMWXkM2paMkd1f5C0p/view",
+        },
+        {
+          urlName: "Islamiat 2012 Past Papers Notes",
+          url: "https://drive.google.com/file/d/1rYxAWWN-MHMO6jYageAwIz0N_mjbLZh4/view",
+        },
+        {
+          urlName: "Islamiat 2013 Past Papers Notes",
+          url: "https://drive.google.com/file/d/16lRZWJdug3spBJL4Rn6djNZJFNcjkzBr/view",
+        },
+      ],
+    },
+  ],
+  Biology: [
+    {
+      ChapterName: "Chapter 1 → His First Flight Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1n-UDCp_0EYcT4m5gnaC4uxF0lJM_55lg/view",
+        },
+      ],
+    },
+  ],// missing!!
+  Chemistry: [
+    {
+      ChapterName: "Chapter 1 → Stoichiometry Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/13Sz7_SU327aLoAhUUC9Jyy1aR8xeY3kR/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1ElsFuO1Rhgz3gQ30qrDfoAolRVZooZEq/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Atomic Structure Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1_vFvQc2maFiOC4-AtB7VhzCE3C5DLmWM/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1XoLP7U6iTBWbZugGRGvMxbNRdFrQi1Jt/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Theories of Covalent Bonding and Shapes of Molecules Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1Oo2daUYuJgS4_G2DKtJBGRJdf701MP4M/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1cnrbgv0CqPQ9XdP4Eb3aLrGakrTfR6Dh/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → State of Matter (Gases) Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1Gw13bJHvg7cBLCnA6xec6Yo6ZiCiSvFv/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/19rxMFYU3D60_KmBxAJx5D8KlmqGw_J25/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → State of Matter (Liquids) Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1SfpOt-WuEPiDv-yxNLb-Zbcpv1NoxP1-/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/13LD2H4ahnm_U5aqNqTQ7jdI7RynAl5I6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → State of Matter (Solids) Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1mViG5_iF0goOPL_I3nHxhqxsZ4LGO0rh/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1W3B4_xyr7YMSqBtgk5UnYucGH2-U3RER/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Chemical Equilibrium Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1GPHLetGLGQ0wWexkNUyUR7xqkrfo5y6-/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1NBiTnIK5iXaoRVPyWXTRxIdZtHQqbB2U/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Acids, Bases and Salts Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1NMck2D_HJ13hauxmlfa7dFxQ_pczF4av/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1D3FBMisTJW7BDM0d_JnVve0fN3q1-JQE/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Chemical Kinetics Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/16uXLV_wZ6gdrnFIRU-SpUwjF5qnqqXUz/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1Y9kGU1CvcbpALaJffEfWNmVrNA8ynd4G/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 10 → Solutions and Colloids Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1IeR9f4Fo-jmQVyZHn6118Tn7iyI5AsS1/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/11PPgDhRNAsAAQfEk_JsmmFOS5L8hssSm/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 11 → Thermochemistry Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1aQ2PWnOdGvx7ETITgk5oKo-jhTKW-yJH/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/15QiwMchLdJqHM353I7NHHK_9FeEC5cf0/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 12 → Electrochemistry Notes",
+      urls: [
+        {
+          urlName: "Short Questions & Answers",
+          url: "https://drive.google.com/file/d/1QMb7Cyf7g4cySn1YSUyQ6JIRnP3p_33x/view",
+        },
+        {
+          urlName: "Objective Type MCQs With Answers",
+          url: "https://drive.google.com/file/d/1E56_ifoO88JOs7KGfiNhnhEoglF6sxgB/view",
+        },
+      ],
+    },
+  ],
+  Physics: [
+    {
+      ChapterName: "Chapter 1 → Measurements Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1J1yXcqWIJDFPcj8XA0IuC1DFmf-InJpQ/view",
+        },
+        {
+          urlName: "Full Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1Z0vylWQGyih-aB5DJS1aw4ZeppFVZZ3a/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1CeWUwpg5xFRqgUgYh_YNW8vF26hc5eCe/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1Hc3WXCRt4z3yHTvUePYfKBs_fIryInVU/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 2 → Vectors and Equilibrium Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1qYnT8SKj0F1OAPw82-_4E-JVPeGz0bAp/view",
+        },
+        {
+          urlName: "Full Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/10PC-JlnkWoc5SDdpmNwiVt39d8eB7Dxq/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1V2DM0ffFbflFTfR-wo2Jk-xqIRdfTCeT/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/15jXcm7avgUB5nqjr8fmtncavU-XGjylj/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 3 → Motion and Force Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1ezulx6MpkKBTSoSxTUtnEhsonuFB1imd/view",
+        },
+        {
+          urlName: "Full Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1-E4nh7YOjoiYqJTGrAuNMyeSXdOEbaEw/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1u-GISnMcB0aHlO4BfDeeBEYQjIySkLpf/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1cGbRFyVQaZqE9Yzi_Sv7g_ynj20Qw9W_/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 4 → Work and Energy Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1WiPPruM2sGrQ9JvshIenlnVu6RhZKwmZ/view",
+        },
+        {
+          urlName: "Full Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1lxUTQaqsFgpFpg8ZPo1NhCFFtuJw7oma/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1iyRhGXg1vO9gQdVK2MTn-BQON69RAObU/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1WfgjomhLSdUDk6nBjOg8LTL0p2LlxM_R/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 5 → Rotational and Circular Motion Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1SqRl8VecRNAeeOiYGJGSY7SrKW03pS1d/view",
+        },
+        {
+          urlName: "Full Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/18BF5qyAjMIMAYuE3wLVdTcxlI9ALSftx/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1nsOXgZcqDGLblmetJJVa3U2PYfsqxlqQ/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1nGXi6xHPOoEwAGG94c--v7bPl1jLkFO6/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 6 → Fluid Dynamics Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1KErATcvzSXwTPWxF7rGwuU1v572_G9nq/view",
+        },
+        {
+          urlName: "Full Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1E2QPwD2tscm1sQlaUtd-eO9vUXNH0RoC/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1LQBGUaPsLA2Gshp4bk5HVr7v0TJcbqzU/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1RstkVROJo5iPsuulPs9AGNlHqJq66nP5/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 7 → Oscillations Notes",
+      urls: [
+        {
+          urlName: "Full Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1GOKba2nw_OxM5BsUQKKRUqNDxEZW0rwz/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1U-D8njyCUR2a_C7DXKi-noKi3_uEBUxg/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1rPluwqO0S6bU1mclqN9w7a6mrieezlCL/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 8 → Waves Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1BkPYEpTXXlQGTrkT628ba6mHKiRkopa7/view",
+        },
+        {
+          urlName: "Complete Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1BF8zED8OAt74zrkhlkNkKd0wr8BWSCOz/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1hb9WozR3WSSONCDhXFNH6giQbOzLUj4w/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1ryiXFdgF30Bj8Q0oW_yzNdFkvV-QCzHY/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 9 → Physical Optics Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1kMumeWlIpS73DREuvFTkrrUrM2DeLsyh/view",
+        },
+        {
+          urlName: "Complete Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1MfGgqKnNvpYJ4tj1T7MGvTV8tTieB5SL/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1c1bEE1q2Ibs1pMYWDfRM84WDFg3-Oyrt/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1I8DYEAYLR4Px6_kSC37gdZBxgaCpQuQt/view",
+        },
+      ],
+    },
+    {
+      ChapterName: "Chapter 10 → Thermodynamics Notes",
+      urls: [
+        {
+          urlName: "Full Chapter Notes",
+          url: "https://drive.google.com/file/d/1hjITmYk7IjaLarcYAK5yQDqFbJ8L8EEF/view",
+        },
+        {
+          urlName: "Complete Exercise Solved Notes",
+          url: "https://drive.google.com/file/d/1MfGgqKnNvpYJ4tj1T7MGvTV8tTieB5SL/view",
+        },
+        {
+          urlName: "Full Chapter Numerical Problems",
+          url: "https://drive.google.com/file/d/1M_QPExN77R84MXEGytvenntA1kCIo6f9/view",
+        },
+        {
+          urlName: "Multiple Choice Questions (MCQs)",
+          url: "https://drive.google.com/file/d/1L8hJ7IpM_W3MRWSPpkCgiSvPsf62398_/view",
+        },
+      ],
+    },
+  ],
 }
 
 function renderData(dataKey, targetElement) {
@@ -4521,3 +5005,6 @@ On our website MASHALWEB, we only not provide you ${sub} notes of ${cls} class a
 renderDataEleventh("English", "eleventh-eng");
 renderDataEleventh("Urdu", "eleventh-urd");
 renderDataEleventh("ComputerScience", "eleventh-comp");
+renderDataEleventh("Islamyat", "eleventh-isl");
+renderDataEleventh("Chemistry", "eleventh-chem");
+renderDataEleventh("Physics", "eleventh-phy");
