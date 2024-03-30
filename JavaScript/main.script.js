@@ -1,4 +1,4 @@
-
+// animtions
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -8,32 +8,21 @@ const observer = new IntersectionObserver((entries) => {
 });
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
-let icons = document.getElementById("icons");
-let fl = 1;
-icons.addEventListener("click", () => {
-  if (fl === 1) {
-    icons.style.background = "#0081a8";
-    icons.children[0].classList.replace("ri-cloud-fill", "ri-cloud-off-fill");
-    document.querySelector("#weather").style.display = "flex";
-    fl = 0;
-  } else if (fl === 0) {
-    icons.style.background = "#ffffff04";
-    icons.children[0].classList.replace("ri-cloud-off-fill", "ri-cloud-fill");
-    document.querySelector("#weather").style.display = "none";
-    fl = 1;
-  }
-});
+
+// error message showing
 let errorMessage = document.querySelector("#err");
 
+//page loader
 window.addEventListener("load", () => {
   document.querySelector("#js-preloader").classList.add("loaded");
 });
 
+//sticky navbar
 window.addEventListener("scroll", (e) => {
   if (window.scrollY >= 80) {
-    document.querySelector("header").classList.add("back");
+    document.querySelector("header nav").classList.add("back");
   } else if (window.scrollY < 80) {
-    document.querySelector("header").classList.remove("back");
+    document.querySelector("header nav").classList.remove("back");
   }
 });
 

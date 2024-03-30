@@ -27,45 +27,6 @@
 </head>
 
 <body>
-  <div id="weather">
-    <div class="search-box">
-      <h3>Search City Weather</h3>
-      <div class="ser">
-        <input type="search" name="search" id="searchInput" placeholder="type city name..">
-        <button id="weatherSearch"><i class="ri-search-line"></i></button>
-      </div>
-    </div>
-    <div class="currentWeather">
-      <div class="dateInfo">
-        <small></small>
-      </div>
-      <div class="weather-city">
-        <h3>lodding<h3>
-            <p>loding..</p>
-      </div>
-      <div class="weather-icon">
-        <h2>loding<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
-        <i class="ri-cloud-fill"></i>
-      </div>
-      <div class="moreDeitals">
-        <small>Wind Speed: <span id="windSpeed">loding</span></small>
-        <small>Humidity: <span id="humidity">loding</span></small>
-        <small>Fells Like: <span id="feels_like">loding</span></small>
-      </div>
-    </div>
-    <div class="currentWeatherDetails">
-      <div class="minimumTemp">
-        <h4>Minimum Temperature</h4>
-        <h2>loding<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
-        <img src="./images/low Temp.svg" alt="">
-      </div>
-      <div class="maximumTemp">
-        <h4>Maximum Temperature</h4>
-        <h2>loding<span style="color: rgb(255, 98, 41);">&#8451;</span></h2>
-        <img src="./images/high Temp.svg" alt="">
-      </div>
-    </div>
-  </div>
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
@@ -77,86 +38,40 @@
     </div>
     <p>Please Wait...</p>
   </div>
-  <div class="pop" style="display: none">
-    <div class="pop-message">
-      <h3>Message Sent successfully👍</h3>
-      <p id="msg">some damii message here</p>
-    </div>
-  </div>
   <header>
-    <nav class="nav">
-      <dev class="logo hidden"><a href="./index.html"><img src="./images/mw logo.png" alt="" /></a></dev>
-      <dev class="menuItems hidden">
+    <nav class="hidden">
+      <div class="logo hidden">
+        <img src="./images/mw logo.png" alt="">
+      </div>
+      <div class="items hidden">
         <ul>
-          <li>
-            <a href="#"><i class="ri-sticky-note-fill"></i> Class Notes
-              <ul>
-                <li>
-                  <a href="./ChapterWiseNotes/notes.html">9th Class Notes</a>
-                </li>
-                <li>
-                  <a href="./ChapterWiseNotes/notes.html">10th Class Notes</a>
-                </li>
-                <li>
-                  <a href="./ChapterWiseNotes/notes.html">11th Class Notes</a>
-                </li>
-                <li>
-                  <a href="./ChapterWiseNotes/notes.html">12th Class Notes</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li>
-            <a href="#"><i class="ri-file-list-3-fill"></i> Past Papers
-              <ul>
-                <li>
-                  <a href="./PastYearPapers/9th-PastPapers.html">9th Class Papers</a>
-                </li>
-                <li>
-                  <a href="./PastYearPapers/10th-PastPapers.html">10th Class Papers</a>
-                </li>
-                <li>
-                  <a href="./PastYearPapers/11th-PastPapers.html">11th Class Papers</a>
-                </li>
-                <li>
-                  <a href="./PastYearPapers/12th-PastPapers.html">12th Class Papers</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li>
-            <a href="./Blogs/mainBlog.html"><i class="ri-news-line"></i> Latest News</a>
-          </li>
-          <li>
-            <a href="./Others/A&C.html"><i class="ri-user-fill"></i> About Me</a>
-          </li>
+          <li><a href="./index.html"><i class="ri-home-fill"></i> Home</a></li>
+          <li><a href="./ChapterWiseNotes/notes.html"><i class="ri-book-open-fill"></i> Notes</a></li>
+          <li><a href="./PastYearPapers/SelPaper.html"><i class="ri-todo-fill"></i> Papers</a></li>
+          <li><a href="./Blogs/mainBlog.html"><i class="ri-news-fill"></i> Blogs</a></li>
+          <li><a href="./Others/A&C.html"><i class="ri-user-fill"></i> About Me</a></li>
         </ul>
-      </dev>
-      <dev class="icons hidden" id="icons">
-        <i class="ri-cloud-fill"></i>
-        <small>Weather</small>
-      </dev>
+      </div>
       <img src="./images/respNavImg.png" class="respNavImg hidden" />
     </nav>
+
   </header>
-  <section class="heroSec">
-    <div class="welcText">
-      <div class="txt hidden">
-        <p>Welcome To</p>
-        <h1>MASHAL WEB</h1>
-        <p>
-          Lighting the Way, Explore Mashal Web for a <br />Brighter Online
-          Experience
-        </p>
+  <section class="mainSection">
+    <div class="textSection">
+      <div class="heading hidden">
+        <h1>Lighting the Way, Explore
+          <span>MASHAL WEB</span> for a Brighter Online Experience.
+        </h1>
       </div>
-      <div class="btns hidden">
-        <a href="./ChapterWiseNotes/notes.html"><button type="button"><i class="ri-file-pdf-2-fill"></i> See
-            Notes</button></a>
-        <a href="./Blogs/mainBlog.html">
-          <button type="button"><i class="ri-newspaper-fill"></i> Our Blogs</button></a>
+      <div class="buttons hidden">
+        <a href="#"><button type="button">See Notes</button></a>
+        <a href="#"><button type="button">Our Blogs</button></a>
       </div>
-      <img src="./images/heroSecImg.png" alt="" class="heroSecImg hidden" />
     </div>
+    <div class="imageSec hidden">
+      <img src="./images/heroSecImg.png" alt="">
+    </div>
+    <img class="bottomImg hidden" src="./images/DotsLayer.png" alt="">
   </section>
   <div class="boxs">
     <div class="center">
@@ -180,10 +95,10 @@
       </div>
     </div>
   </div>
-  <div class="secNav hidden">
+  <div class="secNav">
     <ul>
       <li class="more">
-        <a href="#">Class Notes +
+        <a href="#">Class Notes <i class="ri-arrow-down-fill"></i>
           <ul class="show">
             <li>
               <a href="./ChapterWiseNotes/notes.html">> 9th Class Notes</a>
@@ -201,7 +116,7 @@
         </a>
       </li>
       <li class="more">
-        <a href="#">Past Papers +
+        <a href="#">Past Papers <i class="ri-arrow-down-fill"></i>
           <ul>
             <li>
               <a href="./PastYearPapers/9th-PastPapers.html">> 9th Class Papers</a>
@@ -241,7 +156,8 @@
             for
             KPK BOARDS.
           </p>
-          <button class="See More" style="color: #000000">See More</button>
+          <button class="See More" style="color: #000000"><a href="./ChapterWiseNotes/notes.html"
+              style="text-decoration: none;">See More</a></button>
         </div>
         <div class="branch-img hidden">
           <img src="./images/ServiceImg1.png" alt="" />
@@ -260,7 +176,7 @@
             Boards and can be easily downloaded.
           </p>
           <button class="See More">
-            <a href="./ChapterWiseNotes/notes.html" style="text-decoration: none; color: #000">See Notes</a>
+            <a href="./ChapterWiseNotes/notes.html" style="text-decoration: none;">See Notes</a>
           </button>
         </div>
       </div>
@@ -273,7 +189,7 @@
             inform your self from differnt kind of news.
           </p>
           <button class="See More">
-            <a href="./Blogs/mainBlog.html" style="text-decoration: none; color: #000">Vist Blogs</a>
+            <a href="./Blogs/mainBlog.html" style="text-decoration: none; ">Vist Blogs</a>
           </button>
         </div>
         <div class="branch-img hidden">
@@ -317,7 +233,7 @@
             click on <b>Download</b> button and select your class and subject.
           </p>
           <button type="button" class="See More">
-            <a href="./ChapterWiseNotes/notes.html" style="text-decoration: none; color: #000">Download</a>
+            <a href="./ChapterWiseNotes/notes.html" style="text-decoration: none;">Download</a>
           </button>
         </div>
         <div class="item-1 hidden">
@@ -329,7 +245,7 @@
             class to download past years papers.
           </p>
           <button type="button" class="See More">
-            <a href="./PastYearPapers/SelPaper.html" style="text-decoration: none; color: #000">Download</a>
+            <a href="./PastYearPapers/SelPaper.html" style="text-decoration: none; ">Download</a>
           </button>
         </div>
         <div class="item-1 hidden">
@@ -340,7 +256,7 @@
             <b>visit</b> button and infrom yourself from latest newss
           </p>
           <button type="button" class="See More">
-            <a href="./Blogs/mainBlog.html" style="text-decoration: none; color: #000">Vist to Blogs</a>
+            <a href="./Blogs/mainBlog.html" style="text-decoration: none; ">Vist to Blogs</a>
           </button>
         </div>
       </div>

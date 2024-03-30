@@ -1,34 +1,4 @@
-.heroSec{
-    background:#fff;
-    height: 100%;
-}
-.menuItems ul li ul{
-    z-index: 1;
-}
-.secNav{
-    z-index: 27;
-}
-header{
-    background: linear-gradient(45deg,#000e36, #00ace0);
-}
-.back{
-    background: linear-gradient(120deg,#000e36,#00ace0);
-    backdrop-filter: blur(22px);
-    padding: 5px 0;
-    transition: all 0.3s ease;
-    margin-top: 0;
-    box-shadow: 0 6px 10px 4px rgba(1, 0, 49, 0.267);
-}
-.menuItems ul li:hover{
-    background: #00ace0;
-}
-.menuItems ul li ul{
-    background: #000e36;
-}
-.secNav{
-    background: #000e36;
-}
-.notesMainDev{
+.notesMainDev {
     margin-top: 90px;
     width: 100%;
     display: flex;
@@ -37,22 +7,26 @@ header{
     justify-content: center;
     align-items: center;
 }
-.notesMainDev .noteText{
+
+.notesMainDev .noteText {
     margin-top: 30px;
     margin-bottom: 15px;
 }
-.notesMainDev .noteText h1{
+
+.notesMainDev .noteText h1 {
     font-size: 37px;
     font-weight: 800;
     text-align: center;
     color: #000e36;
 }
-.notesMainDev .noteText p{
+
+.notesMainDev .noteText p {
     text-align: center;
     font-size: 22px;
     font-weight: 600;
 }
-.boxSecs{
+
+.boxSecs {
     display: flex;
     gap: 0 19px;
     padding-bottom: 10px;
@@ -60,7 +34,8 @@ header{
     justify-content: center;
     flex-wrap: wrap;
 }
-.boxSecs .noteBox{
+
+.boxSecs .noteBox {
     cursor: pointer;
     width: 200px;
     box-shadow: 0 6px 10px 4px #00ace02d;
@@ -73,45 +48,51 @@ header{
     justify-content: center;
     transition: 0.3s;
 }
-.boxSecs .noteBox:hover{
+
+.boxSecs .noteBox:hover {
     transform: scale(1.050);
     transform: translateY(-2px);
 }
-.boxSecs .noteBox::after{
+
+.boxSecs .noteBox::after {
     content: "";
     position: absolute;
     width: 100%;
-    
+
     height: 100%;
-    background: linear-gradient(45deg,#00ace0cc,#000e36cc);
+    background: linear-gradient(45deg, #00ace0cc, #000e36cc);
     z-index: -1;
     transition: 0.5s ease;
     opacity: 0;
     transform: scale(0);
     border-radius: 50%;
 }
-.boxSecs .noteBox:hover::after{
+
+.boxSecs .noteBox:hover::after {
     transform: scale(1);
     opacity: 1;
     border-radius: 5px;
 }
-.boxSecs .noteBox h3{
+
+.boxSecs .noteBox h3 {
     font-weight: 700;
     margin: 5px 0;
     transition: 0.5s ease;
     color: #000e36;
     font-size: 23px;
 }
-.boxSecs .noteBox:hover h3{
+
+.boxSecs .noteBox:hover h3 {
     color: #fff;
     font-weight: 500;
 }
 
-.boxSecs .noteBox img{
+.boxSecs .noteBox img {
     width: 100px;
     padding-bottom: 10px;
 }
-.BackToPage{
+
+.BackToPage {
     position: absolute;
     top: 85px;
     left: 33px;
@@ -120,69 +101,88 @@ header{
     cursor: pointer;
     transition: 0.3s ease;
 }
-.BackToPage:hover{
+
+.BackToPage:hover {
     background: #007ba15d;
 }
+
 @media only screen and (max-width: 844px) {
-    .boxSecs{
+    .boxSecs {
         gap: 15px 15px;
-    }  
-    .BackToPage{
+    }
+
+    .BackToPage {
         top: 60px;
         left: 24px;
-    } 
+    }
 }
+
 @media only screen and (max-width: 442px) {
-    .boxSecs .noteBox{
+    .boxSecs .noteBox {
         width: 150px;
         margin: 0 10px;
-    }   
-    .boxSecs .noteBox h3{
+    }
+
+    .boxSecs .noteBox h3 {
         font-size: 18px;
     }
-    .boxSecs .noteBox img{
+
+    .boxSecs .noteBox img {
         width: 80px;
     }
-    .notesMainDev .noteText h1{
+
+    .notesMainDev .noteText h1 {
         font-size: 28px;
-    }   
-    .notesMainDev .noteText p{
+    }
+
+    .notesMainDev .noteText p {
         font-size: 19px;
     }
 }
-@media only screen and (max-width: 358px){
-    .boxSecs .noteBox{
+
+@media only screen and (max-width: 358px) {
+    .boxSecs .noteBox {
         width: 130px;
-       
+
     }
-    .boxSecs .noteBox img{
+
+    .boxSecs .noteBox img {
         width: 70px;
     }
 }
 
 @media only screen and (max-width: 328px) {
-    .boxSecs .noteBox{
+    .boxSecs .noteBox {
         width: 120px;
-    }   
-    .boxSecs .noteBox h3{
+    }
+
+    .boxSecs .noteBox h3 {
         font-size: 17.5px;
     }
-    .boxSecs .noteBox img{
+
+    .boxSecs .noteBox img {
         width: 70px;
     }
-    .notesMainDev .noteText h1{
+
+    .notesMainDev .noteText h1 {
         font-size: 23px;
-    }   
-    .notesMainDev .noteText p{
+    }
+
+    .notesMainDev .noteText p {
         font-size: 18px;
     }
 }
-.jsAddText{
+
+.jsAddText {
     padding: 8px 100px;
 }
-@media only screen and (max-width: 720px){
-    .jsAddText{padding: 7px 15px;} 
+
+@media only screen and (max-width: 720px) {
+    .jsAddText {
+        padding: 7px 15px;
+    }
 }
+
 .notesDesc {
     padding: 10px 20px;
     display: flex;
@@ -190,22 +190,26 @@ header{
     align-items: start;
     width: 100%;
 }
-@media only screen and (max-width: 500px){
-    .notesDesc{
+
+@media only screen and (max-width: 500px) {
+    .notesDesc {
         padding: 10px 0;
     }
-    .notesDesc p{
+
+    .notesDesc p {
         font-size: 15.5px;
     }
-    
+
 }
-@media only screen and (max-width: 358px){
-    .noteBox{
+
+@media only screen and (max-width: 358px) {
+    .noteBox {
         width: 160px;
-        
+
     }
 }
-.engCont{
+
+.engCont {
     width: 100%;
     display: flex;
     text-align: left;
@@ -214,32 +218,38 @@ header{
     color: #111111;
     font-size: 15.4px;
 }
-.engCont p{
+
+.engCont p {
     padding-bottom: 7px;
 }
-@media (max-width: 700px){
-    .engCont{
+
+@media (max-width: 700px) {
+    .engCont {
         padding: 0 10px;
     }
 }
-.ymal{
+
+.ymal {
     padding: 0 30px;
     width: 100%;
     margin-top: 20px;
 }
-.ymal h3{
+
+.ymal h3 {
     font-size: 23px;
     font-weight: 600;
     padding-bottom: 10px;
 }
-.ymal .notesBoxs{
+
+.ymal .notesBoxs {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 0 20px;
     flex-wrap: wrap;
 }
-.ymal .notesBoxs .noteSinBox{
+
+.ymal .notesBoxs .noteSinBox {
     margin-top: 10px;
     flex-basis: 30%;
     padding: 20px;
@@ -248,38 +258,46 @@ header{
     text-align: center;
     background: #00ace00c;
 }
-.ymal .notesBoxs .noteSinBox:hover{
+
+.ymal .notesBoxs .noteSinBox:hover {
     background: #fff;
 }
-.noteSinBox a{
+
+.noteSinBox a {
     text-decoration: none;
     color: #000000;
 }
-.noteSinBox a h4{
+
+.noteSinBox a h4 {
     font-weight: 600;
     font-size: 18px;
     padding-bottom: 13px;
 }
-.noteSinBox  i{
-    background: linear-gradient( #000e36cc, #00ace0cc);
+
+.noteSinBox i {
+    background: linear-gradient(#000e36cc, #00ace0cc);
     color: #fff;
-    padding: 9px 44px;   
-    font-size: 20px; 
+    padding: 9px 44px;
+    font-size: 20px;
 }
-.noteSinBox i:hover{
+
+.noteSinBox i:hover {
     background: linear-gradient(#000e36, #00ace0);
 }
-@media  (max-width: 820px) {
-    .ymal .notesBoxs{
+
+@media (max-width: 820px) {
+    .ymal .notesBoxs {
         justify-content: center;
     }
-    .ymal .notesBoxs .noteSinBox{
+
+    .ymal .notesBoxs .noteSinBox {
         flex-basis: 80%;
         margin-top: 20px;
     }
 }
-@media  (max-width: 440px) {
-    .ymal .notesBoxs .noteSinBox{
+
+@media (max-width: 440px) {
+    .ymal .notesBoxs .noteSinBox {
         flex-basis: 99%;
         margin-top: 20px;
     }

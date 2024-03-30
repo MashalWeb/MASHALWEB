@@ -5008,3 +5008,4 @@ renderDataEleventh("ComputerScience", "eleventh-comp");
 renderDataEleventh("Islamyat", "eleventh-isl");
 renderDataEleventh("Chemistry", "eleventh-chem");
 renderDataEleventh("Physics", "eleventh-phy");
+
