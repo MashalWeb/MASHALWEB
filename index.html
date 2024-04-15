@@ -12,8 +12,6 @@
          href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
          rel="stylesheet"
       />
-      <link rel="stylesheet" href="./CSS/css file2.css" />
-      <link rel="stylesheet" href="./CSS/cssfile.css" />
    </head>
 
    <body>
@@ -36,9 +34,8 @@
             <div class="items hidden">
                <ul>
                   <li>
-                     <a href="./index.html"
-                        ><i class="ri-home-fill"></i> Home</a
-                     >
+                     <i class="ri-home-3-fill"></i>
+                     <a href="./index.html"> Home</a>
                   </li>
                   <li>
                      <a href="./ChapterWiseNotes/notes.html"
@@ -79,7 +76,7 @@
             </div>
          </div>
          <div class="imageSec hidden">
-            <img src="./images/heroSecImg.png" alt="" />
+            <img src="./images/HeroSecImg.png" alt="" />
          </div>
          <img class="bottomImg hidden" src="./images/DotsLayer.png" alt="" />
       </section>
@@ -170,57 +167,7 @@
          </ul>
          <img src="./images/close.png" class="close" />
       </div>
-      <section class="sliders">
-         <div class="card-slider">
-            <div class="card">
-               <img src="./images/figma.svg" alt="Image 1" />
-               <div class="card-content">
-                  <h2>FSC Part-I & Part-II Chapter Wise Notes (KPK Boards)</h2>
 
-                  <a href="./ChapterWiseNotes/notes.html"
-                     ><button>Learn More</button></a
-                  >
-               </div>
-            </div>
-            <div class="card">
-               <img src="./images/figma.svg" alt="Image 1" />
-               <div class="card-content">
-                  <h2>Activate MS Office 2016 Or Higher Without Product Key</h2>
-
-                  <a href="./Blogs/install-and-activate-ms-office-2016.html"
-                     ><button>Learn More</button></a
-                  >
-               </div>
-            </div>
-            <div class="card">
-               <img src="./images/figma.svg" alt="Image 1" />
-               <div class="card-content">
-                  <h2>
-                     9th Class Physics Notes (Numericals, Short Questions and
-                     MCQs)
-                  </h2>
-
-                  <a href="#"><button>Learn More</button></a>
-               </div>
-            </div>
-            <div class="card">
-               <img src="./images/heroSecImg.png" alt="Image 2" />
-               <div class="card-content">
-                  <h2>Heading 4</h2>
-
-                  <a href="#"><button>Learn More</button></a>
-               </div>
-            </div>
-         </div>
-         <div class="navigation-bullets">
-            <button class="bullet" onclick="navigateCard(-1)">
-               <i class="ri-arrow-left-s-line"></i>
-            </button>
-            <button class="bullet active" onclick="navigateCard(1)">
-               <i class="ri-arrow-right-s-line"></i>
-            </button>
-         </div>
-      </section>
       <section class="services">
          <div class="main-conatiner">
             <div class="top-head hidden">
@@ -623,63 +570,6 @@
                   }, 3000);
                   console.log("🛑Error in sending your message!! ", err);
                });
-         }
-      </script>
-      <script src="./JavaScript/jQuery.js"></script>
-      <script src="./JavaScript/ajax.js"></script>
-      <script>
-         $(document).ready(function () {
-            $(".card-slider").slick({
-               infinite: true,
-               slidesToShow: 3,
-               slidesToScroll: 1,
-               prevArrow:
-                  '<button type="button" class="slick-prev">&#10094;</button>',
-               nextArrow:
-                  '<button type="button" class="slick-next">&#10095;</button>',
-               responsive: [
-                  {
-                     breakpoint: 768,
-                     settings: {
-                        slidesToShow: 2,
-                     },
-                  },
-                  {
-                     breakpoint: 550,
-                     settings: {
-                        slidesToShow: 1,
-                     },
-                  },
-               ],
-            });
-         });
-      </script>
-      <script>
-         $(document).ready(function () {
-            $(".card-slider").slick({
-               infinite: true,
-               slidesToShow: 1,
-               slidesToScroll: 1,
-               prevArrow: false,
-               nextArrow: false,
-               dots: false,
-               fade: true,
-               responsive: [
-                  {
-                     breakpoint: 768,
-                     settings: {
-                        arrows: false,
-                        dots: false,
-                     },
-                  },
-               ],
-            });
-         });
-
-         function navigateCard(direction) {
-            $(".card-slider").slick(
-               direction == -1 ? "slickPrev" : "slickNext"
-            );
          }
       </script>
    </body>
