@@ -1,513 +1,686 @@
 <!DOCTYPE html>
 <html lang="eng">
+   <head>
+      <link rel="shorcut icon" type="x-icon" href="./images/WebIcon.png" />
+      <meta charset="UTF-16" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>MASHAL WEB</title>
+      <link rel="stylesheet" href="./CSS/main.style.css" />
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-<head>
-  <link rel="shorcut icon" type="x-icon" href="./images/WebIcon.png" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MASHAL WEB</title>
-  <link rel="stylesheet" href="./CSS/main.style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <link
+         href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./CSS/css file2.css" />
+      <link rel="stylesheet" href="./CSS/cssfile.css" />
+   </head>
 
-
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
-  <style>
-    input {
-      background: #fff;
-    }
-
-    textarea {
-      background: #fff;
-    }
-
-    button {
-      background: #fff;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
+   <body>
+      <div id="js-preloader" class="js-preloader">
+         <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+         <p>Please Wait...</p>
       </div>
-    </div>
-    <p>Please Wait...</p>
-  </div>
-  <header>
-    <nav class="hidden">
-      <div class="logo hidden">
-        <img src="./images/mw logo.png" alt="">
+      <header>
+         <nav class="">
+            <div class="logo hidden">
+               <img src="./images/mw logo.png" alt="" />
+            </div>
+            <div class="items hidden">
+               <ul>
+                  <li>
+                     <a href="./index.html"
+                        ><i class="ri-home-fill"></i> Home</a
+                     >
+                  </li>
+                  <li>
+                     <a href="./ChapterWiseNotes/notes.html"
+                        ><i class="ri-book-open-fill"></i> Notes</a
+                     >
+                  </li>
+                  <li>
+                     <a href="./PastYearPapers/SelPaper.html"
+                        ><i class="ri-todo-fill"></i> Papers</a
+                     >
+                  </li>
+                  <li>
+                     <a href="./Blogs/mainBlog.html"
+                        ><i class="ri-news-fill"></i> Blogs</a
+                     >
+                  </li>
+                  <li>
+                     <a href="./Others/A&C.html"
+                        ><i class="ri-user-fill"></i> About Me</a
+                     >
+                  </li>
+               </ul>
+            </div>
+            <img src="./images/respNavImg.png" class="respNavImg hidden" />
+         </nav>
+      </header>
+      <section class="mainSection">
+         <div class="textSection">
+            <div class="heading hidden">
+               <h1>
+                  Lighting the Way, Explore <span>MASHAL WEB</span> for a
+                  Brighter Online Experience.
+               </h1>
+            </div>
+            <div class="buttons hidden">
+               <a href="#"><button type="button">See Notes</button></a>
+               <a href="#"><button type="button">Our Blogs</button></a>
+            </div>
+         </div>
+         <div class="imageSec hidden">
+            <img src="./images/heroSecImg.png" alt="" />
+         </div>
+         <img class="bottomImg hidden" src="./images/DotsLayer.png" alt="" />
+      </section>
+      <div class="boxs">
+         <div class="center">
+            <div class="box hidden" style="margin-top: 10px">
+               <a href="./ChapterWiseNotes/notes.html"
+                  ><img src="./images/Books.png"
+               /></a>
+               <span>Notes</span>
+            </div>
+            <div class="box hidden" style="margin-top: 10px">
+               <a href="./PastYearPapers/SelPaper.html"
+                  ><img src="./images/Paper.png"
+               /></a>
+               <span>Papers</span>
+            </div>
+            <div class="box hidden" style="margin-top: 10px">
+               <a href="./Blogs/mainBlog.html">
+                  <img src="./images/News.png" />
+               </a>
+               <span>News</span>
+            </div>
+            <div class="box hidden" style="margin-top: 10px">
+               <a href="#"><img src="./images/Software.png" /></a>
+               <span>Softwares</span>
+            </div>
+         </div>
       </div>
-      <div class="items hidden">
-        <ul>
-          <li><a href="./index.html"><i class="ri-home-fill"></i> Home</a></li>
-          <li><a href="./ChapterWiseNotes/notes.html"><i class="ri-book-open-fill"></i> Notes</a></li>
-          <li><a href="./PastYearPapers/SelPaper.html"><i class="ri-todo-fill"></i> Papers</a></li>
-          <li><a href="./Blogs/mainBlog.html"><i class="ri-news-fill"></i> Blogs</a></li>
-          <li><a href="./Others/A&C.html"><i class="ri-user-fill"></i> About Me</a></li>
-        </ul>
-      </div>
-      <img src="./images/respNavImg.png" class="respNavImg hidden" />
-    </nav>
-
-  </header>
-  <section class="mainSection">
-    <div class="textSection">
-      <div class="heading hidden">
-        <h1>Lighting the Way, Explore
-          <span>MASHAL WEB</span> for a Brighter Online Experience.
-        </h1>
-      </div>
-      <div class="buttons hidden">
-        <a href="#"><button type="button">See Notes</button></a>
-        <a href="#"><button type="button">Our Blogs</button></a>
-      </div>
-    </div>
-    <div class="imageSec hidden">
-      <img src="./images/heroSecImg.png" alt="">
-    </div>
-    <img class="bottomImg hidden" src="./images/DotsLayer.png" alt="">
-  </section>
-  <div class="boxs">
-    <div class="center">
-      <div class="box hidden" style="margin-top: 10px">
-        <a href="./ChapterWiseNotes/notes.html"><img src="./images/Books.png" /></a>
-        <span>Notes</span>
-      </div>
-      <div class="box hidden" style="margin-top: 10px">
-        <a href="./PastYearPapers/SelPaper.html"><img src="./images/Paper.png" /></a>
-        <span>Papers</span>
-      </div>
-      <div class="box hidden" style="margin-top: 10px">
-        <a href="./Blogs/mainBlog.html">
-          <img src="./images/News.png" />
-        </a>
-        <span>News</span>
-      </div>
-      <div class="box hidden" style="margin-top: 10px">
-        <a href="#"><img src="./images/Software.png" /></a>
-        <span>Softwares</span>
-      </div>
-    </div>
-  </div>
-  <div class="secNav">
-    <ul>
-      <li class="more">
-        <a href="#">Class Notes <i class="ri-arrow-down-fill"></i>
-          <ul class="show">
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">> 9th Class Notes</a>
+      <div class="secNav">
+         <ul>
+            <li class="more">
+               <a href="#"
+                  >Class Notes <i class="ri-arrow-down-fill"></i>
+                  <ul class="show">
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >> 9th Class Notes</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >> 10th Class Notes</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >> 11th Class Notes</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >> 12th Class Notes</a
+                        >
+                     </li>
+                  </ul>
+               </a>
             </li>
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">> 10th Class Notes</a>
+            <li class="more">
+               <a href="#"
+                  >Past Papers <i class="ri-arrow-down-fill"></i>
+                  <ul>
+                     <li>
+                        <a href="./PastYearPapers/9th-PastPapers.html"
+                           >> 9th Class Papers</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./PastYearPapers/10th-PastPapers.html"
+                           >> 10th Class Papers</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./PastYearPapers/11th-PastPapers.html"
+                           >> 11th Class Papers</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./PastYearPapers/12th-PastPapers.html"
+                           >> 12th Class Papers</a
+                        >
+                     </li>
+                  </ul>
+               </a>
             </li>
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">> 11th Class Notes</a>
-            </li>
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">> 12th Class Notes</a>
-            </li>
-          </ul>
-        </a>
-      </li>
-      <li class="more">
-        <a href="#">Past Papers <i class="ri-arrow-down-fill"></i>
-          <ul>
-            <li>
-              <a href="./PastYearPapers/9th-PastPapers.html">> 9th Class Papers</a>
-            </li>
-            <li>
-              <a href="./PastYearPapers/10th-PastPapers.html">> 10th Class Papers</a>
-            </li>
-            <li>
-              <a href="./PastYearPapers/11th-PastPapers.html">> 11th Class Papers</a>
-            </li>
-            <li>
-              <a href="./PastYearPapers/12th-PastPapers.html">> 12th Class Papers</a>
-            </li>
-          </ul>
-        </a>
-      </li>
-      <li><a href="./Blogs/mainBlog.html">Latest News</a></li>
-      <li><a href="./Others/A&C.html">About Me</a></li>
-    </ul>
-    <img src="./images/close.png" class="close" />
-  </div>
-  <section class="services">
-    <div class="main-conatiner">
-      <div class="top-head hidden">
-        <p>Our Features</p>
-        <h1>FEATURES</h1>
-      </div>
-      <div class="branch-container">
-        <div class="branch-content hidden">
-          <h2>What We Provide</h2>
-          <p>
-            We offer chapter-wise notes and past papers for students for grades Ninth through twelfth. You can download
-            them in
-            both
-            PDF (.pdf) and document (.docx) formats, free of cost. Additionally, we provide the latest updates on
-            technology, entertainment, and education news. Please note that the past papers we provide are only valid
-            for
-            KPK BOARDS.
-          </p>
-          <button class="See More" style="color: #000000"><a href="./ChapterWiseNotes/notes.html"
-              style="text-decoration: none;">See More</a></button>
-        </div>
-        <div class="branch-img hidden">
-          <img src="./images/ServiceImg1.png" alt="" />
-        </div>
-      </div>
-      <div class="branch-container">
-        <div class="branch-img hidden">
-          <img src="./images/ChapWiseImg.png" alt="" id="orde" />
-        </div>
-        <div class="branch-content hidden" id="ordew">
-          <h2>See Chapter Wise Notes</h2>
-          <p>
-            Get your 9th to 12th Class KPK Board All Subjects Notes here!
-            Download chapter-wise solved PDF notes for all subjects according
-            to the latest syllabus. These notes are from Khyber Pakhtunkhwa
-            Boards and can be easily downloaded.
-          </p>
-          <button class="See More">
-            <a href="./ChapterWiseNotes/notes.html" style="text-decoration: none;">See Notes</a>
-          </button>
-        </div>
-      </div>
-      <div class="branch-container">
-        <div class="branch-content hidden">
-          <h2>Latest News</h2>
-          <p>
-            We Provide All Latest News about education, technology and
-            entertainment. Click On the button and visit to our blog page to
-            inform your self from differnt kind of news.
-          </p>
-          <button class="See More">
-            <a href="./Blogs/mainBlog.html" style="text-decoration: none; ">Vist Blogs</a>
-          </button>
-        </div>
-        <div class="branch-img hidden">
-          <img src="./images/newsImg.png" alt="" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="goals">
-    <div class="top-head hidden">
-      <p>Our Goals</p>
-      <h1>OUR GOALS</h1>
-    </div>
-    <div class="goalsMain">
-      <div class="goalsText hidden">
-        <p>
-          Now a Days, there are a lot of costly books and notes that are available in the market. Not all students
-          can afford to buy all of them. Therefore, we offer free chapter-wise notes and past year papers in PDF format
-          to students and teachers from the ninth to eleventh grade.
-        </p>
-      </div>
-      <div class="goalsImg hidden">
-        <img src="./images/GoalsImg.png" class="hidden" alt="">
-      </div>
-    </div>
-  </section>
-
-  <section class="three">
-    <div class="top-head hidden">
-      <p>Our Services</p>
-      <h1>SERVICES</h1>
-      <font style="margin-top: 10px; font-size: 18px">Explore Our Services By One Click</font>
-    </div>
-    <div class="main-dev">
-      <div class="cenDev">
-        <div class="item-1 hidden">
-          <h2>Chapter Wise Notes</h2>
-          <img src="./images/Books.png" alt="" />
-          <p>
-            All chapter wise notes of Ninth to Twelfth Class are here, just
-            click on <b>Download</b> button and select your class and subject.
-          </p>
-          <button type="button" class="See More">
-            <a href="./ChapterWiseNotes/notes.html" style="text-decoration: none;">Download</a>
-          </button>
-        </div>
-        <div class="item-1 hidden">
-          <h2>Past Year Papers</h2>
-          <img src="./images/Paper.png" alt="" />
-          <p>
-            KPK Board Past year papers for class 9<sup>th</sup> to
-            12<sup>th</sup>. click on <b>download</b> button and select your
-            class to download past years papers.
-          </p>
-          <button type="button" class="See More">
-            <a href="./PastYearPapers/SelPaper.html" style="text-decoration: none; ">Download</a>
-          </button>
-        </div>
-        <div class="item-1 hidden">
-          <h2>Latest News</h2>
-          <img src="./images/News.png" alt="" />
-          <p>
-            Latest news from technology, education and entertainment, click on
-            <b>visit</b> button and infrom yourself from latest newss
-          </p>
-          <button type="button" class="See More">
-            <a href="./Blogs/mainBlog.html" style="text-decoration: none; ">Vist to Blogs</a>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact">
-    <div class="top-head hidden">
-      <p>Contact With Us</p>
-      <h1>CONTACT</h1>
-    </div>
-    <div class="contactMain">
-      <div class="myInfoBoxs">
-        <div class="sinInfoBox hidden">
-          <div class="icon"><i class="ri-map-pin-user-fill"></i></div>
-          <div class="details">
-            <h3>Location</h3>
-            <p>Chakdara Dir Lower, KPK Pakistan</p>
-          </div>
-        </div>
-        <div class="sinInfoBox hidden">
-          <div class="icon"><i class="ri-mail-line"></i></div>
-          <div class="details">
-            <h3>Email</h3>
-            <p>itsmashal2006@gmail.com</p>
-          </div>
-        </div>
-        <div class="sinInfoBox hidden">
-          <div class="icon"><i class="ri-phone-fill"></i></div>
-          <div class="details">
-            <h3>Call</h3>
-            <p>+92 3471309916</p>
-          </div>
-        </div>
-        <div class="sinInfoBox hidden">
-          <div class="icon"><i class="ri-whatsapp-line"></i></div>
-          <div class="details">
-            <h3>Whatsapp</h3>
-            <p>+92 3471309916</p>
-          </div>
-        </div>
-      </div>
-      <form>
-        <div class="n-e">
-          <input type="text" name="name" id="userName" class=" hidden" placeholder="Your Name" required=""
-            autocomplete="name" />
-          <input type="email" class="Email hidden" name="email" id="email" placeholder="Your Email" required="" />
-        </div>
-        <input type="text" name="subject" id="userSubject" class="Subject hidden" placeholder="Subject" />
-        <textarea name="message" id="message" cols="39" rows="10" required="" placeholder="Your Message"
-          class="hidden"></textarea>
-        <dir class="error" id="err">🛑Error In Sending Your Message.</dir>
-        <button type="submit" id="submitBtn" class="hidden">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <footer class="footer" style="z-index: 2">
-    <div class="footerLeft">
-      <div class="tophead">
-        <h2>Papers<span style="color: #21e5ff">&</span>Notes</h2>
-      </div>
-      <div class="links">
-        <div class="links-l">
-          <ul>
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">9th classs Notes</a>
-            </li>
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">10th classs Notes</a>
-            </li>
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">11th classs Notes</a>
-            </li>
-            <li>
-              <a href="./ChapterWiseNotes/notes.html">12th classs Notes</a>
-            </li>
-          </ul>
-        </div>
-        <div class="links-l">
-          <ul>
-            <li>
-              <a href="./PastYearPapers/9th-PastPapers.html">9th classs Papers</a>
-            </li>
-            <li>
-              <a href="./PastYearPapers/10th-PastPapers.html">10th classs Papers</a>
-            </li>
-            <li>
-              <a href="./PastYearPapers/11th-PastPapers.html">11th classs Papers</a>
-            </li>
-            <li>
-              <a href="./PastYearPapers/12th-PastPapers.html">12th classs Papers</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="info">
-      <h2 style="text-align: center; color: #ffff; font-weight: 550">
-        Get In Touch
-      </h2>
-      <div class="links">
-        <div class="links-l">
-          <ul>
-            <li>
-              <a href="#"><b>Phone</b> : +92 3471309916</a>
-            </li>
-            <li>
-              <a href="#"><b>Whatsapp</b> : +92 3471309916</a>
-            </li>
-            <li>
-              <a href="#"><b>Address</b> : Chakdara Dir Lower KPK</a>
-            </li>
-            <li>
-              <a href="#"><b>Email</b> : itsmashal2006@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footerRight">
-      <div class="tophead"></div>
-      <div class="links">
-        <div class="links-l">
-          <ul>
             <li><a href="./Blogs/mainBlog.html">Latest News</a></li>
-            <li><a href="#">Softwares</a></li>
             <li><a href="./Others/A&C.html">About Me</a></li>
-            <li><a href="./Others/A&C.html">Contact Me</a></li>
-          </ul>
-        </div>
-        <div class="links-l">
-          <ul>
-            <li>
-              <a href="./Others/Terms-and-Conditions.html">Terms and Conditions</a>
-            </li>
-            <li>
-              <a href="./Others/privacy-policy.html">Privacy policy</a>
-            </li>
-          </ul>
-        </div>
+         </ul>
+         <img src="./images/close.png" class="close" />
       </div>
-    </div>
-    <div class="mssg">
-      <p>
-        Copyright® All Right reserved
-        <font style="color: #21e5ff; cursor: pointer">MashalWeb.com</font> By
-        Mashal Huraira
-      </p>
-    </div>
-  </footer>
+      <section class="sliders">
+         <div class="card-slider">
+            <div class="card">
+               <img src="./images/figma.svg" alt="Image 1" />
+               <div class="card-content">
+                  <h2>FSC Part-I & Part-II Chapter Wise Notes (KPK Boards)</h2>
 
-  <script src="./JavaScript/main.script.js"></script>
-  <script>
-    const form = document.querySelector("form");
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-    });
-    document.querySelector("#submitBtn").addEventListener("click", (e) => {
-      sendMessage();
-    });
+                  <a href="./ChapterWiseNotes/notes.html"
+                     ><button>Learn More</button></a
+                  >
+               </div>
+            </div>
+            <div class="card">
+               <img src="./images/figma.svg" alt="Image 1" />
+               <div class="card-content">
+                  <h2>Activate MS Office 2016 Or Higher Without Product Key</h2>
 
-    function sendMessage() {
-      (function () {
-        emailjs.init("niJGiyFp8lWuCE8yV");
-      })();
-      let serviceID = "service_o0ca4g8";
-      let templateID = "template_mp61thq";
+                  <a href="./Blogs/install-and-activate-ms-office-2016.html"
+                     ><button>Learn More</button></a
+                  >
+               </div>
+            </div>
+            <div class="card">
+               <img src="./images/figma.svg" alt="Image 1" />
+               <div class="card-content">
+                  <h2>
+                     9th Class Physics Notes (Numericals, Short Questions and
+                     MCQs)
+                  </h2>
 
-      let params = {
-        userName: document.querySelector("input[type = 'text']").value,
-        userEmail: document.querySelector("input[type = 'email']").value,
-        userSubject: document.getElementById("userSubject").value,
-        message: document.getElementById("message").value,
-      };
+                  <a href="#"><button>Learn More</button></a>
+               </div>
+            </div>
+            <div class="card">
+               <img src="./images/heroSecImg.png" alt="Image 2" />
+               <div class="card-content">
+                  <h2>Heading 4</h2>
 
-      emailjs
-        .send(serviceID, templateID, params)
-        .then((res) => {
-          errorMessage.classList.add("errorActive");
-          errorMessage.innerHTML = "👍 Your Message is send";
-          errorMessage.style.background = "green";
-          console.log("message send");
-          setTimeout(() => {
-            errorMessage.classList.remove("errorActive");
-          }, 3000)
-          form.reset();
-        })
+                  <a href="#"><button>Learn More</button></a>
+               </div>
+            </div>
+         </div>
+         <div class="navigation-bullets">
+            <button class="bullet" onclick="navigateCard(-1)">
+               <i class="ri-arrow-left-s-line"></i>
+            </button>
+            <button class="bullet active" onclick="navigateCard(1)">
+               <i class="ri-arrow-right-s-line"></i>
+            </button>
+         </div>
+      </section>
+      <section class="services">
+         <div class="main-conatiner">
+            <div class="top-head hidden">
+               <p>Our Features</p>
+               <h1>FEATURES</h1>
+            </div>
+            <div class="branch-container">
+               <div class="branch-content hidden">
+                  <h2>What We Provide</h2>
+                  <p>
+                     We offer chapter-wise notes and past papers for students
+                     for grades Ninth through twelfth. You can download them in
+                     both PDF (.pdf) and document (.docx) formats, free of cost.
+                     Additionally, we provide the latest updates on technology,
+                     entertainment, and education news. Please note that the
+                     past papers we provide are only valid for KPK BOARDS.
+                  </p>
+                  <button class="See More" style="color: #000000">
+                     <a
+                        href="./ChapterWiseNotes/notes.html"
+                        style="text-decoration: none"
+                        >See More</a
+                     >
+                  </button>
+               </div>
+               <div class="branch-img hidden">
+                  <img src="./images/ServiceImg1.png" alt="" />
+               </div>
+            </div>
+            <div class="branch-container">
+               <div class="branch-img hidden">
+                  <img src="./images/ChapWiseImg.png" alt="" id="orde" />
+               </div>
+               <div class="branch-content hidden" id="ordew">
+                  <h2>See Chapter Wise Notes</h2>
+                  <p>
+                     Get your 9th to 12th Class KPK Board All Subjects Notes
+                     here! Download chapter-wise solved PDF notes for all
+                     subjects according to the latest syllabus. These notes are
+                     from Khyber Pakhtunkhwa Boards and can be easily
+                     downloaded.
+                  </p>
+                  <button class="See More">
+                     <a
+                        href="./ChapterWiseNotes/notes.html"
+                        style="text-decoration: none"
+                        >See Notes</a
+                     >
+                  </button>
+               </div>
+            </div>
+            <div class="branch-container">
+               <div class="branch-content hidden">
+                  <h2>Latest News</h2>
+                  <p>
+                     We Provide All Latest News about education, technology and
+                     entertainment. Click On the button and visit to our blog
+                     page to inform your self from differnt kind of news.
+                  </p>
+                  <button class="See More">
+                     <a
+                        href="./Blogs/mainBlog.html"
+                        style="text-decoration: none"
+                        >Vist Blogs</a
+                     >
+                  </button>
+               </div>
+               <div class="branch-img hidden">
+                  <img src="./images/newsImg.png" alt="" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="goals">
+         <div class="top-head hidden">
+            <p>Our Goals</p>
+            <h1>OUR GOALS</h1>
+         </div>
+         <div class="goalsMain">
+            <div class="goalsText hidden">
+               <p>
+                  Now a Days, there are a lot of costly books and notes that are
+                  available in the market. Not all students can afford to buy
+                  all of them. Therefore, we offer free chapter-wise notes and
+                  past year papers in PDF format to students and teachers from
+                  the ninth to eleventh grade.
+               </p>
+            </div>
+            <div class="goalsImg hidden">
+               <img src="./images/GoalsImgPink.png" class="hidden" alt="" />
+            </div>
+         </div>
+      </section>
 
-        .catch((err) => {
+      <section class="three">
+         <div class="top-head hidden">
+            <p>Our Services</p>
+            <h1>SERVICES</h1>
+            <font style="margin-top: 10px; font-size: 18px"
+               >Explore Our Services By One Click</font
+            >
+         </div>
+         <div class="main-dev">
+            <div class="cenDev">
+               <div class="item-1 hidden">
+                  <h2>Chapter Wise Notes</h2>
+                  <img src="./images/Books.png" alt="" />
+                  <p>
+                     All chapter wise notes of Ninth to Twelfth Class are here,
+                     just click on <b>Download</b> button and select your class
+                     and subject.
+                  </p>
+                  <button type="button" class="See More">
+                     <a
+                        href="./ChapterWiseNotes/notes.html"
+                        style="text-decoration: none"
+                        >Download</a
+                     >
+                  </button>
+               </div>
+               <div class="item-1 hidden">
+                  <h2>Past Year Papers</h2>
+                  <img src="./images/Paper.png" alt="" />
+                  <p>
+                     KPK Board Past year papers for class 9<sup>th</sup> to
+                     12<sup>th</sup>. click on <b>download</b> button and select
+                     your class to download past years papers.
+                  </p>
+                  <button type="button" class="See More">
+                     <a
+                        href="./PastYearPapers/SelPaper.html"
+                        style="text-decoration: none"
+                        >Download</a
+                     >
+                  </button>
+               </div>
+               <div class="item-1 hidden">
+                  <h2>Latest News</h2>
+                  <img src="./images/News.png" alt="" />
+                  <p>
+                     Latest news from technology, education and entertainment,
+                     click on
+                     <b>visit</b> button and infrom yourself from latest newss
+                  </p>
+                  <button type="button" class="See More">
+                     <a
+                        href="./Blogs/mainBlog.html"
+                        style="text-decoration: none"
+                        >Vist to Blogs</a
+                     >
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
 
-          errorMessage.classList.add("errorActive");
-          errorMessage.innerHTML = "🛑 Error in sending your Message";
-          errorMessage.style.background = "red"
-          setTimeout(() => {
-            errorMessage.classList.remove("errorActive");
-          }, 3000);
-          console.log("🛑Error in sending your message!! ", err);
-        });
-    }
-    let city = "";
-    let cityName = document.querySelector(".weather-city h3");
-    let descip = document.querySelector(".weather-city p");
-    let date = new Date();
+      <section class="contact">
+         <div class="top-head hidden">
+            <p>Contact With Us</p>
+            <h1>CONTACT</h1>
+         </div>
+         <div class="contactMain">
+            <div class="myInfoBoxs">
+               <div class="sinInfoBox hidden">
+                  <div class="icon"><i class="ri-map-pin-user-fill"></i></div>
+                  <div class="details">
+                     <h3>Location</h3>
+                     <p>Chakdara Dir Lower, KPK Pakistan</p>
+                  </div>
+               </div>
+               <div class="sinInfoBox hidden">
+                  <div class="icon"><i class="ri-mail-line"></i></div>
+                  <div class="details">
+                     <h3>Email</h3>
+                     <p>itsmashal2006@gmail.com</p>
+                  </div>
+               </div>
+               <div class="sinInfoBox hidden">
+                  <div class="icon"><i class="ri-phone-fill"></i></div>
+                  <div class="details">
+                     <h3>Call</h3>
+                     <p>+92 3471309916</p>
+                  </div>
+               </div>
+               <div class="sinInfoBox hidden">
+                  <div class="icon"><i class="ri-whatsapp-line"></i></div>
+                  <div class="details">
+                     <h3>Whatsapp</h3>
+                     <p>+92 3471309916</p>
+                  </div>
+               </div>
+            </div>
+            <form>
+               <div class="n-e">
+                  <input
+                     type="text"
+                     name="name"
+                     id="userName"
+                     class="hidden"
+                     placeholder="Your Name"
+                     required=""
+                     autocomplete="name"
+                  />
+                  <input
+                     type="email"
+                     class="Email hidden"
+                     name="email"
+                     id="email"
+                     placeholder="Your Email"
+                     required=""
+                  />
+               </div>
+               <input
+                  type="text"
+                  name="subject"
+                  id="userSubject"
+                  class="Subject hidden"
+                  placeholder="Subject"
+               />
+               <textarea
+                  name="message"
+                  id="message"
+                  cols="39"
+                  rows="10"
+                  required=""
+                  placeholder="Your Message"
+                  class="hidden"
+               ></textarea>
+               <dir class="error" id="err">
+                  🛑Error In Sending Your Message.
+               </dir>
+               <button type="submit" id="submitBtn" class="hidden">
+                  Send Message
+               </button>
+            </form>
+            <img class="contactBG" src="./images/ContactBG.png" alt="" />
+         </div>
+      </section>
 
-    let comdate = date.toDateString();
-    let DateShow = document.querySelector(".dateInfo small");
-    let temperature = document.querySelector('.weather-icon h2');
-    let windSpeed = document.getElementById("windSpeed");
-    let humidity = document.getElementById("humidity");
-    let feels_like = document.getElementById("feels_like");
-    DateShow.textContent = comdate;
-    let searchBtn = document.getElementById("weatherSearch");
-    let searchInput = document.getElementById("searchInput");
-    searchBtn.addEventListener("click", () => {
-      if (searchInput.value == "") {
-        alert("Please Enter City Name");
-        document.querySelector("#weather").style.height = '30%';
-        document.querySelector(".currentWeather").style.display = "none";
-        document.querySelector(".currentWeatherDetails").style.display = "none";
-      }
-      else {
-        document.querySelector("#weather").style.height = '100%';
-        document.querySelector(".currentWeather").style.display = "block";
-        document.querySelector(".currentWeatherDetails").style.display = "flex";
-        city = searchInput.value;
-        console.log(city);
-        getWeatherData(city);
-      }
-    })
-    function getWeatherData(city) {
-      let API_KEY = 'd35dd618f6b115bff158d1b8bcd6a330';
-      let API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
-      fetch(API_URL)
-        .then(res => res.json())
-        .then((data) => {
+      <footer class="footer" style="z-index: 2">
+         <div class="footerLeft">
+            <div class="tophead">
+               <h2>Papers<span style="color: #21e5ff">&</span>Notes</h2>
+            </div>
+            <div class="links">
+               <div class="links-l">
+                  <ul>
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >9th classs Notes</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >10th classs Notes</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >11th classs Notes</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./ChapterWiseNotes/notes.html"
+                           >12th classs Notes</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+               <div class="links-l">
+                  <ul>
+                     <li>
+                        <a href="./PastYearPapers/9th-PastPapers.html"
+                           >9th classs Papers</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./PastYearPapers/10th-PastPapers.html"
+                           >10th classs Papers</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./PastYearPapers/11th-PastPapers.html"
+                           >11th classs Papers</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./PastYearPapers/12th-PastPapers.html"
+                           >12th classs Papers</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="info">
+            <h2 style="text-align: center; color: #ffff; font-weight: 550">
+               Get In Touch
+            </h2>
+            <div class="links">
+               <div class="links-l">
+                  <ul>
+                     <li>
+                        <a href="#"><b>Phone</b> : +92 3471309916</a>
+                     </li>
+                     <li>
+                        <a href="#"><b>Whatsapp</b> : +92 3471309916</a>
+                     </li>
+                     <li>
+                        <a href="#"><b>Address</b> : Chakdara Dir Lower KPK</a>
+                     </li>
+                     <li>
+                        <a href="#"><b>Email</b> : itsmashal2006@gmail.com</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="footerRight">
+            <div class="tophead"></div>
+            <div class="links">
+               <div class="links-l">
+                  <ul>
+                     <li><a href="./Blogs/mainBlog.html">Latest News</a></li>
+                     <li><a href="#">Softwares</a></li>
+                     <li><a href="./Others/A&C.html">About Me</a></li>
+                     <li><a href="./Others/A&C.html">Contact Me</a></li>
+                  </ul>
+               </div>
+               <div class="links-l">
+                  <ul>
+                     <li>
+                        <a href="./Others/Terms-and-Conditions.html"
+                           >Terms and Conditions</a
+                        >
+                     </li>
+                     <li>
+                        <a href="./Others/privacy-policy.html"
+                           >Privacy policy</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="mssg">
+            <p>
+               Copyright® All Right reserved
+               <font style="color: #21e5ff; cursor: pointer"
+                  >MashalWeb.com</font
+               >
+               By Mashal Huraira
+            </p>
+         </div>
+      </footer>
 
-          console.log(data);
-          cityName.textContent = data.name;
-          descip.textContent = data.weather[0].main + ', ' + data.weather[0].description;
-          temperature.innerHTML = Math.round(data.main.temp) + `<span style="color: rgb(255, 98, 41);">&#8451;</span>`;
-          windSpeed.textContent = data.wind.speed + ' Km/h';
-          humidity.textContent = data.main.humidity + '%';
-          feels_like.innerHTML = data.main.feels_like + ' <span style="color: rgb(255, 98, 41);">&#8451;</span>';
-          city = "";
-        })
-        .catch((err) => {
-          console.log("Data Loding ERROR", err);
-        })
-    }
-  </script>
-</body>
+      <script src="./JavaScript/main.script.js"></script>
+      <script>
+         const form = document.querySelector("form");
+         form.addEventListener("submit", (e) => {
+            e.preventDefault();
+         });
+         document.querySelector("#submitBtn").addEventListener("click", (e) => {
+            sendMessage();
+         });
 
+         function sendMessage() {
+            (function () {
+               emailjs.init("niJGiyFp8lWuCE8yV");
+            })();
+            let serviceID = "service_o0ca4g8";
+            let templateID = "template_mp61thq";
+
+            let params = {
+               userName: document.querySelector("input[type = 'text']").value,
+               userEmail: document.querySelector("input[type = 'email']").value,
+               userSubject: document.getElementById("userSubject").value,
+               message: document.getElementById("message").value,
+            };
+
+            emailjs
+               .send(serviceID, templateID, params)
+               .then((res) => {
+                  errorMessage.classList.add("errorActive");
+                  errorMessage.innerHTML = "👍 Your Message is send";
+                  errorMessage.style.background = "green";
+                  console.log("message send");
+                  setTimeout(() => {
+                     errorMessage.classList.remove("errorActive");
+                  }, 3000);
+                  form.reset();
+               })
+
+               .catch((err) => {
+                  errorMessage.classList.add("errorActive");
+                  errorMessage.innerHTML = "🛑 Error in sending your Message";
+                  errorMessage.style.background = "red";
+                  setTimeout(() => {
+                     errorMessage.classList.remove("errorActive");
+                  }, 3000);
+                  console.log("🛑Error in sending your message!! ", err);
+               });
+         }
+      </script>
+      <script src="./JavaScript/jQuery.js"></script>
+      <script src="./JavaScript/ajax.js"></script>
+      <script>
+         $(document).ready(function () {
+            $(".card-slider").slick({
+               infinite: true,
+               slidesToShow: 3,
+               slidesToScroll: 1,
+               prevArrow:
+                  '<button type="button" class="slick-prev">&#10094;</button>',
+               nextArrow:
+                  '<button type="button" class="slick-next">&#10095;</button>',
+               responsive: [
+                  {
+                     breakpoint: 768,
+                     settings: {
+                        slidesToShow: 2,
+                     },
+                  },
+                  {
+                     breakpoint: 550,
+                     settings: {
+                        slidesToShow: 1,
+                     },
+                  },
+               ],
+            });
+         });
+      </script>
+      <script>
+         $(document).ready(function () {
+            $(".card-slider").slick({
+               infinite: true,
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               prevArrow: false,
+               nextArrow: false,
+               dots: false,
+               fade: true,
+               responsive: [
+                  {
+                     breakpoint: 768,
+                     settings: {
+                        arrows: false,
+                        dots: false,
+                     },
+                  },
+               ],
+            });
+         });
+
+         function navigateCard(direction) {
+            $(".card-slider").slick(
+               direction == -1 ? "slickPrev" : "slickNext"
+            );
+         }
+      </script>
+   </body>
 </html>

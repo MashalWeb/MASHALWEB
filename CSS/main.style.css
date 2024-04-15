@@ -106,16 +106,17 @@ header nav {
   border-radius: 60px;
   padding: 10px;
   background: linear-gradient(45deg,
-      #fda87b8c,
-      #fda97b54);
-  backdrop-filter: blur(30px);
-  transition: 0.3s ease;
+      #bb37bbb0,
+      #fda97bb0);
+  backdrop-filter: blur(40px);
+  transition: 0.5s ease;
 
 }
 
 nav .logo img {
-  width: 190px;
+  width: 150px;
   margin-top: 5px;
+  filter: drop-shadow(0 2px 5px #bebebe7c);
 }
 
 nav .items ul li {
@@ -128,11 +129,12 @@ nav .items ul li {
 
 
 nav .items ul li a {
-  color: #BB37BB;
-  font-weight: 500;
+  color: #fff;
+  font-weight: 400;
   font-size: 16.4px;
   text-decoration: none;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.274);
 
 }
 
@@ -140,11 +142,12 @@ nav .items ul li ::before {
   position: absolute;
   content: "";
   width: 0;
-  height: 3px;
+  height: 5px;
   bottom: 6px;
   left: 0;
-  background: linear-gradient(45deg, #fda97b, #f7bfa0);
+  background: linear-gradient(45deg, #ff6918, #ff8442);
   transition: 0.3s ease;
+  border-radius: 20px;
 }
 
 nav .items ul li:hover ::before {
@@ -152,9 +155,8 @@ nav .items ul li:hover ::before {
 }
 
 .back {
-  padding: 13px 10px;
+
   box-shadow: 0 5px 10px 4px #00000028;
-  transition: 0.3s ease;
   margin-top: 3px;
   width: 98%;
   height: 60px;
@@ -205,7 +207,7 @@ nav .items ul li:hover ::before {
   background: -webkit-linear-gradient(45deg, #BB37BB, #fda97b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
 }
 
@@ -250,7 +252,7 @@ nav .items ul li:hover ::before {
   left: 0;
   z-index: 28;
   display: none;
-  background: url('../images/SecNavImg.png');
+  background: linear-gradient(#e482e400, #aa47aa93), url('../images/SecNavImg.png');
   background-position: center;
   background-size: cover;
   box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.5);
@@ -302,7 +304,7 @@ nav .items ul li:hover ::before {
 }
 
 .secNav ul li:hover {
-  background: #3f3f3f6b;
+  background: #d6d6d631;
 }
 
 .secNav ul li:active a {
@@ -322,8 +324,12 @@ nav .items ul li:hover ::before {
   display: none;
 }
 
+.secNavActive {
+  display: block;
+}
+
 .secNav ul li ul li {
-  background: #ff8e52;
+  background: #ff7830;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -361,7 +367,7 @@ nav .items ul li:hover ::before {
   margin: 0 20px;
   border-radius: 10px;
   backdrop-filter: blur(10px);
-  box-shadow: 0 6px 14px 4px rgba(249, 102, 94, 0.295);
+  box-shadow: 0 6px 14px 4px rgba(249, 151, 94, 0.199);
   display: flex;
   margin-bottom: 15px;
   align-items: center;
@@ -402,7 +408,7 @@ nav .items ul li:hover ::before {
   border-radius: 10px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background: linear-gradient(rgba(249, 102, 94, 0.918),
+  background: linear-gradient(rgba(249, 102, 94, 0.575),
       rgba(255, 94, 0, 0.452));
   top: 0;
   left: 0;
@@ -437,7 +443,7 @@ nav .items ul li:hover ::before {
 
 @media only screen and (max-width: 865px) {
   .mainSection {
-    margin-top: 150px;
+    margin-top: 120px;
   }
 
   header nav {
@@ -445,20 +451,24 @@ nav .items ul li:hover ::before {
     height: 70px;
   }
 
+  nav .logo img {
+    width: 110px;
+  }
+
   .mainSection .textSection {
     flex-basis: 92%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 }
 
 @media only screen and (max-width: 567px) {
   header nav {
     height: 60px;
-    width: 93%;
+    width: 90%;
   }
 
   .back {
-    padding: 9px 10px;
+    padding: 20px 20px;
     height: 50px;
   }
 
@@ -495,7 +505,7 @@ nav .items ul li:hover ::before {
 
 @media only screen and (max-width: 570px) {
   .center .box {
-    box-shadow: 0 3px 5px 4px rgba(249, 102, 94, 0.13);
+    box-shadow: 0 6px 10px 4px rgba(249, 151, 94, 0.11);
   }
 }
 
@@ -545,21 +555,21 @@ nav .items ul li:hover ::before {
   font-weight: 800;
   line-height: 28px;
   letter-spacing: 1px;
-  color: #000e36;
+  color: #BB37BB;
 }
 
 .top-head p {
   position: relative;
   z-index: 9;
   padding-bottom: 5px;
-  color: #000e36;
+  color: #fa7b36;
 }
 
 .top-head p::after {
   content: "";
   width: 50px;
   height: 35px;
-  background: linear-gradient(#01a4d6, #fff);
+  background: linear-gradient(#fda97b, #fff);
   position: absolute;
   top: -25px;
   left: 24px;
@@ -598,28 +608,38 @@ nav .items ul li:hover ::before {
 .branch-content h2 {
   font-weight: 600;
   font-size: 30px;
-  text-shadow: 0 2px 5px #00c3ff77;
-  margin-left: 10px;
   padding-bottom: 5px;
-  color: #000a27;
+  color: #000;
+  position: relative;
+}
+
+.branch-content h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 4px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #fa7b36, #fc9b66);
 }
 
 .branch-content p {
-  margin-left: 20px;
   font-size: 18px;
   line-height: 24px;
-  text-justify: auto;
+  text-justify: distribute-all-lines;
 }
 
 .branch-content button {
   width: 130px;
-  margin: 0 50px;
+  margin: 0 20px;
   margin-top: 15px;
   padding: 8px 17px;
   font-size: 16px;
+  background: #fff;
   outline: none;
   border: none;
-  box-shadow: 0 3px 16px 4px #00c3ff46, 0 3px 22px 4px #8d8d8d2c;
+  box-shadow: 0 7px 16px 4px #ffa16f41, 0 3px 22px 4px #8d8d8d17;
   cursor: pointer;
   transition: 0.3s ease;
   border-radius: 3px;
@@ -627,11 +647,11 @@ nav .items ul li:hover ::before {
 }
 
 .branch-content button a {
-  color: #000a27;
+  color: #000000;
 }
 
 .branch-content button:hover {
-  background: #00a4d6;
+  background: #BB37BB;
 }
 
 .branch-content button:hover a {
@@ -683,7 +703,6 @@ nav .items ul li:hover ::before {
 
   .branch-content p {
     font-size: 17px;
-    margin-left: 7px;
   }
 
   .branch-content,
@@ -738,21 +757,24 @@ nav .items ul li:hover ::before {
 }
 
 .cenDev .item-1 {
-  box-shadow: 0 5px 11px 4px #00c3ff25;
+  box-shadow: 0 5px 11px 4px #f7bfa05d;
   margin: 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-basis: 28%;
+  flex-basis: 29%;
   padding-bottom: 17px;
   border-radius: 6px;
-  background: #fff;
+  background: url("../images/DotsLayer.png");
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .cenDev .item-1 h2 {
   text-align: center;
-  color: #001449;
+  color: #000;
   font-weight: 600;
   font-size: 25px;
   margin-top: 10px;
@@ -768,7 +790,7 @@ nav .items ul li:hover ::before {
 }
 
 .cenDev .item-1 button {
-  box-shadow: 0 2px 7px 4px #00c3ff46;
+  box-shadow: 0 4px 7px 4px #fc9b6649;
   padding: 8px 30px;
   font-size: 17px;
   cursor: pointer;
@@ -782,11 +804,11 @@ nav .items ul li:hover ::before {
 
 .cenDev .item-1 button a {
   transition: 0.3s ease;
-  color: #000a27;
+  color: #000;
 }
 
 .cenDev .item-1 button:hover {
-  background: #00a4d6;
+  background: #BB37BB;
 }
 
 .cenDev .item-1 button:active {
@@ -842,19 +864,31 @@ nav .items ul li:hover ::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 86%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .contactMain {
   position: relative;
-  box-shadow: 0px 5px 10px 4px #001b642d;
+  box-shadow: 0px 5px 10px 4px #fa7b3648;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   overflow: hidden;
   gap: 0 5px;
-  background: #fcfcfc;
+  width: 90%;
+
+}
+
+.contactBG {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  z-index: -2;
 }
 
 .contactMain .myInfoBoxs {
@@ -868,29 +902,34 @@ nav .items ul li:hover ::before {
 
 .sinInfoBox {
   margin: 7px 0;
-  background: linear-gradient(45deg, #000e36, #00c3ffa4);
-  color: #fff;
-  padding: 20px;
+  background: linear-gradient(45deg,
+      #da62da,
+      #fda97b);
+  color: #000;
+  padding: 20px 30px;
   display: flex;
   align-items: center;
   gap: 0 15px;
   border-radius: 4px;
-  box-shadow: 0 2px 4px 4px #00aeff1c;
+  box-shadow: 0 2px 4px 4px #fc9b6623;
   width: 100%;
 }
 
 .sinInfoBox .icon i {
   font-size: 28px;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
 }
 
 .sinInfoBox .details h3 {
   font-weight: 700;
-  text-shadow: 0px 1px 3px #0000008c;
   letter-spacing: 0.4px;
 }
 
 .sinInfoBox .details p {
   font-size: 14.5px;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
 }
 
 form {
@@ -906,54 +945,54 @@ form .n-e input {
   padding: 10px 6px;
   border: none;
   outline: none;
-  /* border: 1px solid #000f35; */
-  border-radius: 30px;
+  border: 1.3px solid #fc9b66cc;
+  border-radius: 5px;
   margin: 0 5px;
   padding-left: 10px;
-  box-shadow: 0 2px 5px 4px #00c3ff21;
-  transition: 0.3s ease;
-  color: #000e36;
-}
 
-form .n-e input:focus {
-  box-shadow: 0 3px 5px 4px #00c3ff3b;
+  color: #000;
 }
 
 form .n-e input::placeholder {
-  color: #000e36;
+  color: #000;
+}
+
+form .n-e input:focus {
+  background: #fc9b663f;
 }
 
 .Subject {
   padding: 10px 6px;
   border: none;
   outline: none;
-  border-radius: 30px;
-  box-shadow: 0 2px 5px 4px #00c3ff21;
-  transition: 0.2s ease;
-  color: #000e36;
-  margin: 17px 0;
-  width: 98%;
-}
+  border-radius: 5px;
+  border: 1.3px solid #fc9b66cc;
 
-.Subject:focus {
-  box-shadow: 0 3px 5px 4px #00c3ff3b;
+  color: #000;
+  width: 98%;
+  margin: 17px 0;
 }
 
 .Subject::placeholder {
-  color: #000e36;
+  color: #000;
+}
+
+.Subject:focus {
+  background: #fc9b663f;
 }
 
 form textarea {
   padding: 10px 6px;
   border: none;
   outline: none;
-  border-radius: 6px;
-  box-shadow: 0 2px 5px 4px #00c3ff21;
+  border-radius: 5px;
+  border: 1.3px solid #fc9b66cc;
   transition: 0.2s ease;
-  color: #000e36;
-  margin: 7px 0;
+  color: #000;
   width: 98%;
   resize: none;
+  background-color: #fafafad3;
+  backdrop-filter: blur(3px);
 }
 
 form textarea::placeholder {
@@ -967,10 +1006,12 @@ form button {
   border: none;
   outline: none;
   border-radius: 6px;
-  box-shadow: 0 2px 5px 4px #00c3ff21;
-  transition: 0.5s ease;
+  box-shadow: 0 3px 4px 4px #fc9b6628;
+  transition: 0.3s ease;
   color: #ffffff;
-  background: linear-gradient(#00c3ff, #00a4d6);
+  background: linear-gradient(45deg,
+      #BB37BB,
+      #fda97b);
   font-size: 17px;
   text-shadow: 0px 1px 2px #0000008c;
   font-weight: 600;
@@ -978,7 +1019,8 @@ form button {
 }
 
 form button:hover {
-  background: linear-gradient(#00a9dd, #0081a8);
+  background: linear-gradient(45deg,
+      #fda97b, #BB37BB);
 }
 
 form {
@@ -1016,11 +1058,11 @@ form {
 
 @media only screen and (max-width: 1168px) {
   .contact {
-    width: 90%;
+    width: 100%;
   }
 
   form .n-e {
-    width: 98%;
+    width: 99%;
   }
 
   form .n-e input {
@@ -1052,6 +1094,7 @@ form {
 
 @media only screen and (max-width: 778px) {
   .contactMain {
+    width: 98%;
     flex-direction: column;
   }
 
@@ -1065,6 +1108,10 @@ form {
 
   form {
     width: 100%;
+  }
+
+  .contactBG {
+    height: 130px;
   }
 }
 
@@ -1082,7 +1129,7 @@ form {
 
 @media only screen and (max-width: 430px) {
   .contact {
-    width: 97%;
+    width: 99%;
   }
 
   .sinInfoBox {
@@ -1347,16 +1394,18 @@ form {
   padding: 10px 5px;
   outline: none;
   border: none;
-  background: rgb(0, 33, 143);
+  background: linear-gradient(45deg,
+      #fda97b, #BB37BB);
   color: #fff;
   border-radius: 3px;
   font-size: 15.5px;
   cursor: pointer;
   transition: 0.2s ease;
+  box-shadow: 0 3px 6px 4px rgba(112, 112, 112, 0.144);
 }
 
 .commentForm button:hover {
-  background: rgb(0, 0, 109);
+  background: linear-gradient(45deg, #ff43ff, #fda97b);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1367,316 +1416,11 @@ form {
 
 @media only screen and (max-width: 752px) {
   .commentSec {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 }
 
-#sliders {
-  padding: 30px 20px;
-  width: 100%;
-  position: relative;
-}
 
-#weather {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #020018c2;
-  z-index: 44;
-  padding: 20px;
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  justify-content: center;
-  backdrop-filter: blur(20px);
-  overflow-y: auto;
-  gap: 0 30px;
-  display: none;
-  animation: we-up 0.6s linear 0s 1;
-  height: 30%;
-  box-shadow: 0 7px 12px 4px rgba(0, 0, 0, 0.323);
-}
-
-@keyframes we-up {
-  0% {
-    transform: translateY(-100%);
-    filter: blur(20px);
-  }
-
-  50% {
-    filter: blur(10px);
-  }
-
-  100% {
-    transform: translateY(0px);
-    filter: blur(0);
-  }
-}
-
-.search-box {
-  position: absolute;
-  top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.search-box h3 {
-  color: #fff;
-  font-weight: 400;
-  font-size: 23px;
-  padding-bottom: 10px;
-}
-
-.search-box input {
-  border: none;
-  outline: none;
-  border-radius: 25px;
-  background: #ffffff0c;
-  /* backdrop-filter: blur(40px); */
-  padding: 10px 13px;
-  margin-bottom: 5px;
-  font-size: 15.5px;
-  color: #fff;
-  width: 300px;
-  box-shadow: 0 3px 7px 4px rgba(0, 0, 0, 0.082);
-  transition: 0.3s ease;
-  position: relative;
-}
-
-#weatherSearch {
-  background: linear-gradient(rgb(253, 91, 33), rgb(218, 58, 0));
-  color: #fff;
-  border: none;
-  outline: none;
-  padding: 8px 13px;
-  border-radius: 50%;
-  cursor: pointer;
-  margin-left: 5px;
-  transition: 0.3s ease;
-  font-size: 17px;
-}
-
-#weatherSearch:hover {
-  background: linear-gradient(rgb(255, 119, 70), rgb(218, 58, 0));
-  color: #fff;
-}
-
-.search-box input::placeholder {
-  color: #fff;
-}
-
-.search-box input:focus {
-  box-shadow: 0 3px 7px 4px rgba(0, 0, 0, 0.363);
-}
-
-.currentWeather {
-  background: linear-gradient(#030020ab, #0000000c),
-    url("../images/weather-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 25px;
-  position: relative;
-  margin-top: 120px;
-  box-shadow: 0 5px 10px 4px rgba(3, 3, 3, 0.171);
-  display: none;
-}
-
-.currentWeather .dateInfo {
-  font-weight: 300;
-  font-size: 20px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.274);
-}
-
-.currentWeather .weather-city {
-  padding: 5px 10px;
-}
-
-.currentWeather .weather-city h3 {
-  font-weight: 500;
-  font-size: 35px;
-  letter-spacing: 0.5px;
-  /* line-height: 34px; */
-}
-
-.currentWeather .weather-city p {
-  font-size: 14px;
-  margin-top: -5px;
-}
-
-.currentWeather .weather-city p span {
-  margin-right: 3px;
-}
-
-.weather-icon {
-  padding: 13px 0;
-  display: flex;
-  align-items: center;
-  gap: 0 24px;
-  width: 100%;
-  justify-content: center;
-}
-
-.weather-icon h2 {
-  font-weight: 600;
-  font-size: 45px;
-  text-shadow: 0 5px px rgba(0, 0, 0, 0.5);
-}
-
-.weather-icon i {
-  font-size: 60px;
-}
-
-.moreDeitals {
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.moreDeitals small {
-  margin: 0 10px;
-}
-
-.moreDeitals small span {
-  color: rgb(255, 108, 54);
-}
-
-.currentWeatherDetails {
-  box-shadow: 0 5px 10px 4px rgba(3, 3, 3, 0.082);
-  border-radius: 25px;
-  background: url("../images/weatherBoxImg.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  gap: 0 15px;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
-  padding-top: 14px;
-  padding-bottom: 33px;
-  display: none;
-}
-
-.currentWeatherDetails .minimumTemp {
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
-
-.minimumTemp h4 {
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.minimumTemp h2 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.minimumTemp img {
-  width: 70px;
-  filter: drop-shadow(0 3px 7px #009688);
-}
-
-.currentWeatherDetails .maximumTemp {
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
-
-.maximumTemp h4 {
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.maximumTemp h2 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.maximumTemp img {
-  width: 70px;
-  filter: drop-shadow(0 3px 7px #009688);
-}
-
-@media (max-width: 969px) {
-  #weather {
-    gap: 20px 0;
-  }
-
-  .currentWeather {
-    flex-basis: 80%;
-  }
-
-  .currentWeatherDetails {
-    flex-basis: 80%;
-    justify-content: space-evenly;
-  }
-}
-
-@media (max-width: 603px) {
-  .currentWeather {
-    flex-basis: 95%;
-  }
-
-  .currentWeatherDetails {
-    flex-basis: 95%;
-    text-align: center;
-    line-height: 20px;
-    justify-content: space-between;
-    padding: 20px;
-  }
-
-  .maximumTemp h4 {
-    padding-bottom: 15px;
-  }
-
-  .minimumTemp h4 {
-    padding-bottom: 15px;
-  }
-
-  .maximumTemp img {
-    margin-top: 10px;
-  }
-
-  .minimumTemp img {
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 514px) {
-  .currentWeather {
-    flex-basis: 98%;
-  }
-
-  .currentWeatherDetails {
-    flex-basis: 98%;
-  }
-}
-
-@media (max-width: 400px) {
-  #weather {
-    padding: 20px 10px;
-  }
-}
-
-@media (max-width: 370px) {
-  .search-box input {
-    width: 270px;
-  }
-}
 
 .hidden {
   opacity: 0;
@@ -1698,7 +1442,7 @@ form {
 }
 
 .goals {
-  padding: 10px 20px;
+  padding: 0 20px;
   position: relative;
 }
 
@@ -1714,7 +1458,7 @@ form {
   padding-top: 10px;
   padding-left: 10px;
   flex-basis: 40%;
-  border-left: 7px solid #000e36;
+  border-left: 6px solid #fa7b36;
   border-radius: 4px;
   text-transform: capitalize;
 }
@@ -1763,4 +1507,102 @@ form {
   .goalsImg {
     flex-basis: 95%;
   }
+}
+
+.sliders {
+
+  position: relative;
+  padding: 30px 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.card-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  justify-content: center;
+}
+
+.card-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto;
+
+  margin-right: 20px;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ff660013;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  /* object-position: center; */
+}
+
+.card-content {
+  padding: 6px;
+}
+
+.card-content h2 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.card-content button {
+  padding: 10px 20px;
+  background: linear-gradient(45deg,
+      #BB37BB,
+      #fda97b);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-content button:hover {
+  background-color: #0056b3;
+}
+
+.navigation-bullets {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+  gap: 0 20px;
+}
+
+.bullet {
+  border-radius: 50%;
+  padding: 8px 14px;
+  border: none;
+  outline: none;
+  background: #a3a3a32f;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.bullet:hover {
+  background: #8585857a;
+}
+
+.bullet:active {
+  scale: 0.9;
+}
+
+.navActive {
+  background: red;
 }

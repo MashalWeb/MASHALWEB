@@ -1,32 +1,39 @@
-.heroSec{
+.heroSec {
     background: none;
 }
-.blogText{
+
+.blogText {
     margin: 10px 0;
     margin-top: 130px;
     padding: 5px 80px;
     position: relative;
 }
-.blogText h1{
+
+.blogText h1 {
     font-size: 35px;
     font-weight: 800;
     text-align: center;
 }
-.blogText p{
+
+.blogText p {
     font-size: 16px;
     color: #0f0f0f;
     margin-top: 13px;
 }
-.getInTouch .profile{
+
+.getInTouch .profile {
     display: block;
 }
-.getInTouch .profile img{
+
+.getInTouch .profile img {
     width: 30px;
 }
-.recBlog a{
+
+.recBlog a {
     display: block;
 }
-.blogMainDev{
+
+.blogMainDev {
     margin-top: 50px;
     padding: 5px 20px;
     width: 100%;
@@ -37,7 +44,8 @@
     justify-content: space-between;
     padding-bottom: 15px;
 }
-.blogMainDev .blogsBox{
+
+.blogMainDev .blogsBox {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -45,50 +53,52 @@
     padding-left: 30px;
     flex-basis: 52%;
 }
-.blogMainDev .blogsBox .singBox{
-    box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.103);
+
+.blogMainDev .blogsBox .singBox {
+    box-shadow: 0 3px 7px 4px rgba(0, 0, 0, 0.103);
     padding: 10px 13px;
     border-radius: 6px;
     display: flex;
-    flex-basis:100%;
+    flex-basis: 100%;
     flex-direction: column;
     justify-content: left;
+    margin-bottom: 20px !important;
 }
-.blogMainDev .blogsBox .singBox h3{
+
+.blogMainDev .blogsBox .singBox h3 {
     padding-bottom: 20px;
     font-weight: 800;
     font-size: 23px;
 }
-.blogMainDev .blogsBox .singBox img{
-    width: 79%;
-    margin: 0 auto;
-    padding-bottom: 14px;
-    border-radius: 5px;
 
-}
-.blogMainDev .blogsBox .singBox p{
+.blogMainDev .blogsBox .singBox p {
     font-size: 15px;
     line-height: 21px;
     color: #0f0f0f;
 }
-.blogMainDev .blogsBox .singBox p b{
+
+.blogMainDev .blogsBox .singBox p b {
     color: blue;
     cursor: pointer;
 }
-.singBox p b:hover{
+
+.singBox p b:hover {
     text-decoration: underline;
 }
-.singBox .info{
+
+.singBox .info {
     width: 100%;
     display: flex;
     padding-top: 6px;
     font-size: 13px;
     color: #0a0063;
 }
-.singBox .info div{
+
+.singBox .info div {
     margin: 0 10px;
 }
-.sideBar{
+
+.sideBar {
     padding: 6px 10px;
     box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.103);
     width: 350px;
@@ -97,100 +107,120 @@
     border-radius: 5px;
     height: 260px;
 }
-.sideBar .recBlog{
+
+.sideBar .recBlog {
     padding-bottom: 10px;
 
 }
-.sideBar .recBlog h3{
+
+.sideBar .recBlog h3 {
     font-weight: 800;
     text-align: center;
 }
-.sideBar .recBlog a{
+
+.sideBar .recBlog a {
     text-decoration: none;
     margin-left: 10px;
     transition: 0.2s ease;
 }
-.sideBar .recBlog a:hover{
+
+.sideBar .recBlog a:hover {
     text-decoration: underline;
     color: #000;
 }
-.sideBar .getInTouch h3{
+
+.sideBar .getInTouch h3 {
     font-weight: 800;
     text-align: center;
 }
-.sideBar .getInTouch .profile{
+
+.sideBar .getInTouch .profile {
     display: flex;
     padding-left: 10px;
     gap: 0 5px;
 }
-.sideBar .getInTouch .profile a{
+
+.sideBar .getInTouch .profile a {
     text-decoration: none;
     transition: 0.2s ease;
 }
-.sideBar .getInTouch .profile a:hover{text-decoration: underline; color: #000;}
-@media only screen and (max-width: 954px){
-    .blogMainDev .blogsBox{
+
+.sideBar .getInTouch .profile a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+@media only screen and (max-width: 954px) {
+    .blogMainDev .blogsBox {
         padding-left: 10px;
         flex-basis: 86%;
-    }  
-    .sideBar{
+    }
+
+    .sideBar {
         margin-right: 10px;
     }
-    .blogText{
+
+    .blogText {
         margin-top: 110px;
         padding: 5px 10px;
     }
-    .blogText p{
+
+    .blogText p {
         font-size: 15.7px;
         line-height: 21px;
     }
 }
-@media only screen and (max-width: 858px){
-    .blogMainDev .blogsBox{
+
+@media only screen and (max-width: 858px) {
+    .blogMainDev .blogsBox {
         flex-basis: 95%;
     }
-    .sideBar{
+
+    .sideBar {
         margin-top: 20px;
         margin-left: 10px;
     }
-    .blogMainDev .blogsBox .singBox img{
-        width: 88%;
-    }
-    .blogMainDev .blogsBox .singBox h3{
+
+    .blogMainDev .blogsBox .singBox h3 {
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 610px){
-    .blogMainDev .blogsBox{
+
+@media only screen and (max-width: 610px) {
+    .blogMainDev .blogsBox {
         flex-basis: 100%;
         padding-left: 0;
     }
-    .blogMainDev{
+
+    .blogMainDev {
         padding: 5px 8px;
         padding-bottom: 20px;
     }
 }
-@media only screen and (max-width: 450px){
-    .blogMainDev .blogsBox .singBox h3{
-       font-size: 17px;
-    } 
-    .blogMainDev .blogsBox .singBox img{
-        width: 98%;
+
+@media only screen and (max-width: 450px) {
+    .blogMainDev .blogsBox .singBox h3 {
+        font-size: 17px;
     }
-    .blogMainDev .blogsBox .singBox p{
+
+    .blogMainDev .blogsBox .singBox p {
         font-size: 14px;
     }
-    .blogText p{
+
+    .blogText p {
         font-size: 15px;
     }
-    .singBox .info{
+
+    .singBox .info {
         font-size: 11px;
     }
-    .singBox .info div{
+
+    .singBox .info div {
         margin: 0 5px;
     }
 }
-.blogBody{
+
+.blogBody {
     margin-top: 120px;
     padding: 20px;
     width: 100%;
@@ -201,27 +231,31 @@
     position: relative;
     justify-content: space-around;
 }
-.main-blog{
+
+.main-blog {
     flex-basis: 60%;
     position: relative;
 }
-.main-blog h1{
+
+.main-blog h1 {
     font-size: 30px;
     padding-bottom: 12px;
     font-weight: 800;
 }
-.main-blog p{
+
+.main-blog p {
     color: #2e2e2e;
     font-size: 15.3px;
 }
 
-.textImg{
+.textImg {
     width: 53%;
     border-radius: 8px;
     margin: 7px 0;
     display: block;
 }
-.main-blog  button{
+
+.main-blog button {
     padding: 6px 10px;
     background: rgb(0, 31, 131);
     border: none;
@@ -229,57 +263,71 @@
     margin-left: 6px;
     transition: 0.2s ease;
 }
-.main-blog h2{
+
+.main-blog h2 {
     color: #002396;
 }
-.main-blog button:hover{
+
+.main-blog button:hover {
     background: rgb(0, 24, 102);
 }
-.main-blog button a{
+
+.main-blog button a {
     color: #fff;
     text-decoration: none;
     font-size: 15.5px;
 }
-@media only screen and (max-width: 954px){
-    .main-blog{
+
+@media only screen and (max-width: 954px) {
+    .main-blog {
         flex-basis: 100%;
     }
-    .blogBody{
+
+    .blogBody {
         padding: 10px;
     }
-    .textImg{
+
+    .textImg {
         width: 80%;
     }
+
     .main-blog p {
         line-height: 20px;
     }
-    .main-blog h1{
+
+    .main-blog h1 {
         font-size: 25px;
     }
-    .main-blog h2{
+
+    .main-blog h2 {
         font-size: 21px;
     }
 }
-@media only screen and (max-width: 650px){
-    .textImg{
+
+@media only screen and (max-width: 650px) {
+    .textImg {
         width: 98%;
     }
 
 }
-@media only screen and (max-width: 430px){
-    .main-blog p img{
+
+@media only screen and (max-width: 430px) {
+    .main-blog p img {
         width: 100%;
     }
-    
+
 }
-.singBox a{
+
+.singBox a {
     text-decoration: none;
     color: #000;
 }
-.singBox p a{
+
+.singBox p a {
     font-weight: 700;
     color: blue;
 }
-.singBox p a:hover{
+
+.singBox p a:hover {
     color: rgb(0, 0, 173);
 }

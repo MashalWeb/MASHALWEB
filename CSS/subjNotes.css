@@ -1,47 +1,54 @@
+.noteTextArea {
 
-.noteTextArea{
-    
     margin: 15px 0;
     padding: 0 60px;
     width: 100%;
 }
-.noteTextArea .chapterName{
+
+.noteTextArea .chapterName {
     margin-top: 120px;
     text-align: center;
     font-size: 32px;
     padding-bottom: 10px;
-    color: #000e36;
+    color: #000000;
     line-height: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.noteTextArea .chapterName span{
-    color: #00ace0;
+
+.noteTextArea .chapterName span {
+    background: -webkit-linear-gradient(45deg, #BB37BB, #fda97b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.noteTextArea p{
+
+.noteTextArea p {
     font-size: 16px;
     color: #464545;
 }
-.SelectChapter{
+
+.SelectChapter {
     position: relative;
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px 10px;
 }
-.SelectChapter .chMainDev{
-    background: #f5f5f5;
+
+.SelectChapter .chMainDev {
+    background: #f7f7f7;
     border-radius: 5px;
     position: relative;
     flex-basis: 70%;
-    box-shadow: 0 4px 10px 4px #00ace065;
+    box-shadow: 0 4px 10px 4px #4b4b4b27;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    padding: 0 8px;
+    padding: 5px 8px;
 }
+
 .SelectChapter .chMainDev .chapter-box {
     width: 100%;
     position: relative;
@@ -49,80 +56,85 @@
     margin: 6px 0;
     background: #fff;
     cursor: pointer;
-    box-shadow: 0 2px 2px 2px rgba(0, 204, 255, 0.089);
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.123);
     line-height: 20px;
     border-radius: 10px;
-    cursor: pointer;   
+    cursor: pointer;
     transition: 0.3s ease;
     overflow: hidden;
     /* height: fit-content; */
 }
-.SelectChapter .chMainDev .chapter-box
-.SelectChapter .chMainDev .chapter-box h3{
+
+.SelectChapter .chMainDev .chapter-box .SelectChapter .chMainDev .chapter-box h3 {
     font-size: 18px;
-    transition: 0.2s ease;
-}
-.SelectChapter .chMainDev .chapter-box h3:hover{
-    color: #0098c7;
 }
 
-.SelectChapter .chMainDev ul li{
+.SelectChapter .chMainDev ul li {
     list-style: none;
     margin-top: 6px;
     padding: 10px 3px;
     cursor: pointer;
-    color: #000e36;
     font-weight: 500;
     border-bottom: 1px solid #cfcfcf;
     transition: 0.3s ease;
     font-size: 14.8px;
     border-radius: 3px;
+
 }
 
-.SelectChapter .chMainDev ul li:hover{
-    background: #00ace034;   
+.SelectChapter .chMainDev ul li:hover {
+    background: #00000015;
     transform: scale(1.005);
 }
-.SelectChapter .chMainDev ul li a{
+
+.SelectChapter .chMainDev ul li a {
     text-decoration: none;
+    color: #fd6717;
 }
-@media only screen and (max-width: 900px){
-    .SelectChapter .chMainDev{
+
+@media only screen and (max-width: 900px) {
+    .SelectChapter .chMainDev {
         flex-basis: 90%;
     }
 }
-@media only screen and (max-width: 700px){
-    .noteTextArea{
+
+@media only screen and (max-width: 700px) {
+    .noteTextArea {
         padding: 0 16px;
         margin: 10px 0;
     }
-    .SelectChapter .chMainDev{
+
+    .SelectChapter .chMainDev {
         flex-basis: 99%;
     }
 }
-@media only screen and (max-width: 500px){
-    .SelectChapter .chMainDev ul{
+
+@media only screen and (max-width: 500px) {
+    .SelectChapter .chMainDev ul {
         font-size: 16.6px;
         padding: 10px;
     }
 }
-@media only screen and (max-width: 400px){
-    .noteTextArea .chapterName{
+
+@media only screen and (max-width: 400px) {
+    .noteTextArea .chapterName {
         margin-top: 100px;
         /* font-size: 27px; */
         font-weight: 800;
-        
+
     }
-    .noteTextArea{
+
+    .noteTextArea {
         padding: 0 10px;
     }
-    .SelectChapter .chMainDev ul{
+
+    .SelectChapter .chMainDev ul {
         font-size: 16.6px;
     }
-    
+
 }
-@media only screen and (max-width: 413px)
-{
+
+@media only screen and (max-width: 413px) {
     .noteTextArea .chapterName {
         font-size: 27px;
     }

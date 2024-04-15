@@ -17,7 +17,13 @@
     font-size: 37px;
     font-weight: 800;
     text-align: center;
-    color: #000e36;
+    color: #000000;
+}
+
+.notesMainDev .noteText h1 font {
+    background: -webkit-linear-gradient(45deg, #BB37BB, #fda97b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .notesMainDev .noteText p {
@@ -38,7 +44,7 @@
 .boxSecs .noteBox {
     cursor: pointer;
     width: 200px;
-    box-shadow: 0 6px 10px 4px #00ace02d;
+    box-shadow: 0 4px 8px 4px #fda87b36;
     display: flex;
     margin: 10px 0;
     border-radius: 5px;
@@ -47,6 +53,7 @@
     position: relative;
     justify-content: center;
     transition: 0.3s;
+    /* padding: 20px 25px; */
 }
 
 .boxSecs .noteBox:hover {
@@ -60,7 +67,9 @@
     width: 100%;
 
     height: 100%;
-    background: linear-gradient(45deg, #00ace0cc, #000e36cc);
+    background: linear-gradient(45deg,
+            #BB37BB,
+            #fda97b);
     z-index: -1;
     transition: 0.5s ease;
     opacity: 0;
@@ -107,10 +116,6 @@
 }
 
 @media only screen and (max-width: 844px) {
-    .boxSecs {
-        gap: 15px 15px;
-    }
-
     .BackToPage {
         top: 60px;
         left: 24px;
@@ -120,7 +125,7 @@
 @media only screen and (max-width: 442px) {
     .boxSecs .noteBox {
         width: 150px;
-        margin: 0 10px;
+        /* margin: 0 10px; */
     }
 
     .boxSecs .noteBox h3 {
@@ -179,7 +184,7 @@
 
 @media only screen and (max-width: 720px) {
     .jsAddText {
-        padding: 7px 15px;
+        padding: 7px 8px;
     }
 }
 
@@ -256,7 +261,7 @@
     box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.11);
     border-radius: 5px;
     text-align: center;
-    background: #00ace00c;
+    background: #fff
 }
 
 .ymal .notesBoxs .noteSinBox:hover {
@@ -275,14 +280,15 @@
 }
 
 .noteSinBox i {
-    background: linear-gradient(#000e36cc, #00ace0cc);
+    background: linear-gradient(#bb37bbbd, #fda97bbd);
     color: #fff;
     padding: 9px 44px;
     font-size: 20px;
 }
 
 .noteSinBox i:hover {
-    background: linear-gradient(#000e36, #00ace0);
+    background: linear-gradient(#BB37BB,
+            #fda97b);
 }
 
 @media (max-width: 820px) {

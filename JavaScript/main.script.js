@@ -1,11 +1,12 @@
 // animtions
 const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("show");
-    }
-  });
+   entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+         entry.target.classList.add("show");
+      }
+   });
 });
+
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
 
@@ -14,40 +15,40 @@ let errorMessage = document.querySelector("#err");
 
 //page loader
 window.addEventListener("load", () => {
-  document.querySelector("#js-preloader").classList.add("loaded");
+   document.querySelector("#js-preloader").classList.add("loaded");
 });
 
 //sticky navbar
 window.addEventListener("scroll", (e) => {
-  if (window.scrollY >= 80) {
-    document.querySelector("header nav").classList.add("back");
-  } else if (window.scrollY < 80) {
-    document.querySelector("header nav").classList.remove("back");
-  }
+   if (window.scrollY >= 80) {
+      document.querySelector("header nav").classList.add("back");
+   } else if (window.scrollY < 80) {
+      document.querySelector("header nav").classList.remove("back");
+   }
 });
 
 let SecNavli = document.querySelectorAll(".more");
 let flage = true;
 SecNavli.forEach((li) => {
-  li.addEventListener("click", (e) => {
-    if (flage) {
-      li.children[1].style.display = "block";
-      flage = false;
-    } else if (!flage) {
-      li.children[1].style.display = "none";
-      flage = true;
-    }
-  });
+   li.addEventListener("click", (e) => {
+      if (flage) {
+         li.children[1].style.display = "block";
+         flage = false;
+      } else if (!flage) {
+         li.children[1].style.display = "none";
+         flage = true;
+      }
+   });
 });
 
 const showSecNav = document.querySelector(".respNavImg");
 
 showSecNav.addEventListener("click", () => {
-  document.querySelector(".secNav").style.display = "block";
+   document.querySelector(".secNav").style.display = "block";
 });
 
 document.querySelector(".close").addEventListener("click", () => {
-  document.querySelector(".secNav").style.display = "none";
+   document.querySelector(".secNav").style.display = "none";
 });
 
 const sec9th = document.getElementById("9th");
@@ -58,118 +59,118 @@ const sec12th = document.getElementById("12th");
 const selectClassPage = document.getElementById("selectClass");
 let ifSelect9th = document.getElementById("box9th");
 ifSelect9th.addEventListener("click", () => {
-  sec9th.style.display = "flex";
-  selectClassPage.style.display = "none";
+   sec9th.style.display = "flex";
+   selectClassPage.style.display = "none";
 });
 
 let ifSelect10th = document.getElementById("box10th");
 ifSelect10th.addEventListener("click", () => {
-  sec9th.style.display = "none";
-  selectClassPage.style.display = "none";
-  sec10th.style.display = "flex";
+   sec9th.style.display = "none";
+   selectClassPage.style.display = "none";
+   sec10th.style.display = "flex";
 });
 
 let ifSelect11th = document.getElementById("box11th");
 ifSelect11th.addEventListener("click", () => {
-  sec11th.style.display = "flex";
-  selectClassPage.style.display = "none";
-  sec10th.style.display = "none";
+   sec11th.style.display = "flex";
+   selectClassPage.style.display = "none";
+   sec10th.style.display = "none";
 });
 
 let ifSelect12th = document.getElementById("box12th");
 ifSelect12th.addEventListener("click", () => {
-  sec12th.style.display = "flex";
-  selectClassPage.style.display = "none";
-  sec11th.style.display = "none";
+   sec12th.style.display = "flex";
+   selectClassPage.style.display = "none";
+   sec11th.style.display = "none";
 });
 let backToMain = document.querySelectorAll(".BackToPage");
 backToMain.forEach(function (back) {
-  back.addEventListener("click", () => {
-    sec9th.style.display = "none";
-    sec10th.style.display = "none";
-    sec11th.style.display = "none";
-    sec12th.style.display = "none";
-    selectClassPage.style.display = "flex";
-  });
+   back.addEventListener("click", () => {
+      sec9th.style.display = "none";
+      sec10th.style.display = "none";
+      sec11th.style.display = "none";
+      sec12th.style.display = "none";
+      selectClassPage.style.display = "flex";
+   });
 });
 
 let underTextContent =
-  "Get your Ninth Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
+   "Get your Ninth Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
 
 let textParaOne =
-  "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 9th class solved previous years' past papers on our website.";
+   "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 9th class solved previous years' past papers on our website.";
 
 let textParaTwo =
-  "Solved Easy notes for IX class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
+   "Solved Easy notes for IX class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
 let textParathree =
-  "You can download Ninth Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
+   "You can download Ninth Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
 let textParafour =
-  "Looking for 9th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
+   "Looking for 9th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
 let textParafive =
-  "Prepare for your 9th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning Ninth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of Ninth | IX | 9th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
+   "Prepare for your 9th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning Ninth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of Ninth | IX | 9th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
 
 let underTextContent2 =
-  "Get your tenth Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
+   "Get your tenth Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
 
 let textParaOne2 =
-  "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 10th class solved previous years' past papers on our website.";
+   "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 10th class solved previous years' past papers on our website.";
 
 let textParaTwo2 =
-  "Solved Easy notes for tenth class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
+   "Solved Easy notes for tenth class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
 let textParathree2 =
-  "You can download tenth Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
+   "You can download tenth Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
 let textParafour2 =
-  "Looking for 10th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
+   "Looking for 10th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
 let textParafive2 =
-  "Prepare for your 10th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning tenth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of tenth | 10th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
+   "Prepare for your 10th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning tenth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of tenth | 10th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
 
 let underTextContent3 =
-  "Get your elventh Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
+   "Get your elventh Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
 
 let textParaOne3 =
-  "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 11th class solved previous years' past papers on our website.";
+   "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 11th class solved previous years' past papers on our website.";
 
 let textParaTwo3 =
-  "Solved Easy notes for elventh class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
+   "Solved Easy notes for elventh class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
 let textParathree3 =
-  "You can download elventh Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
+   "You can download elventh Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
 let textParafour3 =
-  "Looking for 11th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
+   "Looking for 11th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
 let textParafive3 =
-  "Prepare for your 11th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning elventh Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of elventh | 11th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
+   "Prepare for your 11th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning elventh Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of elventh | 11th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
 
 let underTextContent4 =
-  "Get your twelfth Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
+   "Get your twelfth Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
 
 let textParaOne4 =
-  "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 12th class solved previous years' past papers on our website.";
+   "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 12th class solved previous years' past papers on our website.";
 
 let textParaTwo4 =
-  "Solved Easy notes for twelfth class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
+   "Solved Easy notes for twelfth class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
 let textParathree4 =
-  "You can download twelfth Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
+   "You can download twelfth Class Notes on this website based on your study group's requirements. If your syllabus is in English Medium, you can download the notes in URDU Language, and if you're an English Medium student, you can get the notes in the English Language with the latest syllabus updates. We understand that many students want concise notes for all chapters, so we provide notes according to your specific requirements.";
 let textParafour4 =
-  "Looking for 12th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
+   "Looking for 12th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality IX class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for all Pakistan Boards, including Sindh Karachi, Federal, KPK, Balochistan, and AJK Boards.";
 let textParafive4 =
-  "Prepare for your 12th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning twelfth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of twelfth | 12th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
+   "Prepare for your 12th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning twelfth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of twelfth | 12th Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
 
 let mainText =
-  "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 9th, 10th, 11th and 12th class solved previous years' past papers on our website.";
+   "For all KPK students who are looking to quickly learn or prepare for all subjects, we offer notes available in both English and Urdu medium. Additionally, you can find 9th, 10th, 11th and 12th class solved previous years' past papers on our website.";
 let mainText5 =
-  "Solved Easy notes for ninth to twelfth class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
+   "Solved Easy notes for ninth to twelfth class chapter-wise are freely available on MashalWeb for learning purposes. By studying to learn these notes you can easily get more than 80% Marks in each subject. If you are a teacher then you can also provide or suggest these KPK Board Notes to your students. If you are a student then you can also share these notes with your fellows for better and excellent achievement in final year exams Papers.";
 let mainText2 =
-  "Looking for 9th to 12th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality given class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for Malakand all KPK Boards.";
+   "Looking for 9th to 12th Class Khyber Pakhtunkhwa Board PDF Notes? Mashalweb provides high-quality given class Chapter-wise PDF Notes for all subjects, designed according to the latest syllabus. Prepare these notes for your Final Year Exams/Papers preparations and get higher marks. We offer notes for all Khyber Pakhtunkhwa Boards, including General Mathematics, Physics, Chemistry, Biology, Urdu, Pakistan studies, Computer Science, English Grammar, Islamite, and other Science or Arts Subjects. Available in PDF for Malakand all KPK Boards.";
 
 let mainText4 =
-  "Prepare for your 9th to 12th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning ninth to twelfth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of Given Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
+   "Prepare for your 9th to 12th class exams with ease by using our PDF notes. Our notes are designed with concise definitions and question-answer solutions. You can also practice by taking chapter MCQ quizzes that will help you learn short question answers, fill in the blanks, as well as VIVA or practice-related question answers.At MashalWeb, we provide easy steps for learning ninth to twelfth Class Notes. These important steps make it easy for you to learn question answers. You can solve and learn chapter-wise MCQ quizzes online and use the available PDFs on our website. If you find some questions difficult, practice them twice a day. Remember, MCQs are helpful for writing paragraphs or solving short questions. Combine your lecture notes with the topic headings and highlight them using different colors like red or green highlighters to easily remember difficult questions. You can also print out these notes for easy reference in the future. Writing these notes in a notebook will also help strengthen your learning process.We have different writers' notes of Given Class available on our website. Take advantage of our best online MCQ quizzes for practice of multiple-choice question answers, short and long question answers. We also have past papers available for students' exam and test preparations.";
 let mainText3 =
-  "Get your all Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
+   "Get your all Class KPK Board All Subjects Notes here! Download chapter-wise solved PDF notes for all subjects according to the latest syllabus. These notes are from Khyber Pakhtunkhwa Boards and can be easily downloaded or viewed online. Print them out for a hard copy.";
 
 function addContent(textContent, elementNameInString, uploadTarget) {
-  const elemet = document.createElement(`${elementNameInString}`);
-  elemet.className = "jsAddText";
-  elemet.innerHTML = `<p>${textContent}</p>`;
-  uploadTarget.appendChild(elemet);
+   const elemet = document.createElement(`${elementNameInString}`);
+   elemet.className = "jsAddText";
+   elemet.innerHTML = `<p>${textContent}</p>`;
+   uploadTarget.appendChild(elemet);
 }
 addContent(underTextContent, "dev", sec9th);
 addContent(textParaOne, "dev", sec9th);
@@ -208,42 +209,42 @@ addContent(mainText4, "p", mainNotes);
 addContent(mainText5, "p", mainNotes);
 
 function sendComment() {
-  (function () {
-    emailjs.init("niJGiyFp8lWuCE8yV");
-  })();
-  let serviceID = "service_6656eac";
-  let templateID = "template_tw68tmd";
+   (function () {
+      emailjs.init("niJGiyFp8lWuCE8yV");
+   })();
+   let serviceID = "service_6656eac";
+   let templateID = "template_tw68tmd";
 
-  let params = {
-    comUser: document.querySelector("#comUser").value,
-    comEmail: document.querySelector("#comEmail").value,
-    commentMsg: document.getElementById("comment").value,
-  };
+   let params = {
+      comUser: document.querySelector("#comUser").value,
+      comEmail: document.querySelector("#comEmail").value,
+      commentMsg: document.getElementById("comment").value,
+   };
 
-  emailjs
-    .send(serviceID, templateID, params)
-    .then((res) => {
-      errorMessage.classList.add("errorActive");
-      errorMessage.innerHTML = "👍 Your Message is send";
-      errorMessage.style.background = "green";
-      console.log("message send");
-      setTimeout(() => {
-        errorMessage.classList.remove("errorActive");
-      }, 3000);
-      document.querySelectorAll("input").forEach((inp) => {
-        inp.value = "";
-        document.querySelectorAll("textarea").forEach((area) => {
-          area.value = "";
-        });
+   emailjs
+      .send(serviceID, templateID, params)
+      .then((res) => {
+         errorMessage.classList.add("errorActive");
+         errorMessage.innerHTML = "👍 Your Message is send";
+         errorMessage.style.background = "green";
+         console.log("message send");
+         setTimeout(() => {
+            errorMessage.classList.remove("errorActive");
+         }, 3000);
+         document.querySelectorAll("input").forEach((inp) => {
+            inp.value = "";
+            document.querySelectorAll("textarea").forEach((area) => {
+               area.value = "";
+            });
+         });
+      })
+      .catch((err) => {
+         errorMessage.classList.add("errorActive");
+         errorMessage.innerHTML = "🛑 Error in sending your Message";
+         errorMessage.style.background = "red";
+         setTimeout(() => {
+            errorMessage.classList.remove("errorActive");
+         }, 3000);
+         console.log("🛑Error in sending your message!! ", err);
       });
-    })
-    .catch((err) => {
-      errorMessage.classList.add("errorActive");
-      errorMessage.innerHTML = "🛑 Error in sending your Message";
-      errorMessage.style.background = "red";
-      setTimeout(() => {
-        errorMessage.classList.remove("errorActive");
-      }, 3000);
-      console.log("🛑Error in sending your message!! ", err);
-    });
 }
